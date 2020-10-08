@@ -2,8 +2,7 @@ require 'byebug'
 require 'csv'
 require 'amazing_print'
 
-require_relative 'cgq'
-
+require_relative 'lib/cgq'
 
 
 =begin
@@ -90,9 +89,10 @@ puts 'max: ' + scores.compact.max.to_s
 # Re-write the genus_ids file
 # Cgq::Report.write_genus_ids(data)
 
-Cgq::Report.write_scores(data)
+# Cgq::Report.write_scores(data)
 
 
+Cgq::Report.count_heatmaps(data)
 
 
 

@@ -15,6 +15,17 @@ module Cgq
     # Rows excluding inverse queries (none?)
     attr_accessor :rows
 
+    # @return [Hash]
+    # { 
+    # "I9733" => {
+    #                      "AE I#" => "I9733",
+    #                 "AE plate #" => nil,
+    #   "DNA concentration: qubit" => nil,
+    #                      "genus" => "Timioderus",
+    #                    "species" => "peridentatus",
+    #                   "position" => 138
+    # }, ...}
+    # 
     attr_accessor :plate_rows
 
     attr_accessor :families
@@ -127,6 +138,10 @@ module Cgq
     def plate_name(row, kind = 'I# query')
       i = plate_rows[ row.d[kind] ]
       i['AE plate #']
+    end
+
+    def plate_names
+      plate_rows.collect{|k,v| v['AE plate #']}.uniq.compact
     end
 
     # @param kind
@@ -293,10 +308,11 @@ module Cgq
     #   the name of the plate
     def heatmap_score_differences(plate = '0.5')
       t = 'I# query'
-      viz = []
+      viz = {}
       rows.each do |r|
         next unless plate_name(r, t) == plate
-        viz.push plate_xy(r, t).collect{|v| v.to_s.rjust(2, '0')} + [ score_difference(r) ]
+        x, y = plate_xy(r, t).collect{|v| v.to_s.rjust(2, '0')}
+        viz.push( { group: x, variable: y,  value: score_difference(r) } )
       end
       viz.uniq!
       viz
@@ -313,16 +329,24 @@ module Cgq
         next unless plate_name(r, t) == plate
         if a = plate_xy(r,t)
           if v[a]
-            v[a] += 1
+            v[a][:total] += 1
           else
-            v[a] = 1
+            v[a] = { total: 1, query_genus: r.d['query_genus'], i_num: r.d['I# query'] }
           end
         end
       end
 
       viz = []
-      v.each do |k,y|
-        viz.push k.collect{|j| j.to_s.rjust(2, '0')} + [y]
+
+      v.keys.each do |k|
+        x, y = k.collect{|j| j.to_s.rjust(2, '0')}
+
+        viz.push(
+          { group: x,
+            variable: y,
+            value: v[k][:total],
+            query_genus: v[k][:query_genus],
+            i_num: v[k][:i_num] })
       end
       viz
     end

@@ -11,3 +11,4 @@ gem 'awesome_print', '~> 1.8'
 gem 'rainbow', '~> 3.0.0'
 gem 'chunky_png', '~> 1.3.11'
 
+gem 'erb', '~> 2.2.0'

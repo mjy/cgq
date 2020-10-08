@@ -1,9 +1,13 @@
 require 'fileutils'
+require 'erb'
 
 module Cgq
   module Report
 
     CSV_EXPORT_PATH = File.expand_path('../../out/csv/', __dir__)
+    HTML_EXPORT_PATH = File.expand_path('../../../out/html/', __dir__)
+
+    TEMPLATE_PATH = File.expand_path('viz_templates/', __dir__)
 
     class << self
 
@@ -43,7 +47,7 @@ module Cgq
             gq_id = data.genus_ids[gq] 
             gt_id = data.genus_ids[gt]
             x,y = data.plate_xy(r) 
-          
+
             csv << [
               gq,
               gt,
@@ -91,8 +95,26 @@ module Cgq
         end
       end
 
+      def count_heatmaps(data)
+        p = HTML_EXPORT_PATH  + '/heatmaps/'  
+        FileUtils.mkdir_p(p)
+
+        t = ERB.new(
+          File.read(TEMPLATE_PATH + '/heatmap.html.tt').to_s
+        )
+
+        data.plate_names.each do |plate_name|
+          filename = p + "plate_#{plate_name}.html"
+          d = data.heatmap_count_records(plate_name)
+
+          f = File.open( filename, "w" ) 
+          f.puts t.result(binding)          
+          f.close
+        end
+      end
+
       def score_difference_heatmap(data, plate = '0.5')
-        viz = data.score_difference_heatmap(plate)
+        viz = data.heatmap_count_records(plate)
         puts 'group,variable,value'
         puts viz.sort{|a,b,c| a <=> b}.collect{|r| r.join(',')}.join("\n")
       end
@@ -110,7 +132,14 @@ module Cgq
       def foo(data)
         puts data.loci.sort.collect{|l| l.join(',')}.join("\n")
       end
-      
+
+      # https://stackoverflow.com/questions/10236049/including-one-erb-file-into-another 
+      def render(path, binding)
+        content = File.read( TEMPLATE_PATH + '/' + path )
+        t = ERB.new(content, nil, nil, '_sub01')
+        t.result(binding)
+      end
+
     end
   end
 end

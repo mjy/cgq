@@ -54,12 +54,6 @@ module Cgq
       d['qlength'].to_f / 2
     end
 
-   #variable  constant    class should be same
-   #t1  t2    locus1   locus2
-   #A -> B     1    2  -> H
-   #B -> C     1    2  -> H
-   #X -> Y     1    2  -> H
-
     # @return String
     #   A-H
     #
