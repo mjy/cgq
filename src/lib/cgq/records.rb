@@ -331,7 +331,7 @@ module Cgq
           if v[a]
             v[a][:total] += 1
           else
-            v[a] = { total: 1, query_genus: r.d['query_genus'], i_num: r.d['I# query'] }
+            v[a] = { total: 1, query_genus: r.d['query_genus'], i_num: r.d['I# query'], score: composite_score_difference(r) }
           end
         end
       end
@@ -346,7 +346,8 @@ module Cgq
             variable: y,
             value: v[k][:total],
             query_genus: v[k][:query_genus],
-            i_num: v[k][:i_num] })
+            i_num: v[k][:i_num],
+            score: v[k][:score] })
       end
       viz
     end
@@ -412,5 +413,13 @@ module Cgq
       end
       m
     end
+
+    def foo
+
+
+
+    end
+
+
   end
 end

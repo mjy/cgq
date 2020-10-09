@@ -27,5 +27,10 @@ ruby src/go.rb
 ## Results
 
 All derived data are on `out/`.
+
+### CSV
 * `scores.csv` - summary table of individual metrics, and column that combines some of them
-* `ucd_genus_id.csv` - result of querying the UCD by string name
+
+### HTML
+To visualize a report clone this repo to your desktop, then click on an HTML file.
+
