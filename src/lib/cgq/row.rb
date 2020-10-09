@@ -42,6 +42,10 @@ module Cgq
       [d['query_genus'], d['target_genus']]
     end
 
+    def locus_pair
+      [query_locus, target_locus]
+    end
+
     def query_locus
       d['query_seq'].split('_').first
     end

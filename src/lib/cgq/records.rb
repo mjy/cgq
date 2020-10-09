@@ -107,7 +107,7 @@ module Cgq
     def genera
       return @genera if !@genera.empty?
       g = {}
-      unique_pairs.each do |p|
+      unique_genus_pairs.each do |p|
         g[p.first] = nil
         g[p.last] = nil
       end
@@ -257,19 +257,33 @@ module Cgq
     # Helpers, summaries, etc.
     #
 
-    def unique_pairs
-      taxa_pairs = []
+    # @return [Array]
+    #   A list of all unique pairs of genera
+    def unique_genus_pairs
+      taxa_pairs = {}
       all_rows.each do |r|
-        v = [ r.d['query_genus'], r.d['target_genus'] ].sort
-        taxa_pairs.push v
+        v = r.genus_pair.sort
+        taxa_pairs[v] = nil
       end
 
-      taxa_pairs.uniq!
+      taxa_pairs.keys.sort
     end
+
+    # @return [Array]
+    #   A list of all unique locus_pairs 
+    def unique_locus_pairs
+      locus_pairs = {}
+      all_rows.each do |r|
+        v = r.locus_pair.sort
+        locus_pairs[v] = nil
+      end
+      locus_pairs.keys.sort
+    end
+
 
     def offenders
       offenders = {}
-      unique_pairs.each do |p|
+      unique_genus_pairs.each do |p|
         p.each do |o|
           if offenders[o]
             offenders[o] += 1
@@ -414,12 +428,25 @@ module Cgq
       m
     end
 
-    def foo
+    def overlap_by_loci_by_genera
+      d = {}
+      rows.each do |r|
+        g = r.genus_pair.sort
+        l = r.locus_pair.sort
+        o = r.overlap_type
 
-
-
-    end
-
+        if d[g]
+          if d[g][l]
+            d[g][l][o] = nil
+          else
+            d[g][l] = {o => nil}
+          end
+        else
+          d[g] = { l => {o => nil} }
+        end
+      end
+      d
+    end 
 
   end
 end

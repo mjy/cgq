@@ -30,6 +30,7 @@ All derived data are on `out/`.
 
 ### CSV
 * `scores.csv` - summary table of individual metrics, and column that combines some of them
+* `overlap_by_loci_by_genus.csv` - unique overlap types per unique loci pair per unique genus pair
 
 ### HTML
 To visualize a report clone this repo to your desktop, then click on an HTML file.

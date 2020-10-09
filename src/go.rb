@@ -91,8 +91,16 @@ puts 'max: ' + scores.compact.max.to_s
 
 # Cgq::Report.write_scores(data)
 
+# Write count heatmaps
+# Cgq::Report.count_heatmaps(data)
 
-Cgq::Report.count_heatmaps(data)
+# puts data.foo
+Cgq::Report.write_overlap_loci_by_genera(data)
+
+
+
+
+
 
 
 

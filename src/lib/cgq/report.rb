@@ -4,10 +4,10 @@ require 'erb'
 module Cgq
   module Report
 
-    CSV_EXPORT_PATH = File.expand_path('../../out/csv/', __dir__)
-    HTML_EXPORT_PATH = File.expand_path('../../../out/html/', __dir__)
+    CSV_EXPORT_PATH = File.expand_path('../../../out/csv/', __dir__).freeze
+    HTML_EXPORT_PATH = File.expand_path('../../../out/html/', __dir__).freeze
 
-    TEMPLATE_PATH = File.expand_path('viz_templates/', __dir__)
+    TEMPLATE_PATH = File.expand_path('viz_templates/', __FILE__)
 
     class << self
 
@@ -92,6 +92,33 @@ module Cgq
         FileUtils.mkdir_p(CSV_EXPORT_PATH)
         File.open(CSV_EXPORT_PATH + "/family_metadata.json", "w") do |f|
           f.write(data.families.to_json)
+        end
+      end
+
+      def write_overlap_loci_by_genera(data)
+
+        byebug
+        FileUtils.mkdir_p(CSV_EXPORT_PATH)
+
+        d = data.overlap_by_loci_by_genera
+
+
+        CSV.open(CSV_EXPORT_PATH + "/overlap_by_loci_by_genus.csv", "w") do |csv|
+
+          csv << %w{
+            genus1
+            genus2
+            locus1
+            locus2
+            overlap_count
+            overlap 
+          }
+          
+          d.keys.each do |k|
+            d[k].keys.each do |l|
+              csv << k + l + [ d[k][l].keys.count ] + [d[k][l].keys.join(' ')] 
+            end
+          end
         end
       end
 
