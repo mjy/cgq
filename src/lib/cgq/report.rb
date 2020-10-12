@@ -96,12 +96,9 @@ module Cgq
       end
 
       def write_overlap_loci_by_genera(data)
-
-        byebug
         FileUtils.mkdir_p(CSV_EXPORT_PATH)
 
         d = data.overlap_by_loci_by_genera
-
 
         CSV.open(CSV_EXPORT_PATH + "/overlap_by_loci_by_genus.csv", "w") do |csv|
 
@@ -121,6 +118,32 @@ module Cgq
           end
         end
       end
+
+      def locus_overlap_by_i_num(data)
+        FileUtils.mkdir_p(CSV_EXPORT_PATH)
+
+        d = data.locus_overlap_by_i_num
+
+        CSV.open(CSV_EXPORT_PATH + "/locus_overlap_by_i_num.csv", "w") do |csv|
+
+          csv << %w{
+            query_locus 
+            query_i_num 
+            target_loci 
+            count_target_loci 
+          }
+
+          d.each do |k, v|
+            v.keys.each do |i|
+              csv << [k] + [i] + [ d[k][i].keys.join(',') ] + [ d[k][i].count ] 
+            end
+          end
+        end
+      end
+
+
+
+
 
       def count_heatmaps(data)
         p = HTML_EXPORT_PATH  + '/heatmaps/'  

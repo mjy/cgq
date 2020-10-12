@@ -448,5 +448,26 @@ module Cgq
       d
     end 
 
+    def locus_overlap_by_i_num
+      d = {}
+      rows.each do |r|
+        lq, lt = r.locus_pair
+        o = r.overlap_type
+        i = r.d['I# query']
+
+        if d[lq]
+          if d[lq][i]
+            d[lq][i][lt] = nil
+          else
+            d[lq][i] = {lt => nil}
+          end
+        else
+          d[lq] = { i => {lt => nil} }
+        end
+      end
+      d
+    end 
+
+
   end
 end
