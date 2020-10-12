@@ -113,7 +113,7 @@ module Cgq
           
           d.keys.each do |k|
             d[k].keys.each do |l|
-              csv << k + l + [ d[k][l].keys.count ] + [d[k][l].keys.join(' ')] 
+              csv << k + l + [ d[k][l].keys.count ] + [d[k][l].keys.sort.join(' ')] 
             end
           end
         end
@@ -135,7 +135,7 @@ module Cgq
 
           d.each do |k, v|
             v.keys.each do |i|
-              csv << [k] + [i] + [ d[k][i].keys.join(',') ] + [ d[k][i].count ] 
+              csv << [k] + [i] + [ d[k][i].keys.sort.join(',') ] + [ d[k][i].count ] 
             end
           end
         end
@@ -156,7 +156,7 @@ module Cgq
           }
 
           d.keys.sort.each do |k|
-            csv << k + [ d[k].keys.join(',') ] + [ d[k].keys.count ] 
+            csv << k + [ d[k].keys.sort.join(',') ] + [ d[k].keys.count ] 
           end
         end
       end

@@ -1,5 +1,5 @@
 genus1,genus2,locus1,locus2,overlap_count,overlap
-Ablerus,Acanthochalcis,L909,L909,2,D C
+Ablerus,Acanthochalcis,L909,L909,2,C D
 Ablerus,Afroneodipara,L477,L68,1,B
 Ablerus,Australeunotus,L938,L938,1,G
 Ablerus,Austrophotismus,L517,L638,1,H
@@ -22,7 +22,7 @@ Ablerus,Epistenia,L19,L19,1,G
 Ablerus,Epitranus,L14,L15,1,G
 Ablerus,Epitranus,L646,L647,1,G
 Ablerus,Epitranus,L15,L15,1,G
-Ablerus,Epitranus,L308,L308,2,D C
+Ablerus,Epitranus,L308,L308,2,C D
 Ablerus,Epitranus,L647,L647,1,G
 Ablerus,Euderomphale,L1022,L688,1,H
 Ablerus,Euderomphale,L471,L472,2,C D
@@ -31,7 +31,7 @@ Ablerus,Euderomphale,L142,L143,1,D
 Ablerus,Euderomphale,L472,L473,1,A
 Ablerus,Euderomphale,L459,L459,1,G
 Ablerus,Eutrichosomella,L420,L420,1,G
-Ablerus,Idioporus,L584,L584,2,D C
+Ablerus,Idioporus,L584,L584,2,C D
 Ablerus,Lasiochalcidia,L472,L473,1,D
 Ablerus,Lasiochalcidia,L472,L472,1,D
 Ablerus,Leiosema,L477,L71,1,G
@@ -39,13 +39,13 @@ Ablerus,Lelaps,L112,L713,1,G
 Ablerus,Macrorileya,L182,L183,1,G
 Ablerus,Macrorileya,L181,L182,1,G
 Ablerus,Macrorileya,L185,L186,2,A G
-Ablerus,Macrorileya,L184,L185,2,G A
+Ablerus,Macrorileya,L184,L185,2,A G
 Ablerus,Macrorileya,L244,L245,1,G
 Ablerus,Macrorileya,L282,L283,2,G H
-Ablerus,Macrorileya,L300,L301,2,G A
+Ablerus,Macrorileya,L300,L301,2,A G
 Ablerus,Macrorileya,L301,L302,2,A G
 Ablerus,Macrorileya,L436,L437,1,A
-Ablerus,Macrorileya,L439,L440,2,D C
+Ablerus,Macrorileya,L439,L440,2,C D
 Ablerus,Macrorileya,L447,L448,1,D
 Ablerus,Macrorileya,L447,L449,1,D
 Ablerus,Macrorileya,L450,L451,1,D
@@ -54,36 +54,36 @@ Ablerus,Macrorileya,L511,L512,2,D G
 Ablerus,Macrorileya,L50,L51,1,G
 Ablerus,Macrorileya,L49,L51,1,G
 Ablerus,Macrorileya,L528,L529,2,A G
-Ablerus,Macrorileya,L542,L543,2,D C
-Ablerus,Macrorileya,L596,L597,2,G A
+Ablerus,Macrorileya,L542,L543,2,C D
+Ablerus,Macrorileya,L596,L597,2,A G
 Ablerus,Macrorileya,L616,L617,1,D
 Ablerus,Macrorileya,L681,L682,1,D
 Ablerus,Macrorileya,L680,L681,1,G
-Ablerus,Macrorileya,L182,L182,2,G A
-Ablerus,Macrorileya,L185,L185,2,D C
-Ablerus,Macrorileya,L245,L245,2,D C
+Ablerus,Macrorileya,L182,L182,2,A G
+Ablerus,Macrorileya,L185,L185,2,C D
+Ablerus,Macrorileya,L245,L245,2,C D
 Ablerus,Macrorileya,L283,L283,1,G
-Ablerus,Macrorileya,L291,L291,2,D C
-Ablerus,Macrorileya,L301,L301,2,D C
-Ablerus,Macrorileya,L372,L372,2,H G
-Ablerus,Macrorileya,L398,L398,2,D C
-Ablerus,Macrorileya,L435,L435,2,D C
-Ablerus,Macrorileya,L436,L436,2,D C
-Ablerus,Macrorileya,L440,L440,2,D C
-Ablerus,Macrorileya,L447,L447,2,D C
+Ablerus,Macrorileya,L291,L291,2,C D
+Ablerus,Macrorileya,L301,L301,2,C D
+Ablerus,Macrorileya,L372,L372,2,G H
+Ablerus,Macrorileya,L398,L398,2,C D
+Ablerus,Macrorileya,L435,L435,2,C D
+Ablerus,Macrorileya,L436,L436,2,C D
+Ablerus,Macrorileya,L440,L440,2,C D
+Ablerus,Macrorileya,L447,L447,2,C D
 Ablerus,Macrorileya,L450,L450,1,D
-Ablerus,Macrorileya,L491,L491,2,D C
-Ablerus,Macrorileya,L511,L511,2,D C
-Ablerus,Macrorileya,L512,L512,2,D C
-Ablerus,Macrorileya,L51,L51,2,D C
-Ablerus,Macrorileya,L528,L528,2,D C
-Ablerus,Macrorileya,L542,L542,2,D C
-Ablerus,Macrorileya,L543,L543,2,D C
-Ablerus,Macrorileya,L597,L597,2,D C
-Ablerus,Macrorileya,L617,L617,2,D C
+Ablerus,Macrorileya,L491,L491,2,C D
+Ablerus,Macrorileya,L511,L511,2,C D
+Ablerus,Macrorileya,L512,L512,2,C D
+Ablerus,Macrorileya,L51,L51,2,C D
+Ablerus,Macrorileya,L528,L528,2,C D
+Ablerus,Macrorileya,L542,L542,2,C D
+Ablerus,Macrorileya,L543,L543,2,C D
+Ablerus,Macrorileya,L597,L597,2,C D
+Ablerus,Macrorileya,L617,L617,2,C D
 Ablerus,Macrorileya,L681,L681,1,D
-Ablerus,Macrorileya,L766,L766,2,D C
-Ablerus,Macrorileya,L818,L818,2,G A
+Ablerus,Macrorileya,L766,L766,2,C D
+Ablerus,Macrorileya,L818,L818,2,A G
 Ablerus,Merostenus,L18,L19,1,G
 Ablerus,Micradelus,L187,L971,1,A
 Ablerus,Micradelus,L111,L210,1,H
@@ -99,10 +99,10 @@ Acanthochalcis,Asparagobius,L348,L348,1,G
 Acanthochalcis,Cratocentrus,L1014,L1015,1,A
 Acanthochalcis,Cratocentrus,L1036,L1037,1,H
 Acanthochalcis,Cratocentrus,L10,L11,1,G
-Acanthochalcis,Cratocentrus,L145,L146,2,G A
+Acanthochalcis,Cratocentrus,L145,L146,2,A G
 Acanthochalcis,Cratocentrus,L376,L377,2,A H
 Acanthochalcis,Cratocentrus,L421,L422,1,G
-Acanthochalcis,Cratocentrus,L75,L76,3,G A H
+Acanthochalcis,Cratocentrus,L75,L76,3,A G H
 Acanthochalcis,Cratocentrus,L810,L811,1,A
 Acanthochalcis,Cratocentrus,L928,L929,2,G H
 Acanthochalcis,Cratocentrus,L960,L961,1,A
@@ -112,7 +112,7 @@ Acanthochalcis,Cratocentrus,L149,L149,1,H
 Acanthochalcis,Cratocentrus,L172,L172,2,B G
 Acanthochalcis,Cratocentrus,L231,L231,1,G
 Acanthochalcis,Cratocentrus,L234,L234,2,A G
-Acanthochalcis,Cratocentrus,L310,L310,2,G B
+Acanthochalcis,Cratocentrus,L310,L310,2,B G
 Acanthochalcis,Cratocentrus,L362,L362,1,G
 Acanthochalcis,Cratocentrus,L377,L377,2,G H
 Acanthochalcis,Cratocentrus,L411,L411,1,G
@@ -125,7 +125,7 @@ Acanthochalcis,Cratocentrus,L541,L541,1,G
 Acanthochalcis,Cratocentrus,L568,L568,1,G
 Acanthochalcis,Cratocentrus,L635,L635,1,H
 Acanthochalcis,Cratocentrus,L667,L667,1,G
-Acanthochalcis,Cratocentrus,L869,L869,2,G B
+Acanthochalcis,Cratocentrus,L869,L869,2,B G
 Acanthochalcis,Cratocentrus,L904,L904,2,B G
 Acanthochalcis,Cratocentrus,L924,L924,1,G
 Acanthochalcis,Cratocentrus,L928,L928,2,G H
@@ -142,9 +142,9 @@ Acanthochalcis,Phasgonophora,L417,L418,1,G
 Acanthochalcis,Phasgonophora,L180,L181,1,A
 Acerophagus,Epitranus,L136,L137,1,G
 Acerophagus,Epitranus,L137,L137,1,D
-Acerophagus,Epitranus,L404,L404,2,D C
+Acerophagus,Epitranus,L404,L404,2,C D
 Acerophagus,Epitranus,L535,L535,1,D
-Acerophagus,Epitranus,L772,L772,2,D C
+Acerophagus,Epitranus,L772,L772,2,C D
 Acerophagus,Mayridia,L1028,L1029,1,G
 Acerophagus,Mayridia,L168,L169,1,G
 Acerophagus,Mayridia,L30,L31,1,A
@@ -182,7 +182,7 @@ Acerophagus,Mayridia,L901,L901,1,G
 Acerophagus,Mayridia,L993,L993,1,D
 Acerophagus,Mayridia,L590,L591,2,A G
 Acerophagus,Mayridia,L482,L482,1,G
-Acerophagus,Mayridia,L590,L590,2,D C
+Acerophagus,Mayridia,L590,L590,2,C D
 Acerophagus,Mayridia,L722,L722,2,A D
 Acerophagus,Metaphycus,L960,L960,1,G
 Acmopolynema,Australomymar,L503,L504,1,G
@@ -219,7 +219,7 @@ Adontomerus,Diaspiniphagus,L996,L996,1,G
 Adontomerus,Diaspiniphagus,L376,L377,1,A
 Adontomerus,Diaspiniphagus,L376,L376,1,H
 Adontomerus,Dirphys,L926,L926,1,D
-Adontomerus,Dirphys,L596,L597,2,G A
+Adontomerus,Dirphys,L596,L597,2,A G
 Adontomerus,Dirphys,L330,L330,1,G
 Adontomerus,Dirphys,L512,L512,2,C D
 Adontomerus,Dirphys,L596,L596,2,C D
@@ -267,21 +267,21 @@ Adontomerus,Idarnotorymus,L235,L236,1,G
 Adontomerus,Idarnotorymus,L388,L389,1,H
 Adontomerus,Idarnotorymus,L523,L524,1,H
 Adontomerus,Idarnotorymus,L82,L83,1,A
-Adontomerus,Idarnotorymus,L907,L908,2,G A
+Adontomerus,Idarnotorymus,L907,L908,2,A G
 Adontomerus,Idarnotorymus,L931,L932,1,A
 Adontomerus,Idarnotorymus,L116,L116,1,H
-Adontomerus,Idarnotorymus,L221,L221,2,H G
+Adontomerus,Idarnotorymus,L221,L221,2,G H
 Adontomerus,Idarnotorymus,L224,L224,1,G
 Adontomerus,Idarnotorymus,L397,L397,1,G
 Adontomerus,Idarnotorymus,L423,L423,1,H
-Adontomerus,Idarnotorymus,L479,L479,2,D C
+Adontomerus,Idarnotorymus,L479,L479,2,C D
 Adontomerus,Idarnotorymus,L608,L608,1,G
 Adontomerus,Idarnotorymus,L616,L616,2,A G
 Adontomerus,Idarnotorymus,L618,L618,1,G
 Adontomerus,Idarnotorymus,L929,L929,2,A G
 Adontomerus,Idarnotorymus,L100,L101,1,D
 Adontomerus,Idarnotorymus,L163,L164,1,A
-Adontomerus,Idarnotorymus,L232,L233,2,H G
+Adontomerus,Idarnotorymus,L232,L233,2,G H
 Adontomerus,Idarnotorymus,L286,L287,1,G
 Adontomerus,Idarnotorymus,L287,L288,1,G
 Adontomerus,Idarnotorymus,L338,L339,1,H
@@ -331,7 +331,7 @@ Adontomerus,Microdontomerus,L549,L549,1,H
 Adontomerus,Microdontomerus,L1022,L1022,1,G
 Adontomerus,Microdontomerus,L291,L291,1,G
 Adontomerus,Microdontomerus,L432,L432,1,G
-Adontomerus,Neotriadomerus,L423,L424,2,H G
+Adontomerus,Neotriadomerus,L423,L424,2,G H
 Adontomerus,Neotriadomerus,L145,L146,1,D
 Adontomerus,Neotriadomerus,L190,L191,1,G
 Adontomerus,Neotriadomerus,L191,L192,1,G
@@ -355,36 +355,36 @@ Adontomerus,Ormyrus,L430,L432,1,G
 Aeschylia,Eutrichosoma,L505,L506,1,G
 Aeschylia,Eutrichosoma,L514,L515,1,D
 Aeschylia,Eutrichosoma,L513,L514,1,G
-Aeschylia,Eutrichosoma,L418,L418,2,D C
-Aeschylia,Eutrichosoma,L514,L514,2,D C
+Aeschylia,Eutrichosoma,L418,L418,2,C D
+Aeschylia,Eutrichosoma,L514,L514,2,C D
 Aeschylia,Eutrichosoma,L505,L505,1,B
 Aeschylia,Neodipara,L623,L624,1,D
 Aeschylia,Neodipara,L622,L624,1,G
 Aeschylia,Neodipara,L624,L624,1,D
-Afroneodipara,Amerostenus,L973,L974,2,D C
-Afroneodipara,Amerostenus,L973,L973,2,D C
+Afroneodipara,Amerostenus,L973,L974,2,C D
+Afroneodipara,Amerostenus,L973,L973,2,C D
 Afroneodipara,Boucekius,L1043,L1043,1,G
 Afroneodipara,Euderomphale,L394,L672,1,G
 Afroneodipara,Euderomphale,L338,L394,1,G
 Afroneodipara,Grooca,L358,L358,1,G
 Afroneodipara,Naumanniola,L76,L77,1,D
 Afroneodipara,Naumanniola,L36,L36,1,D
-Afroneodipara,Naumanniola,L77,L77,2,D C
+Afroneodipara,Naumanniola,L77,L77,2,C D
 Afroneodipara,Neodipara,L18,L19,1,G
 Afroneodipara,Neodipara,L269,L270,2,G H
 Afroneodipara,Neodipara,L351,L353,1,G
 Afroneodipara,Neodipara,L414,L415,1,G
 Afroneodipara,Neodipara,L657,L658,1,A
 Afroneodipara,Neodipara,L91,L93,1,G
-Afroneodipara,Neodipara,L461,L461,2,G B
+Afroneodipara,Neodipara,L461,L461,2,B G
 Afroneodipara,Neodipara,L555,L555,1,G
-Afroneodipara,Neodipara,L558,L558,2,G A
+Afroneodipara,Neodipara,L558,L558,2,A G
 Afroneodipara,Neodipara,L873,L873,1,G
 Afroneodipara,Neodipara,L925,L925,1,G
 Afroneodipara,Rotoita,L195,L196,1,G
-Afroneodipara,Rotoita,L869,L870,2,D C
-Afroneodipara,Rotoita,L196,L196,2,D C
-Afroneodipara,Rotoita,L870,L870,2,D C
+Afroneodipara,Rotoita,L869,L870,2,C D
+Afroneodipara,Rotoita,L196,L196,2,C D
+Afroneodipara,Rotoita,L870,L870,2,C D
 Afroneodipara,Spalangiopelta,L211,L212,1,G
 Afroneodipara,Spalangiopelta,L211,L211,1,D
 Agamerion,Epistenia,L148,L148,1,H
@@ -418,7 +418,7 @@ Agamerion,Parepistenia,L162,L162,1,G
 Agamerion,Parepistenia,L25,L25,1,G
 Agamerion,Parepistenia,L929,L929,1,G
 Agamerion,Plutothrix,L500,L501,1,G
-Agamerion,Proshizonotus,L399,L400,2,H G
+Agamerion,Proshizonotus,L399,L400,2,G H
 Agamerion,Proshizonotus,L112,L112,1,G
 Agamerion,Proshizonotus,L25,L25,1,B
 Agamerion,Proshizonotus,L5,L5,1,G
@@ -441,12 +441,12 @@ Aiolomorphus,Ditropinotella,L321,L321,1,G
 Aiolomorphus,Ditropinotella,L436,L436,2,C D
 Aiolomorphus,Endobia,L307,L308,1,G
 Aiolomorphus,Endobia,L537,L539,1,A
-Aiolomorphus,Endobia,L56,L57,2,H G
+Aiolomorphus,Endobia,L56,L57,2,G H
 Aiolomorphus,Endobia,L233,L233,1,G
 Aiolomorphus,Endobia,L482,L482,1,G
 Aiolomorphus,Endobia,L867,L867,1,G
 Aiolomorphus,Euryischomyia,L388,L389,1,G
-Aiolomorphus,Eurytoma,L5,L5,2,D C
+Aiolomorphus,Eurytoma,L5,L5,2,C D
 Aiolomorphus,Grooca,L500,L501,1,G
 Aiolomorphus,Masneroma,L1,L2,1,H
 Aiolomorphus,Masneroma,L307,L308,1,G
@@ -458,7 +458,7 @@ Aiolomorphus,Masneroma,L648,L648,1,G
 Aiolomorphus,Masneroma,L746,L746,1,G
 Aiolomorphus,Masneroma,L905,L905,1,H
 Aiolomorphus,Ormyromorpha,L500,L501,1,G
-Aiolomorphus,Systole,L1011,L1012,2,G A
+Aiolomorphus,Systole,L1011,L1012,2,A G
 Aiolomorphus,Systole,L1044,L1046,1,A
 Aiolomorphus,Systole,L114,L115,1,G
 Aiolomorphus,Systole,L115,L116,1,G
@@ -470,16 +470,16 @@ Aiolomorphus,Systole,L275,L276,2,A G
 Aiolomorphus,Systole,L305,L306,1,G
 Aiolomorphus,Systole,L307,L308,1,G
 Aiolomorphus,Systole,L32,L33,1,G
-Aiolomorphus,Systole,L345,L346,2,G A
+Aiolomorphus,Systole,L345,L346,2,A G
 Aiolomorphus,Systole,L34,L35,1,G
 Aiolomorphus,Systole,L364,L365,1,G
 Aiolomorphus,Systole,L415,L417,1,G
 Aiolomorphus,Systole,L445,L446,1,A
-Aiolomorphus,Systole,L462,L463,2,G A
+Aiolomorphus,Systole,L462,L463,2,A G
 Aiolomorphus,Systole,L515,L516,1,G
 Aiolomorphus,Systole,L537,L539,1,A
 Aiolomorphus,Systole,L543,L544,1,G
-Aiolomorphus,Systole,L545,L546,2,H G
+Aiolomorphus,Systole,L545,L546,2,G H
 Aiolomorphus,Systole,L578,L579,1,G
 Aiolomorphus,Systole,L616,L617,2,A G
 Aiolomorphus,Systole,L619,L620,1,G
@@ -493,32 +493,32 @@ Aiolomorphus,Systole,L706,L707,1,G
 Aiolomorphus,Systole,L707,L708,1,G
 Aiolomorphus,Systole,L716,L717,1,G
 Aiolomorphus,Systole,L727,L728,1,H
-Aiolomorphus,Systole,L745,L746,2,G A
+Aiolomorphus,Systole,L745,L746,2,A G
 Aiolomorphus,Systole,L759,L760,1,H
 Aiolomorphus,Systole,L765,L766,2,A G
-Aiolomorphus,Systole,L770,L771,2,G A
+Aiolomorphus,Systole,L770,L771,2,A G
 Aiolomorphus,Systole,L778,L779,1,G
 Aiolomorphus,Systole,L6,L7,1,G
 Aiolomorphus,Systole,L869,L870,1,G
 Aiolomorphus,Systole,L878,L879,1,G
 Aiolomorphus,Systole,L96,L97,1,G
-Aiolomorphus,Systole,L989,L990,2,G A
+Aiolomorphus,Systole,L989,L990,2,A G
 Aiolomorphus,Systole,L1046,L1046,1,G
 Aiolomorphus,Systole,L113,L113,1,H
 Aiolomorphus,Systole,L115,L115,1,D
 Aiolomorphus,Systole,L118,L118,1,G
-Aiolomorphus,Systole,L130,L130,2,G A
+Aiolomorphus,Systole,L130,L130,2,A G
 Aiolomorphus,Systole,L187,L187,1,G
 Aiolomorphus,Systole,L241,L241,1,G
 Aiolomorphus,Systole,L254,L254,1,G
 Aiolomorphus,Systole,L270,L270,1,H
 Aiolomorphus,Systole,L275,L275,1,D
-Aiolomorphus,Systole,L276,L276,2,D C
+Aiolomorphus,Systole,L276,L276,2,C D
 Aiolomorphus,Systole,L303,L303,1,G
-Aiolomorphus,Systole,L305,L305,2,D C
-Aiolomorphus,Systole,L32,L32,2,D C
+Aiolomorphus,Systole,L305,L305,2,C D
+Aiolomorphus,Systole,L32,L32,2,C D
 Aiolomorphus,Systole,L33,L33,1,A
-Aiolomorphus,Systole,L391,L391,2,D C
+Aiolomorphus,Systole,L391,L391,2,C D
 Aiolomorphus,Systole,L43,L43,1,G
 Aiolomorphus,Systole,L545,L545,1,H
 Aiolomorphus,Systole,L546,L546,1,G
@@ -527,20 +527,20 @@ Aiolomorphus,Systole,L616,L616,1,G
 Aiolomorphus,Systole,L617,L617,1,G
 Aiolomorphus,Systole,L619,L619,1,G
 Aiolomorphus,Systole,L620,L620,1,G
-Aiolomorphus,Systole,L621,L621,2,D C
+Aiolomorphus,Systole,L621,L621,2,C D
 Aiolomorphus,Systole,L680,L680,1,D
 Aiolomorphus,Systole,L707,L707,1,A
 Aiolomorphus,Systole,L728,L728,1,H
-Aiolomorphus,Systole,L763,L763,2,D C
+Aiolomorphus,Systole,L763,L763,2,C D
 Aiolomorphus,Systole,L767,L767,1,G
 Aiolomorphus,Systole,L768,L768,1,H
-Aiolomorphus,Systole,L770,L770,2,D A
+Aiolomorphus,Systole,L770,L770,2,A D
 Aiolomorphus,Systole,L793,L793,1,D
-Aiolomorphus,Systole,L795,L795,2,D C
-Aiolomorphus,Systole,L869,L869,2,D C
-Aiolomorphus,Systole,L870,L870,2,D C
+Aiolomorphus,Systole,L795,L795,2,C D
+Aiolomorphus,Systole,L869,L869,2,C D
+Aiolomorphus,Systole,L870,L870,2,C D
 Aiolomorphus,Systole,L879,L879,1,G
-Aiolomorphus,Systole,L883,L883,2,G A
+Aiolomorphus,Systole,L883,L883,2,A G
 Aiolomorphus,Systole,L96,L96,1,G
 Aiolomorphus,Systole,L14,L15,2,A G
 Aiolomorphus,Systole,L241,L242,1,A
@@ -563,7 +563,7 @@ Akapala,Euperilampus,L237,L239,1,H
 Akapala,Lelaps,L1024,L38,1,H
 Akapala,Masneroma,L1035,L1035,1,G
 Akapala,Metapelma,L359,L359,1,G
-Akapala,Microdontomerus,L363,L364,2,G A
+Akapala,Microdontomerus,L363,L364,2,A G
 Akapala,Microdontomerus,L364,L365,1,A
 Akapala,Microdontomerus,L82,L83,1,D
 Akapala,Microdontomerus,L364,L364,1,D
@@ -580,7 +580,7 @@ Akapala,Psilocharis,L795,L796,1,G
 Alaptus,Neodipara,L420,L421,1,H
 Alaptus,Neodipara,L421,L422,1,H
 Alaptus,Palmon,L751,L752,1,A
-Alaptus,Palmon,L751,L751,1,-1
+Alaptus,Palmon,L751,L751,1,OOPS
 Amerostenus,Bootanomyia,L369,L369,1,H
 Amerostenus,Cynipencyrtus,L501,L502,1,G
 Amerostenus,Cyrtogaster,L503,L504,1,G
@@ -591,10 +591,10 @@ Amerostenus,Habritys,L46,L47,1,G
 Amerostenus,Nodisoplata,L537,L539,1,H
 Amerostenus,Ormocerus,L397,L397,1,G
 Amerostenus,Ormyromorpha,L46,L47,1,G
-Amerostenus,Plutothrix,L500,L501,2,H G
+Amerostenus,Plutothrix,L500,L501,2,G H
 Amerostenus,Pteromalus,L47,L48,1,G
 Amerostenus,Yrka,L399,L400,1,A
-Amerostenus,Yrka,L701,L702,2,H G
+Amerostenus,Yrka,L701,L702,2,G H
 Amerostenus,Yrka,L1018,L1018,1,H
 Amerostenus,Yrka,L108,L108,1,G
 Amerostenus,Yrka,L313,L313,1,G
@@ -612,7 +612,7 @@ Amerostenus,Yrka,L774,L775,1,G
 Amerostenus,Yrka,L843,L844,1,G
 Amerostenus,Yrka,L349,L349,1,D
 Amerostenus,Yrka,L534,L534,1,G
-Anagroidea,Eubroncus,L244,L244,2,G B
+Anagroidea,Eubroncus,L244,L244,2,B G
 Anagroidea,Eubroncus,L478,L478,1,G
 Anagroidea,Eubroncus,L915,L915,1,G
 Anagroidea,Eubroncus,L927,L927,1,H
@@ -627,43 +627,43 @@ Anagroidea,Ischiodasys,L340,L340,1,B
 Anagroidea,Mesopeltita,L356,L357,1,D
 Anagroidea,Mesopeltita,L355,L357,1,D
 Anagroidea,Mesopeltita,L357,L357,1,D
-Anagroidea,Trisecodes,L163,L164,2,G A
+Anagroidea,Trisecodes,L163,L164,2,A G
 Anagroidea,Trisecodes,L163,L163,2,C D
 Anagrus,Neochrysocharis,L605,L606,2,A G
 Anagrus,Neochrysocharis,L326,L326,1,G
 Anagrus,Neochrysocharis,L606,L606,2,C D
 Anagrus,Rotoita,L340,L341,2,A G
-Anagrus,Rotoita,L352,L353,2,D C
+Anagrus,Rotoita,L352,L353,2,C D
 Anagrus,Rotoita,L35,L36,1,D
 Anagrus,Rotoita,L450,L451,1,A
 Anagrus,Rotoita,L611,L612,1,G
 Anagrus,Rotoita,L612,L613,2,A G
-Anagrus,Rotoita,L756,L757,2,G A
-Anagrus,Rotoita,L819,L820,2,D C
+Anagrus,Rotoita,L756,L757,2,A G
+Anagrus,Rotoita,L819,L820,2,C D
 Anagrus,Rotoita,L983,L984,2,A G
-Anagrus,Rotoita,L1007,L1007,2,D C
-Anagrus,Rotoita,L152,L152,2,D C
-Anagrus,Rotoita,L23,L23,2,G A
-Anagrus,Rotoita,L340,L340,2,D C
-Anagrus,Rotoita,L352,L352,2,D C
+Anagrus,Rotoita,L1007,L1007,2,C D
+Anagrus,Rotoita,L152,L152,2,C D
+Anagrus,Rotoita,L23,L23,2,A G
+Anagrus,Rotoita,L340,L340,2,C D
+Anagrus,Rotoita,L352,L352,2,C D
 Anagrus,Rotoita,L36,L36,1,D
-Anagrus,Rotoita,L389,L389,2,D C
-Anagrus,Rotoita,L395,L395,2,D C
-Anagrus,Rotoita,L398,L398,2,D C
+Anagrus,Rotoita,L389,L389,2,C D
+Anagrus,Rotoita,L395,L395,2,C D
+Anagrus,Rotoita,L398,L398,2,C D
 Anagrus,Rotoita,L527,L527,1,D
-Anagrus,Rotoita,L561,L561,2,D C
-Anagrus,Rotoita,L577,L577,2,D C
-Anagrus,Rotoita,L590,L590,2,H G
-Anagrus,Rotoita,L612,L612,2,D C
-Anagrus,Rotoita,L704,L704,2,D C
-Anagrus,Rotoita,L820,L820,2,D C
-Anagrus,Rotoita,L937,L937,2,D C
-Anagrus,Rotoita,L975,L975,2,G B
-Anagrus,Rotoita,L983,L983,2,D C
+Anagrus,Rotoita,L561,L561,2,C D
+Anagrus,Rotoita,L577,L577,2,C D
+Anagrus,Rotoita,L590,L590,2,G H
+Anagrus,Rotoita,L612,L612,2,C D
+Anagrus,Rotoita,L704,L704,2,C D
+Anagrus,Rotoita,L820,L820,2,C D
+Anagrus,Rotoita,L937,L937,2,C D
+Anagrus,Rotoita,L975,L975,2,B G
+Anagrus,Rotoita,L983,L983,2,C D
 Anagrus,Rotoita,L22,L23,1,A
 Anagrus,Ufens,L869,L870,1,G
 Anagrus,Ufens,L459,L459,2,C D
-Anagrus,Ufens,L496,L496,2,D C
+Anagrus,Ufens,L496,L496,2,C D
 Anagrus,Ufens,L870,L870,1,D
 Anagyrus,Eopelma,L951,L951,1,G
 Anagyrus,Ericydnus,L419,L419,1,H
@@ -686,7 +686,7 @@ Anastatus,Zaischnopsis,L960,L961,1,G
 Anastatus,Zaischnopsis,L131,L131,1,G
 Anastatus,Zaischnopsis,L200,L200,1,G
 Anastatus,Zaischnopsis,L219,L219,1,H
-Anidarnes,Coccophagus,L227,L227,2,G A
+Anidarnes,Coccophagus,L227,L227,2,A G
 Anidarnes,Coccophagus,L321,L321,2,C D
 Anidarnes,Idarnes,L235,L236,1,G
 Anidarnes,Idarnes,L235,L235,1,G
@@ -704,7 +704,7 @@ Anorasema,Chalcis,L721,L721,1,D
 Anorasema,Kapala,L503,L504,1,G
 Anorasema,Orasema,L364,L365,1,A
 Anorasema,Perilampus,L454,L455,1,H
-Aphelinoidea,Cynipencyrtus,L437,L437,2,D C
+Aphelinoidea,Cynipencyrtus,L437,L437,2,C D
 Aphelinoidea,Glyphomerus,L551,L552,1,A
 Aphelinoidea,Glyphomerus,L777,L778,1,A
 Aphelinoidea,Glyphomerus,L535,L535,1,D
@@ -723,9 +723,9 @@ Aprostocetus,Gyrolasomyia,L1018,L1018,1,H
 Aprostocetus,Gyrolasomyia,L1019,L1019,1,G
 Aprostocetus,Gyrolasomyia,L233,L233,1,H
 Aprostocetus,Gyrolasomyia,L268,L268,1,H
-Aprostocetus,Gyrolasomyia,L269,L269,2,G B
+Aprostocetus,Gyrolasomyia,L269,L269,2,B G
 Aprostocetus,Gyrolasomyia,L339,L339,1,G
-Aprostocetus,Gyrolasomyia,L356,L356,2,G B
+Aprostocetus,Gyrolasomyia,L356,L356,2,B G
 Aprostocetus,Gyrolasomyia,L362,L362,1,G
 Aprostocetus,Gyrolasomyia,L369,L369,1,G
 Aprostocetus,Gyrolasomyia,L40,L40,1,G
@@ -742,7 +742,7 @@ Arescon,Cales,L691,L691,2,C D
 Arescon,Diaspiniphagus,L932,L933,1,D
 Arescon,Diaspiniphagus,L933,L934,1,A
 Arescon,Diaspiniphagus,L443,L443,1,D
-Arescon,Diaspiniphagus,L649,L649,2,D C
+Arescon,Diaspiniphagus,L649,L649,2,C D
 Arescon,Euperilampus,L130,L693,1,H
 Arescon,Idarnotorymus,L20,L20,1,G
 Arescon,Microdontomerus,L140,L140,1,G
@@ -785,7 +785,7 @@ Asparagobius,Omphalodipara,L362,L362,1,G
 Astichus,Bellerus,L618,L618,1,H
 Astichus,Ophelimus,L500,L501,1,G
 Astichus,Plutothrix,L500,L501,1,G
-Australeunotus,Cephaleta,L454,L454,2,D C
+Australeunotus,Cephaleta,L454,L454,2,C D
 Australeunotus,Coelocyba,L500,L501,1,G
 Australeunotus,Coruna,L359,L362,1,G
 Australeunotus,Elachertus,L304,L304,2,C D
@@ -806,13 +806,13 @@ Australeunotus,Ophelosia,L843,L844,1,G
 Australeunotus,Ophelosia,L855,L856,1,H
 Australeunotus,Ophelosia,L254,L254,1,H
 Australeunotus,Ophelosia,L264,L264,1,G
-Australeunotus,Ophelosia,L324,L324,2,G B
+Australeunotus,Ophelosia,L324,L324,2,B G
 Australeunotus,Ophelosia,L517,L517,1,G
 Australeunotus,Ophelosia,L534,L534,1,D
 Australeunotus,Ophelosia,L698,L698,1,H
 Australeunotus,Ophelosia,L71,L71,1,H
 Australeunotus,Ophelosia,L81,L81,1,H
-Australeunotus,Ophelosia,L844,L844,2,G B
+Australeunotus,Ophelosia,L844,L844,2,B G
 Australeunotus,Ophelosia,L920,L920,1,G
 Australeunotus,Ophelosia,L925,L925,2,A G
 Australeunotus,Ophelosia,L241,L241,1,H
@@ -823,7 +823,7 @@ Australeunotus,Ophelosia,L878,L878,1,G
 Australeunotus,Ophelosia,L929,L929,1,G
 Australeunotus,Ormyromorpha,L46,L47,1,G
 Australeunotus,Pteromalus,L1021,L1022,1,G
-Australeunotus,Pteroptrix,L505,L505,2,G B
+Australeunotus,Pteroptrix,L505,L505,2,B G
 Ablerus,Australomymar,L1017,L1017,1,D
 Australomymar,Ischiodasys,L551,L552,1,G
 Australomymar,Ischiodasys,L453,L453,1,G
@@ -843,7 +843,7 @@ Australosema,Kapala,L458,L459,1,G
 Australosema,Kapala,L824,L825,1,G
 Australosema,Kapala,L459,L459,2,A G
 Australosema,Kapala,L824,L824,1,D
-Australosema,Leiosema,L1011,L1012,2,G A
+Australosema,Leiosema,L1011,L1012,2,A G
 Australosema,Leiosema,L167,L168,1,H
 Australosema,Leiosema,L232,L233,1,D
 Australosema,Leiosema,L493,L494,1,H
@@ -868,25 +868,25 @@ Australosema,Leiosema,L891,L892,1,D
 Australosema,Leiosema,L1029,L1029,1,H
 Australosema,Leiosema,L134,L134,1,H
 Australosema,Leiosema,L14,L14,1,G
-Australosema,Leiosema,L15,L15,2,H G
+Australosema,Leiosema,L15,L15,2,G H
 Australosema,Leiosema,L287,L287,1,G
 Australosema,Leiosema,L409,L409,1,G
 Australosema,Leiosema,L429,L429,1,H
-Australosema,Leiosema,L463,L463,2,H G
+Australosema,Leiosema,L463,L463,2,G H
 Australosema,Leiosema,L494,L494,2,G H
 Australosema,Leiosema,L574,L574,1,D
 Australosema,Leiosema,L750,L750,1,G
 Australosema,Leiosema,L857,L857,1,G
-Australosema,Leiosema,L860,L860,2,H G
+Australosema,Leiosema,L860,L860,2,G H
 Australosema,Orasema,L214,L215,1,G
 Australosema,Orasema,L224,L225,1,D
-Australosema,Orasema,L249,L250,2,D C
+Australosema,Orasema,L249,L250,2,C D
 Australosema,Orasema,L269,L270,1,G
 Australosema,Orasema,L305,L306,1,G
 Australosema,Orasema,L363,L364,1,G
 Australosema,Orasema,L56,L57,1,G
 Australosema,Orasema,L579,L580,1,H
-Australosema,Orasema,L580,L581,2,H G
+Australosema,Orasema,L580,L581,2,G H
 Australosema,Orasema,L953,L954,1,G
 Australosema,Orasema,L214,L214,1,G
 Australosema,Orasema,L215,L215,1,G
@@ -894,9 +894,9 @@ Australosema,Orasema,L224,L224,1,D
 Australosema,Orasema,L306,L306,1,G
 Australosema,Orasema,L348,L348,1,G
 Australosema,Orasema,L363,L363,1,G
-Australosema,Orasema,L53,L53,2,H G
+Australosema,Orasema,L53,L53,2,G H
 Australosema,Orasema,L55,L55,1,G
-Australosema,Orasema,L580,L580,2,H G
+Australosema,Orasema,L580,L580,2,G H
 Australosema,Orasema,L679,L679,1,G
 Australosema,Orasema,L768,L768,1,G
 Australosema,Orasema,L817,L817,1,G
@@ -920,7 +920,7 @@ Australosema,Timioderus,L57,L57,1,G
 Australosema,Timioderus,L64,L64,1,G
 Australosema,Timioderus,L945,L945,1,H
 Australosema,Timioderus,L954,L954,1,G
-Australosema,Timioderus,L972,L972,2,G A
+Australosema,Timioderus,L972,L972,2,A G
 Australosema,Timioderus,L305,L306,1,G
 Australosema,Timioderus,L315,L316,1,H
 Australosema,Timioderus,L35,L36,1,G
@@ -930,14 +930,14 @@ Australosema,Timioderus,L717,L718,2,A D
 Australosema,Timioderus,L80,L81,1,G
 Australosema,Timioderus,L897,L898,1,G
 Australosema,Timioderus,L96,L97,2,D G
-Australosema,Timioderus,L971,L972,2,G A
+Australosema,Timioderus,L971,L972,2,A G
 Australosema,Timioderus,L97,L98,1,G
 Australosema,Timioderus,L1007,L1007,1,D
 Australosema,Timioderus,L1012,L1012,1,A
 Australosema,Timioderus,L25,L25,1,G
 Australosema,Timioderus,L269,L269,1,H
 Australosema,Timioderus,L299,L299,1,G
-Australosema,Timioderus,L53,L53,2,G A
+Australosema,Timioderus,L53,L53,2,A G
 Australosema,Timioderus,L578,L578,1,G
 Australosema,Timioderus,L580,L580,1,G
 Australosema,Timioderus,L581,L581,1,G
@@ -950,9 +950,9 @@ Austrophotismus,Callocleonymus,L392,L392,1,H
 Austrophotismus,Hockeria,L1009,L1009,1,G
 Austrophotismus,Neolosbanus,L1035,L1035,1,G
 Austrophotismus,Proshizonotus,L1009,L321,1,G
-Austrophotismus,Pseudometagea,L551,L552,2,G A
-Austrophotismus,Pseudometagea,L552,L552,2,D C
-Austrophotismus,Rileya,L759,L760,2,H G
+Austrophotismus,Pseudometagea,L551,L552,2,A G
+Austrophotismus,Pseudometagea,L552,L552,2,C D
+Austrophotismus,Rileya,L759,L760,2,G H
 Austrophotismus,Rileya,L369,L369,1,G
 Austrophotismus,Zolotarewskya,L1009,L321,1,G
 Agamerion,Balcha,L571,L572,1,G
@@ -975,7 +975,7 @@ Balcha,Plutothrix,L565,L566,1,G
 Balcha,Proshizonotus,L565,L566,1,G
 Bellerus,Euderus,L503,L504,1,G
 Bellerus,Euderus,L504,L504,1,G
-Bellerus,Euderus,L767,L767,2,G A
+Bellerus,Euderus,L767,L767,2,A G
 Bellerus,Euderus,L480,L481,1,A
 Bellerus,Euderus,L338,L338,1,G
 Bellerus,Ophelimus,L500,L501,1,G
@@ -995,15 +995,15 @@ Blastophaga,Pleistodontes,L420,L420,1,G
 Blastophaga,Pleistodontes,L421,L421,1,G
 Blastophaga,Proshizonotus,L420,L421,1,G
 Blastophaga,Sycophaga,L149,L150,1,A
-Blastophaga,Sycophaga,L235,L236,2,G A
+Blastophaga,Sycophaga,L235,L236,2,A G
 Blastophaga,Sycophaga,L352,L353,1,G
 Blastophaga,Sycophaga,L353,L354,1,A
 Blastophaga,Sycophaga,L363,L364,3,A G H
-Blastophaga,Sycophaga,L486,L487,2,G A
+Blastophaga,Sycophaga,L486,L487,2,A G
 Blastophaga,Sycophaga,L487,L488,2,A G
 Blastophaga,Sycophaga,L149,L149,1,D
-Blastophaga,Sycophaga,L236,L236,2,D C
-Blastophaga,Sycophaga,L353,L353,2,D C
+Blastophaga,Sycophaga,L236,L236,2,C D
+Blastophaga,Sycophaga,L353,L353,2,C D
 Blastophaga,Sycophaga,L363,L363,1,D
 Blastophaga,Sycophaga,L364,L364,1,G
 Blastophaga,Sycophaga,L433,L514,1,G
@@ -1019,9 +1019,9 @@ Bootanelleus,Bootanomyia,L548,L548,1,G
 Bootanelleus,Bortesia,L173,L174,1,H
 Bootanelleus,Bortesia,L41,L42,1,G
 Bootanelleus,Bortesia,L443,L444,2,A G
-Bootanelleus,Bortesia,L551,L552,2,G A
-Bootanelleus,Bortesia,L559,L560,2,G A
-Bootanelleus,Bortesia,L63,L64,2,G A
+Bootanelleus,Bortesia,L551,L552,2,A G
+Bootanelleus,Bortesia,L559,L560,2,A G
+Bootanelleus,Bortesia,L63,L64,2,A G
 Bootanelleus,Bortesia,L143,L143,2,B G
 Bootanelleus,Bortesia,L167,L167,2,B G
 Bootanelleus,Bortesia,L233,L233,1,H
@@ -1030,7 +1030,7 @@ Bootanelleus,Bortesia,L295,L295,1,G
 Bootanelleus,Bortesia,L364,L364,2,B G
 Bootanelleus,Bortesia,L370,L370,1,H
 Bootanelleus,Bortesia,L419,L419,1,G
-Bootanelleus,Bortesia,L552,L552,2,G A
+Bootanelleus,Bortesia,L552,L552,2,A G
 Bootanelleus,Bortesia,L559,L559,2,A G
 Bootanelleus,Bortesia,L746,L746,1,G
 Bootanelleus,Bortesia,L8,L8,2,C D
@@ -1112,8 +1112,8 @@ Bootanomyia,Bortesia,L338,L339,1,G
 Bootanomyia,Bortesia,L717,L718,1,G
 Bootanomyia,Bortesia,L927,L928,1,A
 Bootanomyia,Bortesia,L998,L999,1,G
-Bootanomyia,Boudiennyia,L158,L159,2,D C
-Bootanomyia,Boudiennyia,L158,L158,2,D C
+Bootanomyia,Boudiennyia,L158,L159,2,C D
+Bootanomyia,Boudiennyia,L158,L158,2,C D
 Bootanomyia,Calosota,L111,L111,1,G
 Bootanomyia,Chalcis,L431,L432,1,G
 Bootanomyia,Epistenia,L359,L362,1,G
@@ -1126,7 +1126,7 @@ Bootanomyia,Megastigmus,L1009,L321,1,G
 Bootanomyia,Megastigmus,L176,L177,1,G
 Bootanomyia,Megastigmus,L232,L233,1,H
 Bootanomyia,Megastigmus,L269,L270,1,G
-Bootanomyia,Megastigmus,L340,L341,2,G B
+Bootanomyia,Megastigmus,L340,L341,2,B G
 Bootanomyia,Megastigmus,L420,L422,1,G
 Bootanomyia,Megastigmus,L421,L422,1,G
 Bootanomyia,Megastigmus,L559,L560,2,A G
@@ -1145,7 +1145,7 @@ Bootanomyia,Megastigmus,L560,L560,1,B
 Bootanomyia,Megastigmus,L566,L566,1,H
 Bootanomyia,Megastigmus,L618,L618,1,G
 Bootanomyia,Megastigmus,L620,L620,1,G
-Bootanomyia,Megastigmus,L664,L664,2,G B
+Bootanomyia,Megastigmus,L664,L664,2,B G
 Bootanomyia,Megastigmus,L668,L668,2,B G
 Bootanomyia,Megastigmus,L698,L698,1,H
 Bootanomyia,Megastigmus,L763,L763,1,H
@@ -1179,7 +1179,7 @@ Bootanomyia,Neomegastigmus,L768,L768,1,G
 Bootanomyia,Nodisoplata,L951,L951,1,G
 Bootanomyia,Plutothrix,L500,L501,1,G
 Bootanomyia,Pteromalus,L430,L432,1,G
-Bootanomyia,Rileya,L589,L590,2,D C
+Bootanomyia,Rileya,L589,L590,2,C D
 Bootanomyia,Rileya,L590,L590,1,D
 Bootanomyia,Tetramesa,L939,L939,1,G
 Bootanomyia,Zeala,L925,L925,1,G
@@ -1190,10 +1190,10 @@ Bortesia,Grooca,L925,L926,1,G
 Bortesia,Macrorileya,L182,L183,1,D
 Bortesia,Macrorileya,L319,L320,1,G
 Bortesia,Macrorileya,L318,L320,1,G
-Bortesia,Macrorileya,L338,L339,2,D C
+Bortesia,Macrorileya,L338,L339,2,C D
 Bortesia,Macrorileya,L34,L35,1,D
 Bortesia,Macrorileya,L34,L36,1,A
-Bortesia,Macrorileya,L414,L415,2,G A
+Bortesia,Macrorileya,L414,L415,2,A G
 Bortesia,Macrorileya,L480,L481,1,H
 Bortesia,Macrorileya,L545,L546,1,D
 Bortesia,Macrorileya,L56,L57,1,D
@@ -1201,25 +1201,25 @@ Bortesia,Macrorileya,L646,L647,1,D
 Bortesia,Macrorileya,L662,L663,1,D
 Bortesia,Macrorileya,L663,L664,1,A
 Bortesia,Macrorileya,L973,L974,1,D
-Bortesia,Macrorileya,L108,L108,2,D C
+Bortesia,Macrorileya,L108,L108,2,C D
 Bortesia,Macrorileya,L134,L134,1,G
 Bortesia,Macrorileya,L183,L183,1,D
-Bortesia,Macrorileya,L320,L320,2,G A
-Bortesia,Macrorileya,L336,L336,2,D C
-Bortesia,Macrorileya,L339,L339,2,D C
+Bortesia,Macrorileya,L320,L320,2,A G
+Bortesia,Macrorileya,L336,L336,2,C D
+Bortesia,Macrorileya,L339,L339,2,C D
 Bortesia,Macrorileya,L34,L34,1,D
-Bortesia,Macrorileya,L415,L415,2,D C
-Bortesia,Macrorileya,L425,L425,2,D C
-Bortesia,Macrorileya,L481,L481,2,H G
-Bortesia,Macrorileya,L500,L500,2,D C
+Bortesia,Macrorileya,L415,L415,2,C D
+Bortesia,Macrorileya,L425,L425,2,C D
+Bortesia,Macrorileya,L481,L481,2,G H
+Bortesia,Macrorileya,L500,L500,2,C D
 Bortesia,Macrorileya,L546,L546,1,D
-Bortesia,Macrorileya,L576,L576,2,D C
+Bortesia,Macrorileya,L576,L576,2,C D
 Bortesia,Macrorileya,L57,L57,1,D
 Bortesia,Macrorileya,L646,L646,1,D
 Bortesia,Macrorileya,L663,L663,1,D
 Bortesia,Macrorileya,L973,L973,1,D
-Bortesia,Macrorileya,L976,L976,2,D C
-Bortesia,Macrorileya,L534,L534,2,G A
+Bortesia,Macrorileya,L976,L976,2,C D
+Bortesia,Macrorileya,L534,L534,2,A G
 Bortesia,Megastigmus,L616,L617,1,G
 Bortesia,Megastigmus,L344,L344,1,G
 Bortesia,Neomegastigmus,L717,L718,1,A
@@ -1251,7 +1251,7 @@ Boucekius,Neapterolelaps,L807,L807,1,G
 Boucekius,Ormyromorpha,L47,L48,1,G
 Boucekius,Premiscogaster,L627,L627,1,G
 Boucekius,Proshizonotus,L338,L339,1,G
-Boucekius,Proshizonotus,L242,L242,2,G B
+Boucekius,Proshizonotus,L242,L242,2,B G
 Boucekius,Zolotarewskya,L495,L495,1,G
 Bootanelleus,Boudiennyia,L423,L424,1,G
 Boudiennyia,Euderomphale,L20,L545,1,H
@@ -1268,7 +1268,7 @@ Brachyelatus,Chrysomalla,L503,L504,1,G
 Brachyelatus,Chrysomalla,L507,L508,1,G
 Brachyelatus,Chrysomalla,L364,L364,1,H
 Brachyelatus,Chrysomalla,L365,L365,1,H
-Brachyelatus,Chrysomalla,L366,L366,2,H G
+Brachyelatus,Chrysomalla,L366,L366,2,G H
 Brachyelatus,Chrysomalla,L367,L367,1,G
 Brachyelatus,Chrysomalla,L316,L316,1,G
 Brachyelatus,Cleonymus,L501,L501,1,G
@@ -1296,7 +1296,7 @@ Brachymeria,Orasema,L662,L663,2,D G
 Brachymeria,Orasema,L662,L662,1,D
 Brachymeria,Orasema,L663,L663,1,G
 Brachymeria,Orasema,L180,L181,1,A
-Brachymeria,Orasema,L22,L23,2,G A
+Brachymeria,Orasema,L22,L23,2,A G
 Brachymeria,Orasema,L305,L306,1,D
 Brachymeria,Orasema,L377,L378,2,A G
 Brachymeria,Orasema,L381,L382,1,D
@@ -1313,7 +1313,7 @@ Brachymeria,Orasema,L133,L133,1,G
 Brachymeria,Orasema,L306,L306,1,D
 Brachymeria,Orasema,L377,L377,1,D
 Brachymeria,Orasema,L381,L381,1,D
-Brachymeria,Orasema,L404,L404,2,G A
+Brachymeria,Orasema,L404,L404,2,A G
 Brachymeria,Orasema,L482,L482,1,D
 Brachymeria,Orasema,L605,L605,1,H
 Brachymeria,Orasema,L627,L627,1,G
@@ -1321,7 +1321,7 @@ Brachymeria,Orasema,L653,L653,1,D
 Brachymeria,Orasema,L777,L777,1,G
 Brachymeria,Orasema,L780,L780,1,D
 Brachymeria,Orasema,L853,L853,1,G
-Brachymeria,Orasema,L872,L872,2,D C
+Brachymeria,Orasema,L872,L872,2,C D
 Brachymeria,Orasema,L933,L933,1,D
 Brachymeria,Plutothrix,L500,L501,1,H
 Bruchodape,Coruna,L359,L362,1,G
@@ -1410,28 +1410,28 @@ Cales,Proarescon,L154,L155,1,G
 Cales,Proarescon,L175,L176,1,D
 Cales,Proarescon,L309,L310,1,D
 Cales,Proarescon,L616,L617,1,D
-Cales,Proarescon,L622,L623,2,G A
-Cales,Proarescon,L620,L623,2,G A
+Cales,Proarescon,L622,L623,2,A G
+Cales,Proarescon,L620,L623,2,A G
 Cales,Proarescon,L669,L670,1,A
-Cales,Proarescon,L751,L752,2,H G
-Cales,Proarescon,L1003,L1003,2,D C
-Cales,Proarescon,L154,L154,2,D C
-Cales,Proarescon,L175,L175,2,D C
-Cales,Proarescon,L221,L221,2,G A
-Cales,Proarescon,L225,L225,2,D C
+Cales,Proarescon,L751,L752,2,G H
+Cales,Proarescon,L1003,L1003,2,C D
+Cales,Proarescon,L154,L154,2,C D
+Cales,Proarescon,L175,L175,2,C D
+Cales,Proarescon,L221,L221,2,A G
+Cales,Proarescon,L225,L225,2,C D
 Cales,Proarescon,L309,L309,1,D
 Cales,Proarescon,L376,L376,1,H
 Cales,Proarescon,L390,L390,1,D
 Cales,Proarescon,L566,L566,1,D
-Cales,Proarescon,L617,L617,2,D C
-Cales,Proarescon,L669,L669,2,D C
+Cales,Proarescon,L617,L617,2,C D
+Cales,Proarescon,L669,L669,2,C D
 Cales,Proarescon,L717,L717,2,A G
-Cales,Proarescon,L751,L751,2,H G
-Cales,Proarescon,L752,L752,2,G B
+Cales,Proarescon,L751,L751,2,G H
+Cales,Proarescon,L752,L752,2,B G
 Cales,Proarescon,L91,L91,1,D
-Cales,Proarescon,L943,L943,2,D C
-Cales,Proarescon,L985,L985,2,H G
-Cales,Proarescon,L986,L986,2,D C
+Cales,Proarescon,L943,L943,2,C D
+Cales,Proarescon,L985,L985,2,G H
+Cales,Proarescon,L986,L986,2,C D
 Cales,Proarescon,L716,L717,1,G
 Cales,Prococcophagus,L637,L638,1,G
 Cales,Prococcophagus,L690,L691,1,D
@@ -1468,7 +1468,7 @@ Callimomoides,Hetreulophus,L362,L362,1,H
 Callimomoides,Megastigmus,L501,L501,1,G
 Callimomoides,Microdontomerus,L420,L420,1,G
 Callimomoides,Microdontomerus,L421,L421,1,G
-Callimomoides,Nepistenia,L380,L381,2,G A
+Callimomoides,Nepistenia,L380,L381,2,A G
 Callimomoides,Nepistenia,L381,L382,1,A
 Callimomoides,Nepistenia,L638,L639,1,G
 Callimomoides,Nepistenia,L381,L381,1,D
@@ -1499,10 +1499,10 @@ Callocleonymus,Notanisus,L912,L913,1,G
 Callocleonymus,Notanisus,L356,L356,1,G
 Callocleonymus,Notanisus,L726,L726,1,G
 Callocleonymus,Petipirene,L1,L49,1,A
-Callocleonymus,Proarescon,L436,L437,2,G A
-Callocleonymus,Storeya,L1,L371,2,H G
-Callocleonymus,Zolotarewskya,L423,L424,2,H G
-Callocleonymus,Zolotarewskya,L763,L764,2,H G
+Callocleonymus,Proarescon,L436,L437,2,A G
+Callocleonymus,Storeya,L1,L371,2,G H
+Callocleonymus,Zolotarewskya,L423,L424,2,G H
+Callocleonymus,Zolotarewskya,L763,L764,2,G H
 Callocleonymus,Zolotarewskya,L506,L506,1,G
 Callocleonymus,Zolotarewskya,L984,L984,2,B G
 Callocleonymus,Zolotarewskya,L241,L242,1,A
@@ -1574,7 +1574,7 @@ Cea,Exopristoides,L542,L542,1,G
 Cea,Idarnotorymus,L444,L445,1,G
 Cea,Keirana,L502,L502,1,G
 Cea,Microdontomerus,L1008,L1008,1,G
-Cea,Myiocnema,L631,L631,2,D C
+Cea,Myiocnema,L631,L631,2,C D
 Cea,Myiocnema,L524,L524,1,H
 Cea,Neotriadomerus,L221,L221,2,B G
 Cea,Neotriadomerus,L436,L436,1,D
@@ -1588,7 +1588,7 @@ Cea,Spalangiopelta,L432,L432,1,G
 Cea,Spalangiopelta,L627,L627,1,G
 Cea,Spalangiopelta,L850,L850,1,G
 Cea,Zeala,L1009,L1009,1,G
-Ceballosia,Systasis,L277,L277,2,D C
+Ceballosia,Systasis,L277,L277,2,C D
 Afroneodipara,Cecidellis,L3,L906,1,H
 Amerostenus,Cecidellis,L709,L710,1,G
 Anidarnes,Cecidellis,L424,L424,1,H
@@ -1633,54 +1633,54 @@ Cecidellis,Systole,L362,L362,1,G
 Cecidellis,Systole,L951,L951,1,G
 Cecidellis,Zavoya,L48,L48,1,G
 Cecidellis,Zolotarewskya,L503,L503,1,G
-Centrodora,Eutrichosomella,L1008,L1008,2,D C
+Centrodora,Eutrichosomella,L1008,L1008,2,C D
 Centrodora,Eutrichosomella,L69,L69,1,A
 Centrodora,Exopristoides,L852,L853,1,D
 Centrodora,Exopristoides,L460,L460,1,D
 Centrodora,Exopristoides,L852,L852,1,D
 Centrodora,Lelaps,L112,L713,1,H
-Centrodora,Mesopeltita,L1039,L1040,2,G A
+Centrodora,Mesopeltita,L1039,L1040,2,A G
 Centrodora,Mesopeltita,L116,L117,1,D
 Centrodora,Mesopeltita,L115,L116,1,D
 Centrodora,Mesopeltita,L16,L17,1,D
 Centrodora,Mesopeltita,L15,L16,1,D
-Centrodora,Mesopeltita,L176,L177,2,D C
+Centrodora,Mesopeltita,L176,L177,2,C D
 Centrodora,Mesopeltita,L301,L302,1,D
 Centrodora,Mesopeltita,L368,L369,1,D
 Centrodora,Mesopeltita,L367,L368,1,D
 Centrodora,Mesopeltita,L462,L463,2,G H
 Centrodora,Mesopeltita,L511,L512,1,D
 Centrodora,Mesopeltita,L510,L512,1,G
-Centrodora,Mesopeltita,L592,L593,2,D C
+Centrodora,Mesopeltita,L592,L593,2,C D
 Centrodora,Mesopeltita,L608,L609,1,A
 Centrodora,Mesopeltita,L658,L659,1,D
 Centrodora,Mesopeltita,L787,L788,1,A
 Centrodora,Mesopeltita,L819,L820,1,D
 Centrodora,Mesopeltita,L820,L821,1,A
 Centrodora,Mesopeltita,L969,L970,1,G
-Centrodora,Mesopeltita,L1007,L1007,2,D C
+Centrodora,Mesopeltita,L1007,L1007,2,C D
 Centrodora,Mesopeltita,L1040,L1040,1,D
 Centrodora,Mesopeltita,L107,L107,1,D
 Centrodora,Mesopeltita,L116,L116,1,D
-Centrodora,Mesopeltita,L118,L118,2,D C
-Centrodora,Mesopeltita,L176,L176,2,D C
-Centrodora,Mesopeltita,L180,L180,2,D C
-Centrodora,Mesopeltita,L302,L302,2,D C
-Centrodora,Mesopeltita,L321,L321,2,D C
-Centrodora,Mesopeltita,L368,L368,2,D C
-Centrodora,Mesopeltita,L411,L411,2,D C
+Centrodora,Mesopeltita,L118,L118,2,C D
+Centrodora,Mesopeltita,L176,L176,2,C D
+Centrodora,Mesopeltita,L180,L180,2,C D
+Centrodora,Mesopeltita,L302,L302,2,C D
+Centrodora,Mesopeltita,L321,L321,2,C D
+Centrodora,Mesopeltita,L368,L368,2,C D
+Centrodora,Mesopeltita,L411,L411,2,C D
 Centrodora,Mesopeltita,L463,L463,2,G H
-Centrodora,Mesopeltita,L512,L512,2,D C
-Centrodora,Mesopeltita,L527,L527,2,G A
-Centrodora,Mesopeltita,L593,L593,2,D C
-Centrodora,Mesopeltita,L608,L608,2,D C
-Centrodora,Mesopeltita,L658,L658,2,D C
-Centrodora,Mesopeltita,L659,L659,2,D C
+Centrodora,Mesopeltita,L512,L512,2,C D
+Centrodora,Mesopeltita,L527,L527,2,A G
+Centrodora,Mesopeltita,L593,L593,2,C D
+Centrodora,Mesopeltita,L608,L608,2,C D
+Centrodora,Mesopeltita,L658,L658,2,C D
+Centrodora,Mesopeltita,L659,L659,2,C D
 Centrodora,Mesopeltita,L714,L714,1,H
-Centrodora,Mesopeltita,L760,L760,2,D C
+Centrodora,Mesopeltita,L760,L760,2,C D
 Centrodora,Mesopeltita,L787,L787,1,D
 Centrodora,Mesopeltita,L820,L820,1,D
-Centrodora,Mesopeltita,L954,L954,2,D C
+Centrodora,Mesopeltita,L954,L954,2,C D
 Centrodora,Mesopeltita,L970,L970,1,B
 Centrodora,Microdontomerus,L1008,L321,1,G
 Centrodora,Microdontomerus,L1009,L321,1,G
@@ -1694,11 +1694,11 @@ Cephaleta,Elachertus,L749,L750,1,A
 Cephaleta,Elachertus,L992,L993,1,A
 Cephaleta,Elachertus,L98,L99,1,G
 Cephaleta,Elachertus,L331,L331,1,H
-Cephaleta,Elachertus,L438,L438,2,D C
-Cephaleta,Elachertus,L537,L537,2,D C
+Cephaleta,Elachertus,L438,L438,2,C D
+Cephaleta,Elachertus,L537,L537,2,C D
 Cephaleta,Elachertus,L749,L749,1,D
-Cephaleta,Elachertus,L992,L992,2,D C
-Cephaleta,Elachertus,L99,L99,2,D C
+Cephaleta,Elachertus,L992,L992,2,C D
+Cephaleta,Elachertus,L99,L99,2,C D
 Cephaleta,Elachertus,L282,L282,1,G
 Cephaleta,Habritys,L46,L47,1,G
 Cephaleta,Papuopsia,L2,L2,1,G
@@ -1718,7 +1718,7 @@ Cephaleta,Scutellista,L746,L746,1,G
 Cephaleta,Scutellista,L768,L768,1,G
 Cephaleta,Scutellista,L805,L805,1,G
 Cephaleta,Scutellista,L871,L871,1,G
-Cephaleta,Scutellista,L913,L913,2,G B
+Cephaleta,Scutellista,L913,L913,2,B G
 Cephaleta,Scutellista,L939,L939,1,G
 Agamerion,Ceratogramma,L1035,L1035,1,G
 Ceratogramma,Coruna,L359,L362,1,G
@@ -1733,11 +1733,11 @@ Amerostenus,Cerocephala,L973,L973,1,D
 Bootanelleus,Cerocephala,L399,L400,1,G
 Cerocephala,Macromesus,L500,L501,1,G
 Cerocephala,Megastigmus,L399,L400,1,G
-Cerocephala,Neanastatus,L363,L363,2,D C
+Cerocephala,Neanastatus,L363,L363,2,C D
 Cerocephala,Neocalosoter,L222,L223,1,H
 Cerocephala,Neocalosoter,L226,L227,2,A G
 Cerocephala,Neocalosoter,L368,L369,1,H
-Cerocephala,Neocalosoter,L505,L506,2,G A
+Cerocephala,Neocalosoter,L505,L506,2,A G
 Cerocephala,Neocalosoter,L539,L540,1,G
 Cerocephala,Neocalosoter,L1035,L1035,1,G
 Cerocephala,Neocalosoter,L211,L211,1,G
@@ -1745,7 +1745,7 @@ Cerocephala,Neocalosoter,L223,L223,1,H
 Cerocephala,Neocalosoter,L264,L264,1,G
 Cerocephala,Neocalosoter,L304,L304,1,G
 Cerocephala,Neocalosoter,L313,L313,1,G
-Cerocephala,Neocalosoter,L326,L326,2,G B
+Cerocephala,Neocalosoter,L326,L326,2,B G
 Cerocephala,Neocalosoter,L338,L338,1,G
 Cerocephala,Neocalosoter,L349,L349,1,G
 Cerocephala,Neocalosoter,L359,L359,1,G
@@ -1761,7 +1761,7 @@ Cerocephala,Neocalosoter,L534,L534,1,G
 Cerocephala,Neocalosoter,L595,L595,1,G
 Cerocephala,Neocalosoter,L636,L636,1,H
 Cerocephala,Neocalosoter,L746,L746,1,G
-Cerocephala,Neocalosoter,L780,L780,2,G B
+Cerocephala,Neocalosoter,L780,L780,2,B G
 Cerocephala,Neocalosoter,L920,L920,1,G
 Cerocephala,Neocalosoter,L924,L924,1,G
 Cerocephala,Steffanolampus,L503,L504,1,G
@@ -1787,10 +1787,10 @@ Chalcis,Conura,L623,L624,1,H
 Chalcis,Conura,L741,L742,1,H
 Chalcis,Conura,L770,L771,1,G
 Chalcis,Conura,L267,L267,1,G
-Chalcis,Conura,L269,L269,2,G B
+Chalcis,Conura,L269,L269,2,B G
 Chalcis,Conura,L299,L299,1,G
 Chalcis,Conura,L438,L438,1,G
-Chalcis,Conura,L456,L456,2,D C
+Chalcis,Conura,L456,L456,2,C D
 Chalcis,Conura,L568,L568,1,G
 Chalcis,Conura,L616,L616,1,G
 Chalcis,Conura,L617,L617,1,G
@@ -1801,9 +1801,9 @@ Chalcis,Conura,L152,L153,1,G
 Chalcis,Conura,L22,L23,1,H
 Chalcis,Conura,L235,L236,1,G
 Chalcis,Conura,L315,L316,1,H
-Chalcis,Conura,L558,L559,2,H A
+Chalcis,Conura,L558,L559,2,A H
 Chalcis,Conura,L254,L254,2,G H
-Chalcis,Conura,L463,L463,4,A H B G
+Chalcis,Conura,L463,L463,4,A B G H
 Chalcis,Conura,L559,L559,1,G
 Chalcis,Conura,L924,L924,1,G
 Chalcis,Conura,L941,L941,1,H
@@ -1835,7 +1835,7 @@ Cheiloneurus,Neanastatus,L372,L372,1,H
 Cheiloneurus,Ooencyrtus,L447,L447,1,H
 Cheiloneurus,Ooencyrtus,L501,L501,1,G
 Cheiloneurus,Savzdargia,L404,L404,1,G
-Cheiloneurus,Semiotellus,L926,L926,2,H G
+Cheiloneurus,Semiotellus,L926,L926,2,G H
 Cheiloneurus,Semiotellus,L925,L926,1,G
 Cheiloneurus,Yrka,L430,L430,1,G
 Chiloe,Conura,L289,L855,1,H
@@ -1859,15 +1859,15 @@ Chromeurytoma,Ormocerus,L500,L500,1,G
 Chromeurytoma,Perilampomyia,L111,L111,1,G
 Chromeurytoma,Plutothrix,L112,L112,1,G
 Chromeurytoma,Tanaostigmodes,L989,L990,1,G
-Chrysocharis,Entedon,L359,L362,2,H G
+Chrysocharis,Entedon,L359,L362,2,G H
 Chrysocharis,Entedon,L439,L440,1,G
 Chrysocharis,Entedon,L571,L572,1,G
 Chrysocharis,Entedon,L664,L665,1,H
 Chrysocharis,Entedon,L366,L366,1,G
 Chrysocharis,Entedon,L367,L367,2,B G
 Chrysocharis,Entedon,L440,L440,1,G
-Chrysocharis,Entedon,L532,L532,2,G B
-Chrysocharis,Entedon,L677,L677,2,G B
+Chrysocharis,Entedon,L532,L532,2,B G
+Chrysocharis,Entedon,L677,L677,2,B G
 Chrysocharis,Entedon,L756,L756,1,H
 Chrysocharis,Entedon,L890,L890,2,B G
 Chrysocharis,Entedon,L137,L139,1,G
@@ -1937,7 +1937,7 @@ Cirrospilus,Solenura,L866,L867,1,D
 Cirrospilus,Solenura,L866,L866,1,D
 Cirrospilus,Spalangiopelta,L16,L17,1,D
 Cirrospilus,Spalangiopelta,L15,L17,1,G
-Cirrospilus,Spalangiopelta,L17,L17,2,D C
+Cirrospilus,Spalangiopelta,L17,L17,2,C D
 Cirrospilus,Zagrammosoma,L364,L366,1,B
 Cirrospilus,Zagrammosoma,L365,L366,1,G
 Cirrospilus,Zagrammosoma,L365,L367,1,G
@@ -1963,11 +1963,11 @@ Cleonymus,Neapterolelaps,L623,L624,1,G
 Cleonymus,Neapterolelaps,L624,L624,1,D
 Cleonymus,Nepistenia,L768,L768,1,G
 Cleonymus,Notanisus,L1032,L1033,1,G
-Cleonymus,Notanisus,L14,L15,2,G A
+Cleonymus,Notanisus,L14,L15,2,A G
 Cleonymus,Notanisus,L452,L453,1,G
 Cleonymus,Notanisus,L556,L557,1,G
 Cleonymus,Notanisus,L896,L897,1,A
-Cleonymus,Notanisus,L253,L253,2,G B
+Cleonymus,Notanisus,L253,L253,2,B G
 Cleonymus,Notanisus,L329,L329,1,H
 Cleonymus,Notanisus,L330,L330,1,G
 Cleonymus,Notanisus,L340,L340,1,G
@@ -1975,7 +1975,7 @@ Cleonymus,Notanisus,L452,L452,2,A G
 Cleonymus,Notanisus,L496,L496,1,H
 Cleonymus,Notanisus,L501,L501,1,H
 Cleonymus,Notanisus,L554,L554,2,A G
-Cleonymus,Notanisus,L557,L557,2,G D
+Cleonymus,Notanisus,L557,L557,2,D G
 Cleonymus,Notanisus,L621,L621,1,G
 Cleonymus,Notanisus,L630,L630,1,G
 Cleonymus,Notanisus,L66,L66,1,G
@@ -2001,15 +2001,15 @@ Cleonymus,Zolotarewskya,L244,L244,1,H
 Cleonymus,Zolotarewskya,L725,L725,1,H
 Cleonymus,Zolotarewskya,L784,L784,1,H
 Cleruchus,Coccobius,L826,L826,1,D
-Cleruchus,Encarsia,L24,L25,2,D C
+Cleruchus,Encarsia,L24,L25,2,C D
 Cleruchus,Encarsia,L25,L26,1,A
 Cleruchus,Encarsia,L300,L301,1,A
 Cleruchus,Encarsia,L634,L635,1,G
 Cleruchus,Encarsia,L653,L654,1,D
-Cleruchus,Encarsia,L25,L25,2,D C
-Cleruchus,Encarsia,L300,L300,2,D C
-Cleruchus,Encarsia,L635,L635,2,D C
-Cleruchus,Encarsia,L653,L653,2,D C
+Cleruchus,Encarsia,L25,L25,2,C D
+Cleruchus,Encarsia,L300,L300,2,C D
+Cleruchus,Encarsia,L635,L635,2,C D
+Cleruchus,Encarsia,L653,L653,2,C D
 Chrysocharis,Closterocerus,L747,L748,1,G
 Chrysocharis,Closterocerus,L554,L554,1,G
 Closterocerus,Encyrtocephalus,L770,L771,2,A H
@@ -2032,7 +2032,7 @@ Clytina,Colotrechnus,L950,L950,1,G
 Clytina,Euperilampus,L188,L189,1,D
 Clytina,Euperilampus,L280,L281,1,D
 Clytina,Euperilampus,L279,L280,1,D
-Clytina,Euperilampus,L505,L506,2,D C
+Clytina,Euperilampus,L505,L506,2,C D
 Clytina,Euperilampus,L189,L189,1,D
 Clytina,Euperilampus,L280,L280,1,D
 Clytina,Euperilampus,L506,L506,1,D
@@ -2040,20 +2040,20 @@ Clytina,Halticoptera,L1021,L1021,1,G
 Clytina,Homoporus,L430,L432,1,G
 Clytina,Lelaps,L1018,L1019,1,D
 Clytina,Lelaps,L1019,L1020,1,A
-Clytina,Lelaps,L1019,L1019,2,D C
+Clytina,Lelaps,L1019,L1019,2,C D
 Clytina,Lelaps,L713,L713,2,G H
 Clytina,Marlattiella,L420,L420,1,G
 Clytina,Micradelus,L1036,L1037,1,A
-Clytina,Micradelus,L307,L308,2,D C
+Clytina,Micradelus,L307,L308,2,C D
 Clytina,Micradelus,L79,L80,1,D
 Clytina,Micradelus,L78,L79,1,G
 Clytina,Micradelus,L969,L970,1,G
 Clytina,Micradelus,L1036,L1036,1,H
 Clytina,Micradelus,L297,L297,1,D
-Clytina,Micradelus,L308,L308,2,D C
+Clytina,Micradelus,L308,L308,2,C D
 Clytina,Micradelus,L436,L436,1,D
 Clytina,Micradelus,L79,L79,1,D
-Clytina,Micradelus,L892,L892,2,D C
+Clytina,Micradelus,L892,L892,2,C D
 Clytina,Micradelus,L970,L970,1,D
 Clytina,Monacon,L343,L344,1,H
 Clytina,Neanastatus,L432,L432,1,G
@@ -2063,7 +2063,7 @@ Clytina,Systasis,L938,L939,1,G
 Clytina,Systasis,L53,L53,1,D
 Aiolomorphus,Coccobius,L503,L504,1,G
 Coccobius,Encyrtocephalus,L404,L500,1,G
-Coccobius,Enoggera,L872,L873,2,G A
+Coccobius,Enoggera,L872,L873,2,A G
 Coccobius,Enoggera,L872,L872,2,C D
 Coccobius,Enoggera,L81,L81,1,D
 Coccobius,Heydenia,L399,L400,2,G H
@@ -2093,37 +2093,37 @@ Coccophagus,Maudia,L304,L304,1,G
 Coccophagus,Maudia,L439,L440,1,G
 Coccophagus,Megastigmus,L503,L504,1,H
 Coccophagus,Pleistodontes,L249,L250,1,D
-Coccophagus,Pleistodontes,L317,L318,2,D C
-Coccophagus,Pleistodontes,L1009,L1009,2,D C
-Coccophagus,Pleistodontes,L100,L100,2,D C
+Coccophagus,Pleistodontes,L317,L318,2,C D
+Coccophagus,Pleistodontes,L1009,L1009,2,C D
+Coccophagus,Pleistodontes,L100,L100,2,C D
 Coccophagus,Pleistodontes,L249,L249,1,D
 Coccophagus,Pleistodontes,L318,L318,1,D
-Coccophagus,Pleistodontes,L765,L765,2,G A
+Coccophagus,Pleistodontes,L765,L765,2,A G
 Coccophagus,Psilochalcis,L379,L379,1,G
 Coccophagus,Sycophaga,L1017,L1018,1,A
-Coccophagus,Sycophaga,L181,L182,2,D C
+Coccophagus,Sycophaga,L181,L182,2,C D
 Coccophagus,Sycophaga,L180,L181,1,G
 Coccophagus,Sycophaga,L507,L508,1,A
-Coccophagus,Sycophaga,L78,L79,2,G A
+Coccophagus,Sycophaga,L78,L79,2,A G
 Coccophagus,Sycophaga,L79,L80,1,A
-Coccophagus,Sycophaga,L846,L847,2,D C
+Coccophagus,Sycophaga,L846,L847,2,C D
 Coccophagus,Sycophaga,L870,L871,1,G
 Coccophagus,Sycophaga,L922,L923,1,D
 Coccophagus,Sycophaga,L1017,L1017,2,A G
-Coccophagus,Sycophaga,L1030,L1030,2,D C
-Coccophagus,Sycophaga,L181,L181,2,D C
-Coccophagus,Sycophaga,L283,L283,2,D C
-Coccophagus,Sycophaga,L39,L39,2,D C
-Coccophagus,Sycophaga,L507,L507,2,D C
-Coccophagus,Sycophaga,L79,L79,2,G A
-Coccophagus,Sycophaga,L846,L846,2,D C
-Coccophagus,Sycophaga,L871,L871,2,D C
-Coccophagus,Sycophaga,L922,L922,2,D C
+Coccophagus,Sycophaga,L1030,L1030,2,C D
+Coccophagus,Sycophaga,L181,L181,2,C D
+Coccophagus,Sycophaga,L283,L283,2,C D
+Coccophagus,Sycophaga,L39,L39,2,C D
+Coccophagus,Sycophaga,L507,L507,2,C D
+Coccophagus,Sycophaga,L79,L79,2,A G
+Coccophagus,Sycophaga,L846,L846,2,C D
+Coccophagus,Sycophaga,L871,L871,2,C D
+Coccophagus,Sycophaga,L922,L922,2,C D
 Coccophagus,Sycophaga,L574,L575,1,A
 Coccophagus,Sycophaga,L938,L938,1,G
 Coccophagus,Waterstoniella,L828,L829,1,G
 Coccophagus,Waterstoniella,L641,L641,1,D
-Coccophagus,Waterstoniella,L829,L829,2,D C
+Coccophagus,Waterstoniella,L829,L829,2,C D
 Akapala,Coelocyba,L995,L995,1,G
 Coelocyba,Coruna,L359,L362,1,G
 Coelocyba,Eusemion,L1021,L1022,1,G
@@ -2132,10 +2132,10 @@ Coelocyba,Grooca,L363,L363,1,H
 Coelocyba,Grooca,L926,L926,1,A
 Coelocyba,Grooca,L47,L48,1,G
 Coelocyba,Lanthanomyia,L1006,L1006,1,G
-Coelocyba,Lanthanomyia,L362,L362,2,H G
+Coelocyba,Lanthanomyia,L362,L362,2,G H
 Coelocyba,Lanthanomyia,L504,L504,1,H
 Coelocyba,Lanthanomyia,L91,L91,1,H
-Coelocyba,Lanthanomyia,L463,L463,2,H G
+Coelocyba,Lanthanomyia,L463,L463,2,G H
 Coelocyba,Lasiochalcidia,L1021,L1022,1,G
 Coelocyba,Lelapsomorpha,L367,L367,1,H
 Coelocyba,Lelapsomorpha,L388,L388,1,G
@@ -2156,7 +2156,7 @@ Coelocyba,Ormyromorpha,L500,L500,2,G H
 Coelocyba,Ormyromorpha,L725,L725,1,G
 Coelocyba,Ormyromorpha,L388,L388,1,G
 Coelocyba,Ormyromorpha,L564,L564,1,H
-Coelocyba,Rivasia,L500,L501,2,H G
+Coelocyba,Rivasia,L500,L501,2,G H
 Coelocyba,Zolotarewskya,L48,L48,1,G
 Coelocyba,Zolotarewskya,L503,L503,1,G
 Colocharis,Neolosbanus,L222,L223,1,G
@@ -2172,7 +2172,7 @@ Colocharis,Orasema,L571,L572,1,H
 Colocharis,Orasema,L446,L446,1,H
 Colocharis,Ormyromorpha,L500,L501,1,G
 Colocharis,Pseudometagea,L305,L306,1,H
-Colocharis,Pseudometagea,L359,L362,2,H G
+Colocharis,Pseudometagea,L359,L362,2,G H
 Colocharis,Pseudometagea,L526,L527,1,G
 Colocharis,Pseudometagea,L580,L581,1,H
 Colocharis,Pseudometagea,L625,L626,1,B
@@ -2208,11 +2208,11 @@ Colocharis,Schizaspidia,L430,L430,1,H
 Colocharis,Schizaspidia,L506,L506,1,G
 Colocharis,Schizaspidia,L549,L549,1,A
 Colocharis,Schizaspidia,L631,L631,1,H
-Colocharis,Schizaspidia,L751,L751,2,H G
+Colocharis,Schizaspidia,L751,L751,2,G H
 Colocharis,Schizaspidia,L817,L817,1,G
 Colocharis,Timioderus,L421,L422,1,G
 Colotrechnus,Coruna,L359,L362,1,H
-Colotrechnus,nr Bofuria,L568,L568,2,H G
+Colotrechnus,nr Bofuria,L568,L568,2,G H
 Colotrechnus,nr Bofuria,L567,L568,1,G
 Colotrechnus,Orasema,L790,L791,1,G
 Colotrechnus,Orasema,L185,L185,1,G
@@ -2224,7 +2224,7 @@ Colotrechnus,Trisecodes,L46,L46,1,G
 Conura,Epitranus,L500,L501,1,H
 Conura,Idioporus,L725,L726,1,H
 Conura,Melanosmicra,L359,L362,2,A G
-Conura,Melanosmicra,L510,L511,2,H A
+Conura,Melanosmicra,L510,L511,2,A H
 Conura,Melanosmicra,L616,L617,1,A
 Conura,Melanosmicra,L359,L359,1,H
 Conura,Melanosmicra,L511,L511,2,A G
@@ -2291,10 +2291,10 @@ Cyrtogaster,Diconocara,L951,L951,1,H
 Cyrtogaster,Diconocara,L356,L357,1,H
 Cyrtogaster,Diconocara,L503,L504,1,G
 Cyrtogaster,Diconocara,L111,L111,1,G
-Cyrtogaster,Diconocara,L482,L482,2,H G
+Cyrtogaster,Diconocara,L482,L482,2,G H
 Cyrtogaster,Diconocara,L504,L504,1,G
 Cyrtogaster,Diconocara,L570,L570,1,H
-Cyrtogaster,Diconocara,L631,L631,2,H G
+Cyrtogaster,Diconocara,L631,L631,2,G H
 Cyrtogaster,Euderomphale,L784,L798,1,G
 Cyrtogaster,Habritys,L46,L47,1,G
 Cyrtogaster,Habritys,L362,L362,1,G
@@ -2316,7 +2316,7 @@ Cyrtogaster,Nodisoplata,L759,L760,1,H
 Cyrtogaster,Nodisoplata,L800,L801,1,G
 Cyrtogaster,Nodisoplata,L941,L942,1,G
 Cyrtogaster,Nodisoplata,L114,L114,1,G
-Cyrtogaster,Nodisoplata,L145,L145,2,H B
+Cyrtogaster,Nodisoplata,L145,L145,2,B H
 Cyrtogaster,Nodisoplata,L285,L285,1,G
 Cyrtogaster,Nodisoplata,L305,L305,1,H
 Cyrtogaster,Nodisoplata,L306,L306,1,G
@@ -2324,7 +2324,7 @@ Cyrtogaster,Nodisoplata,L35,L35,1,H
 Cyrtogaster,Nodisoplata,L4,L4,1,H
 Cyrtogaster,Nodisoplata,L626,L626,2,B G
 Cyrtogaster,Nodisoplata,L800,L800,1,G
-Cyrtogaster,Nodisoplata,L82,L82,2,G B
+Cyrtogaster,Nodisoplata,L82,L82,2,B G
 Cyrtogaster,Nodisoplata,L161,L162,1,B
 Cyrtogaster,Nodisoplata,L284,L284,1,G
 Cyrtogaster,Nodisoplata,L362,L362,1,G
@@ -2344,7 +2344,7 @@ Dasyomphale,Pteromalus,L430,L430,1,G
 Dasyomphale,Rileya,L430,L432,1,G
 Dasyomphale,Trisecodes,L257,L259,1,G
 Dasyomphale,Trisecodes,L770,L771,2,A G
-Dasyomphale,Trisecodes,L885,L885,2,G A
+Dasyomphale,Trisecodes,L885,L885,2,A G
 Dasyomphale,Trisecodes,L892,L892,2,A G
 Dasyomphale,Trisecodes,L906,L906,2,C D
 Dasyomphale,Trisecodes,L637,L638,1,A
@@ -2355,14 +2355,14 @@ Diaspiniphagus,Savzdargia,L241,L242,1,G
 Diaspiniphagus,Umairia,L454,L454,1,G
 Diaziella,Homoporus,L359,L362,1,H
 Diaziella,Pseudometagea,L1011,L1012,2,A G
-Diaziella,Pseudometagea,L132,L133,2,G A
+Diaziella,Pseudometagea,L132,L133,2,A G
 Diaziella,Pseudometagea,L152,L153,1,D
 Diaziella,Pseudometagea,L153,L154,1,A
 Diaziella,Pseudometagea,L182,L183,1,G
 Diaziella,Pseudometagea,L401,L402,1,D
 Diaziella,Pseudometagea,L401,L403,1,A
 Diaziella,Pseudometagea,L417,L418,2,A G
-Diaziella,Pseudometagea,L441,L442,3,D G C
+Diaziella,Pseudometagea,L441,L442,3,C D G
 Diaziella,Pseudometagea,L452,L453,1,D
 Diaziella,Pseudometagea,L451,L453,1,G
 Diaziella,Pseudometagea,L547,L548,2,A G
@@ -2372,40 +2372,40 @@ Diaziella,Pseudometagea,L589,L590,1,A
 Diaziella,Pseudometagea,L605,L606,2,A G
 Diaziella,Pseudometagea,L706,L707,1,D
 Diaziella,Pseudometagea,L707,L708,1,A
-Diaziella,Pseudometagea,L73,L74,2,G A
+Diaziella,Pseudometagea,L73,L74,2,A G
 Diaziella,Pseudometagea,L934,L935,1,D
 Diaziella,Pseudometagea,L1009,L1009,1,D
-Diaziella,Pseudometagea,L1011,L1011,2,D C
+Diaziella,Pseudometagea,L1011,L1011,2,C D
 Diaziella,Pseudometagea,L133,L133,1,D
-Diaziella,Pseudometagea,L139,L139,2,D C
+Diaziella,Pseudometagea,L139,L139,2,C D
 Diaziella,Pseudometagea,L153,L153,1,D
-Diaziella,Pseudometagea,L183,L183,2,D C
-Diaziella,Pseudometagea,L226,L226,2,D C
-Diaziella,Pseudometagea,L289,L289,2,D C
-Diaziella,Pseudometagea,L391,L391,2,D C
-Diaziella,Pseudometagea,L401,L401,2,D C
-Diaziella,Pseudometagea,L417,L417,2,D C
-Diaziella,Pseudometagea,L441,L441,2,D C
-Diaziella,Pseudometagea,L442,L442,2,G A
-Diaziella,Pseudometagea,L453,L453,2,D C
-Diaziella,Pseudometagea,L547,L547,2,D C
-Diaziella,Pseudometagea,L564,L564,2,D C
-Diaziella,Pseudometagea,L586,L586,3,G B A
+Diaziella,Pseudometagea,L183,L183,2,C D
+Diaziella,Pseudometagea,L226,L226,2,C D
+Diaziella,Pseudometagea,L289,L289,2,C D
+Diaziella,Pseudometagea,L391,L391,2,C D
+Diaziella,Pseudometagea,L401,L401,2,C D
+Diaziella,Pseudometagea,L417,L417,2,C D
+Diaziella,Pseudometagea,L441,L441,2,C D
+Diaziella,Pseudometagea,L442,L442,2,A G
+Diaziella,Pseudometagea,L453,L453,2,C D
+Diaziella,Pseudometagea,L547,L547,2,C D
+Diaziella,Pseudometagea,L564,L564,2,C D
+Diaziella,Pseudometagea,L586,L586,3,A B G
 Diaziella,Pseudometagea,L589,L589,2,A G
 Diaziella,Pseudometagea,L707,L707,1,D
-Diaziella,Pseudometagea,L736,L736,2,D C
-Diaziella,Pseudometagea,L74,L74,2,D C
+Diaziella,Pseudometagea,L736,L736,2,C D
+Diaziella,Pseudometagea,L74,L74,2,C D
 Diaziella,Pseudometagea,L765,L765,1,D
 Diaziella,Pseudometagea,L814,L814,1,D
 Diaziella,Pseudometagea,L853,L853,2,A G
-Diaziella,Pseudometagea,L935,L935,2,D C
+Diaziella,Pseudometagea,L935,L935,2,C D
 Diaziella,Pseudometagea,L777,L780,1,A
 Diaziella,Pseudometagea,L1036,L1036,1,A
 Diaziella,Pseudometagea,L777,L777,1,D
 Diaziella,Pteromalus,L567,L568,1,G
 Diaziella,Pteromalus,L337,L337,1,G
 Diaziella,Pteromalus,L568,L568,1,G
-Diaziella,Walkerella,L653,L653,2,G B
+Diaziella,Walkerella,L653,L653,2,B G
 Dibrachys,Habritys,L1021,L1022,1,G
 Dibrachys,Habritys,L1021,L1021,1,G
 Dibrachys,Habritys,L1022,L1022,1,G
@@ -2413,7 +2413,7 @@ Dibrachys,Habritys,L362,L362,1,H
 Dibrachys,Habritys,L570,L570,1,H
 Dibrachys,Habritys,L978,L978,1,H
 Dibrachys,Habritys,L388,L388,1,G
-Dibrachys,Homoporus,L47,L48,2,H G
+Dibrachys,Homoporus,L47,L48,2,G H
 Dibrachys,Homoporus,L427,L427,1,G
 Dibrachys,Homoporus,L48,L48,1,G
 Dibrachys,Homoporus,L1021,L1022,1,H
@@ -2485,7 +2485,7 @@ Dipara,Lanthanomyia,L432,L432,1,H
 Dipara,Macromesus,L397,L397,1,G
 Dipara,Macromesus,L995,L995,1,G
 Dipara,Nepistenia,L420,L420,1,G
-Dipara,Notanisus,L399,L400,2,H G
+Dipara,Notanisus,L399,L400,2,G H
 Dipara,Notanisus,L400,L400,1,G
 Dipara,Notanisus,L48,L48,1,G
 Dipara,Ormocerus,L359,L359,1,G
@@ -2512,9 +2512,9 @@ Dirhinus,Parepistenia,L1021,L1021,1,G
 Dirhinus,Parepistenia,L362,L362,1,G
 Dirhinus,Tetramesa,L741,L899,1,G
 Dirphys,Encarsia,L168,L169,2,B G
-Dirphys,Encarsia,L296,L297,2,H G
+Dirphys,Encarsia,L296,L297,2,G H
 Dirphys,Encarsia,L619,L620,1,G
-Dirphys,Encarsia,L855,L856,2,G A
+Dirphys,Encarsia,L855,L856,2,A G
 Dirphys,Encarsia,L857,L858,2,A G
 Dirphys,Encarsia,L127,L127,2,C D
 Dirphys,Encarsia,L374,L374,1,G
@@ -2538,7 +2538,7 @@ Ditropinotella,Lanthanomyia,L241,L242,1,G
 Ditropinotella,Melanosmicra,L399,L400,1,G
 Ditropinotella,Metapelma,L223,L223,1,H
 Ditropinotella,Metapelma,L439,L440,1,G
-Ditropinotella,Neorileya,L438,L438,2,D C
+Ditropinotella,Neorileya,L438,L438,2,C D
 Ditropinotella,Omphalodipara,L421,L422,1,G
 Ditropinotella,Proshizonotus,L112,L112,1,G
 Ditropinotella,Rivasia,L978,L979,1,G
@@ -2598,7 +2598,7 @@ Elachertus,Sympiesis,L560,L560,1,G
 Elachertus,Sympiesis,L739,L739,1,G
 Elachertus,Sympiesis,L912,L912,1,G
 Buresium,Elasmus,L173,L699,1,H
-Elasmus,Hemiptarsenus,L399,L400,2,H G
+Elasmus,Hemiptarsenus,L399,L400,2,G H
 Elasmus,Hemiptarsenus,L243,L243,1,G
 Elasmus,Hemiptarsenus,L362,L362,1,G
 Elasmus,Hemiptarsenus,L501,L501,1,G
@@ -2632,7 +2632,7 @@ Brachymeria,Elatoides,L432,L432,1,G
 Clytina,Elatoides,L112,L713,1,G
 Cyrtogaster,Elatoides,L503,L504,1,G
 Elatoides,Encarsia,L356,L357,1,D
-Elatoides,Encarsia,L357,L357,2,D C
+Elatoides,Encarsia,L357,L357,2,C D
 Elatoides,Ericydnus,L926,L926,1,G
 Elatoides,Euryischomyia,L399,L400,1,G
 Elatoides,Hemiptarsenus,L1047,L1048,1,A
@@ -2645,7 +2645,7 @@ Elatoides,Megastigmus,L420,L422,1,G
 Elatoides,Megastigmus,L420,L420,1,G
 Elatoides,Nepistenia,L523,L524,1,A
 Elatoides,Nepistenia,L392,L392,1,H
-Elatoides,Nepistenia,L523,L523,2,D C
+Elatoides,Nepistenia,L523,L523,2,C D
 Elatoides,Ormyromorpha,L503,L504,1,G
 Elatoides,Solenura,L400,L400,1,G
 Elatoides,Spalangiopelta,L112,L112,1,G
@@ -2658,23 +2658,23 @@ Coccophagus,Encarsia,L47,L47,1,H
 Encarsia,Enoggera,L35,L36,1,B
 Encarsia,Erixestus,L782,L782,1,D
 Encarsia,Euryischomyia,L759,L760,1,G
-Encarsia,Keirana,L220,L220,2,D C
-Encarsia,Keirana,L626,L626,2,D C
+Encarsia,Keirana,L220,L220,2,C D
+Encarsia,Keirana,L626,L626,2,C D
 Encarsia,Masneroma,L392,L392,1,H
-Encarsia,Merostenus,L502,L502,2,G A
+Encarsia,Merostenus,L502,L502,2,A G
 Encarsia,Neochrysocharis,L64,L64,2,C D
 Encarsia,Neochrysocharis,L63,L64,1,G
 Encarsia,Neochrysocharis,L64,L65,1,A
 Encarsia,Rivasia,L173,L174,1,G
 Encarsia,Rivasia,L174,L834,1,A
-Encarsia,Rivasia,L174,L174,2,D C
+Encarsia,Rivasia,L174,L174,2,C D
 Encarsia,Rotoita,L749,L750,2,A G
 Encarsia,Rotoita,L326,L326,2,C D
 Encarsia,Rotoita,L750,L750,2,C D
 Encarsia,Spalangiopelta,L589,L590,1,D
 Encarsia,Spalangiopelta,L369,L369,2,C D
 Encarsia,Spalangiopelta,L589,L589,1,D
-Encarsia,Spalangiopelta,L595,L595,2,G A
+Encarsia,Spalangiopelta,L595,L595,2,A G
 Encarsia,Spalangiopelta,L646,L646,1,D
 Encarsia,Spalangiopelta,L93,L93,1,B
 Encarsia,Spalangiopelta,L925,L925,2,A G
@@ -2686,12 +2686,12 @@ Encarsia,Zaischnopsis,L256,L53,1,H
 Chalcedectus,Encyrtocephalus,L503,L504,1,G
 Encyrtocephalus,Metapelma,L134,L53,1,G
 Encyrtocephalus,Metapelma,L795,L796,1,H
-Encyrtocephalus,Nepistenia,L596,L596,2,D C
+Encyrtocephalus,Nepistenia,L596,L596,2,C D
 Encyrtocephalus,Platykula,L795,L796,1,G
 Encyrtocephalus,Rileya,L992,L993,2,A G
 Encyrtocephalus,Rileya,L991,L992,1,G
 Encyrtocephalus,Rileya,L364,L364,1,G
-Encyrtocephalus,Rileya,L992,L992,2,D C
+Encyrtocephalus,Rileya,L992,L992,2,C D
 Coruna,Endobia,L359,L362,1,G
 Endobia,Euryischomyia,L388,L389,1,G
 Endobia,Eurytoma,L756,L757,2,A H
@@ -2732,13 +2732,13 @@ Eopelma,Lelaps,L112,L713,2,G H
 Eopelma,Liepara,L339,L339,1,H
 Eopelma,Liepara,L920,L920,1,G
 Eopelma,Omphalodipara,L421,L421,1,G
-Eopelma,Propalachia,L734,L734,2,H G
+Eopelma,Propalachia,L734,L734,2,G H
 Eopelma,Scutellista,L460,L460,1,D
 Australosema,Epiclerus,L188,L188,1,G
 Epiclerus,Monacon,L67,L68,1,G
 Epiclerus,Monacon,L68,L68,1,G
-Epiclerus,Monacon,L384,L385,2,H G
-Epiclerus,Monacon,L384,L384,2,H G
+Epiclerus,Monacon,L384,L385,2,G H
+Epiclerus,Monacon,L384,L384,2,G H
 Epiclerus,Orasema,L188,L189,1,G
 Epiclerus,Orasema,L269,L270,1,G
 Epiclerus,Orasema,L549,L550,1,G
@@ -2752,9 +2752,9 @@ Epiclerus,Steffanolampus,L67,L68,1,G
 Epiclerus,Tetracampe,L739,L740,1,G
 Epiclerus,Tetracampe,L848,L849,1,H
 Epiclerus,Tetracampe,L906,L907,1,G
-Epiclerus,Tetracampe,L304,L304,2,H G
+Epiclerus,Tetracampe,L304,L304,2,G H
 Epiclerus,Tetracampe,L338,L338,1,G
-Epiclerus,Tetracampe,L362,L362,2,H G
+Epiclerus,Tetracampe,L362,L362,2,G H
 Epiclerus,Tetracampe,L432,L432,1,G
 Epiclerus,Tetracampe,L540,L540,1,G
 Epiclerus,Tetracampe,L740,L740,1,G
@@ -2763,7 +2763,7 @@ Epiclerus,Tetracampe,L906,L906,1,G
 Epiclerus,Tetracampe,L920,L920,2,G H
 Epiclerus,Tetracampe,L820,L821,1,B
 Epistenia,Neapterolelaps,L337,L337,1,G
-Epistenia,Nepistenia,L423,L424,2,H G
+Epistenia,Nepistenia,L423,L424,2,G H
 Epistenia,Nepistenia,L405,L405,1,G
 Epistenia,Nepistenia,L481,L481,1,H
 Epistenia,Nepistenia,L505,L506,1,G
@@ -2808,7 +2808,7 @@ Cyrtogaster,Eretmocerus,L951,L951,1,G
 Eretmocerus,Exopristoides,L437,L437,1,H
 Eretmocerus,Moranila,L46,L47,1,G
 Eretmocerus,Moranila,L46,L46,1,G
-Eretmocerus,Neolosbanus,L199,L199,2,D C
+Eretmocerus,Neolosbanus,L199,L199,2,C D
 Eretmocerus,Neolosbanus,L535,L535,1,G
 Eretmocerus,Neolosbanus,L199,L200,2,A G
 Eretmocerus,Nodisoplata,L436,L437,1,H
@@ -2934,7 +2934,7 @@ Euderomphale,Orasema,L571,L572,1,H
 Euderomphale,Paratrichogramma,L428,L429,1,D
 Euderomphale,Paratrichogramma,L429,L429,1,D
 Euderomphale,Schizaspidia,L163,L164,1,G
-Euderomphale,Schizaspidia,L214,L215,2,G D
+Euderomphale,Schizaspidia,L214,L215,2,D G
 Euderomphale,Schizaspidia,L381,L382,1,G
 Euderomphale,Schizaspidia,L580,L581,1,G
 Euderomphale,Schizaspidia,L73,L74,1,D
@@ -2949,7 +2949,7 @@ Euderomphale,Schizaspidia,L580,L580,1,G
 Euderomphale,Schizaspidia,L581,L581,1,G
 Euderomphale,Schizaspidia,L812,L812,1,A
 Euderomphale,Torymoides,L487,L488,1,D
-Euderomphale,Torymoides,L487,L487,2,D C
+Euderomphale,Torymoides,L487,L487,2,C D
 Euderomphale,Zagrammosoma,L798,L945,1,G
 Euderomphale,Zaischnopsis,L283,L527,1,H
 Euderomphale,Zaischnopsis,L199,L231,1,H
@@ -2957,23 +2957,23 @@ Euderomphale,Zdenekius,L756,L758,1,D
 Brachyelatus,Euderus,L1021,L1021,1,G
 Chromeurytoma,Euderus,L399,L400,1,G
 Euderus,Ophelimus,L500,L501,1,H
-Eunotiscus,Macromesus,L185,L186,2,D C
+Eunotiscus,Macromesus,L185,L186,2,C D
 Eunotiscus,Macromesus,L450,L451,1,D
 Eunotiscus,Macromesus,L542,L543,1,D
-Eunotiscus,Macromesus,L596,L597,2,G A
+Eunotiscus,Macromesus,L596,L597,2,A G
 Eunotiscus,Macromesus,L1001,L1001,1,D
-Eunotiscus,Macromesus,L110,L110,2,G A
-Eunotiscus,Macromesus,L183,L183,2,D C
+Eunotiscus,Macromesus,L110,L110,2,A G
+Eunotiscus,Macromesus,L183,L183,2,C D
 Eunotiscus,Macromesus,L185,L185,1,G
 Eunotiscus,Macromesus,L297,L297,1,D
 Eunotiscus,Macromesus,L450,L450,1,D
 Eunotiscus,Macromesus,L482,L482,1,D
 Eunotiscus,Macromesus,L542,L542,1,D
 Eunotiscus,Macromesus,L597,L597,1,D
-Eunotiscus,Macromesus,L639,L639,2,D C
+Eunotiscus,Macromesus,L639,L639,2,C D
 Eunotiscus,Macromesus,L652,L652,1,G
 Eunotiscus,Macromesus,L818,L818,1,G
-Eunotiscus,Macromesus,L953,L953,2,G A
+Eunotiscus,Macromesus,L953,L953,2,A G
 Eunotiscus,Macromesus,L184,L185,1,G
 Eunotiscus,Marietta,L1021,L1021,2,G H
 Eunotiscus,Myiocnema,L821,L822,1,G
@@ -3027,7 +3027,7 @@ Euperilampus,Steffanolampus,L388,L388,1,G
 Euperilampus,Steffanolampus,L461,L461,1,H
 Euperilampus,Steffanolampus,L554,L554,1,G
 Euperilampus,Steffanolampus,L589,L589,1,G
-Euperilampus,Steffanolampus,L63,L63,2,H G
+Euperilampus,Steffanolampus,L63,L63,2,G H
 Euperilampus,Steffanolampus,L911,L911,1,G
 Euryischia,Euryischomyia,L388,L389,1,B
 Euryischia,Euryischomyia,L500,L501,1,G
@@ -3051,7 +3051,7 @@ Euryischia,Euryischomyia,L924,L924,1,H
 Euryischia,Idarnotorymus,L264,L264,1,G
 Euryischia,Lelaps,L112,L713,1,G
 Euryischia,Myiocnema,L314,L314,1,H
-Euryischia,Myiocnema,L495,L495,2,G B
+Euryischia,Myiocnema,L495,L495,2,B G
 Euryischia,Myiocnema,L553,L553,1,H
 Euryischia,Myiocnema,L937,L937,1,G
 Euryischia,Myiocnema,L388,L389,1,H
@@ -3075,7 +3075,7 @@ Euryischomyia,Lanthanomyia,L2,L3,1,G
 Euryischomyia,Lanthanomyia,L388,L389,1,G
 Euryischomyia,Lanthanomyia,L501,L501,1,G
 Euryischomyia,Myiocnema,L243,L244,1,G
-Euryischomyia,Myiocnema,L505,L506,2,G A
+Euryischomyia,Myiocnema,L505,L506,2,A G
 Euryischomyia,Myiocnema,L510,L511,1,A
 Euryischomyia,Myiocnema,L576,L577,1,A
 Euryischomyia,Myiocnema,L741,L742,1,G
@@ -3085,21 +3085,21 @@ Euryischomyia,Myiocnema,L369,L369,1,H
 Euryischomyia,Myiocnema,L394,L394,1,G
 Euryischomyia,Myiocnema,L3,L3,1,G
 Euryischomyia,Myiocnema,L502,L502,1,G
-Euryischomyia,Myiocnema,L511,L511,2,G B
+Euryischomyia,Myiocnema,L511,L511,2,B G
 Euryischomyia,Myiocnema,L576,L576,1,D
 Euryischomyia,Myiocnema,L739,L739,1,G
-Euryischomyia,Myiocnema,L742,L742,2,G A
+Euryischomyia,Myiocnema,L742,L742,2,A G
 Euryischomyia,Myiocnema,L768,L768,1,G
 Euryischomyia,Myiocnema,L338,L339,1,H
 Euryischomyia,Myiocnema,L501,L502,1,G
 Euryischomyia,Myiocnema,L502,L503,1,G
 Euryischomyia,Myiocnema,L709,L710,1,H
-Euryischomyia,Myiocnema,L927,L928,2,H G
+Euryischomyia,Myiocnema,L927,L928,2,G H
 Euryischomyia,Myiocnema,L284,L284,1,H
 Euryischomyia,Myiocnema,L315,L315,1,G
 Euryischomyia,Myiocnema,L505,L505,1,G
 Euryischomyia,Myiocnema,L623,L623,1,G
-Euryischomyia,Myiocnema,L928,L928,2,H G
+Euryischomyia,Myiocnema,L928,L928,2,G H
 Euryischomyia,Myiocnema,L995,L995,1,G
 Euryischomyia,Ormyrus,L1,L1,1,G
 Euryischomyia,Platykula,L239,L239,1,G
@@ -3129,60 +3129,60 @@ Eusandalum,Parepistenia,L253,L253,1,H
 Eusandalum,Plutothrix,L500,L501,1,G
 Eusandalum,Proshizonotus,L362,L362,1,G
 Eusandalum,Rileya,L46,L47,2,A G
-Eusemion,Lasiochalcidia,L271,L272,2,G A
+Eusemion,Lasiochalcidia,L271,L272,2,A G
 Eusemion,Lasiochalcidia,L227,L227,1,D
 Eusemion,Lasiochalcidia,L254,L254,2,G H
-Eusemion,Lasiochalcidia,L272,L272,2,D C
-Eusemion,Lasiochalcidia,L289,L289,2,D C
+Eusemion,Lasiochalcidia,L272,L272,2,C D
+Eusemion,Lasiochalcidia,L289,L289,2,C D
 Eusemion,Lasiochalcidia,L798,L798,1,D
 Eusemion,Lasiochalcidia,L853,L853,1,D
-Eusemion,Lasiochalcidia,L254,L255,3,H A G
-Eusemion,Lasiochalcidia,L421,L422,2,G A
+Eusemion,Lasiochalcidia,L254,L255,3,A G H
+Eusemion,Lasiochalcidia,L421,L422,2,A G
 Eusemion,Lasiochalcidia,L666,L667,1,A
-Eusemion,Lasiochalcidia,L744,L745,2,G A
+Eusemion,Lasiochalcidia,L744,L745,2,A G
 Eusemion,Lasiochalcidia,L80,L81,1,A
-Eusemion,Lasiochalcidia,L226,L226,2,G A
-Eusemion,Lasiochalcidia,L422,L422,2,D C
+Eusemion,Lasiochalcidia,L226,L226,2,A G
+Eusemion,Lasiochalcidia,L422,L422,2,C D
 Eusemion,Lasiochalcidia,L745,L745,1,G
 Eusemion,Lasiochalcidia,L846,L847,1,H
 Eusemion,Lasiochalcidia,L116,L116,1,G
-Eusemion,Psilochalcis,L1021,L1022,2,G A
+Eusemion,Psilochalcis,L1021,L1022,2,A G
 Eusemion,Psilochalcis,L226,L227,1,A
 Eusemion,Psilochalcis,L284,L285,1,G
-Eusemion,Psilochalcis,L2,L3,2,G A
+Eusemion,Psilochalcis,L2,L3,2,A G
 Eusemion,Psilochalcis,L414,L415,2,A G
 Eusemion,Psilochalcis,L441,L442,2,A G
 Eusemion,Psilochalcis,L547,L548,1,G
 Eusemion,Psilochalcis,L80,L81,1,A
-Eusemion,Psilochalcis,L857,L858,2,G A
+Eusemion,Psilochalcis,L857,L858,2,A G
 Eusemion,Psilochalcis,L90,L91,1,A
 Eusemion,Psilochalcis,L961,L962,1,A
-Eusemion,Psilochalcis,L960,L961,2,G A
-Eusemion,Psilochalcis,L969,L970,2,G A
-Eusemion,Psilochalcis,L1003,L1003,2,D C
-Eusemion,Psilochalcis,L1022,L1022,2,D C
-Eusemion,Psilochalcis,L149,L149,2,D C
+Eusemion,Psilochalcis,L960,L961,2,A G
+Eusemion,Psilochalcis,L969,L970,2,A G
+Eusemion,Psilochalcis,L1003,L1003,2,C D
+Eusemion,Psilochalcis,L1022,L1022,2,C D
+Eusemion,Psilochalcis,L149,L149,2,C D
 Eusemion,Psilochalcis,L285,L285,1,D
-Eusemion,Psilochalcis,L339,L339,2,D C
-Eusemion,Psilochalcis,L414,L414,2,D C
-Eusemion,Psilochalcis,L43,L43,2,D C
-Eusemion,Psilochalcis,L441,L441,2,D C
-Eusemion,Psilochalcis,L548,L548,2,D C
-Eusemion,Psilochalcis,L666,L666,2,D C
-Eusemion,Psilochalcis,L847,L847,2,D C
-Eusemion,Psilochalcis,L858,L858,2,D C
-Eusemion,Psilochalcis,L961,L961,2,D C
-Eusemion,Psilochalcis,L970,L970,2,D C
-Eusemion,Psilochalcis,L996,L996,2,D C
+Eusemion,Psilochalcis,L339,L339,2,C D
+Eusemion,Psilochalcis,L414,L414,2,C D
+Eusemion,Psilochalcis,L43,L43,2,C D
+Eusemion,Psilochalcis,L441,L441,2,C D
+Eusemion,Psilochalcis,L548,L548,2,C D
+Eusemion,Psilochalcis,L666,L666,2,C D
+Eusemion,Psilochalcis,L847,L847,2,C D
+Eusemion,Psilochalcis,L858,L858,2,C D
+Eusemion,Psilochalcis,L961,L961,2,C D
+Eusemion,Psilochalcis,L970,L970,2,C D
+Eusemion,Psilochalcis,L996,L996,2,C D
 Eusemion,Psilochalcis,L99,L99,1,D
 Eusemion,Psilochalcis,L115,L116,1,G
 Eusemion,Psilochalcis,L421,L422,1,G
 Eusemion,Psilochalcis,L89,L90,1,G
-Eusemion,Psilochalcis,L116,L116,2,D C
-Eusemion,Psilochalcis,L267,L267,2,D C
+Eusemion,Psilochalcis,L116,L116,2,C D
+Eusemion,Psilochalcis,L267,L267,2,C D
 Eusemion,Psilochalcis,L305,L305,1,G
 Eusemion,Psilochalcis,L782,L782,1,G
-Eusemion,Psilochalcis,L80,L80,2,D C
+Eusemion,Psilochalcis,L80,L80,2,C D
 Eusemion,Psilochalcis,L254,L254,1,G
 Eusemion,Psilochalcis,L422,L422,1,G
 Eusemion,Rivasia,L1021,L1022,1,G
@@ -3239,8 +3239,8 @@ Eutrichosomella,Heydenia,L914,L916,1,G
 Eutrichosomella,Lelaps,L112,L713,1,G
 Eutrichosomella,Mesopeltita,L590,L591,1,D
 Eutrichosomella,Mesopeltita,L589,L590,1,D
-Eutrichosomella,Mesopeltita,L388,L388,2,D C
-Eutrichosomella,Mesopeltita,L590,L590,2,D C
+Eutrichosomella,Mesopeltita,L388,L388,2,C D
+Eutrichosomella,Mesopeltita,L590,L590,2,C D
 Eutrichosomella,Platykula,L922,L923,1,G
 Eutrichosomella,Platykula,L923,L924,1,A
 Eutrichosomella,Platykula,L923,L923,1,D
@@ -3291,7 +3291,7 @@ Exopristoides,Rileya,L909,L909,1,H
 Exopristoides,Rivasia,L338,L338,1,B
 Exopristoides,Rivasia,L502,L502,1,G
 Exopristoides,Solenura,L111,L111,1,G
-Exopristoides,Torymus,L565,L566,2,H G
+Exopristoides,Torymus,L565,L566,2,G H
 Exopristoides,Torymus,L392,L392,1,G
 Exopristoides,Torymus,L654,L654,1,G
 Exopristoides,Torymus,L810,L811,1,G
@@ -3306,10 +3306,10 @@ Foersterella,Tetracampe,L586,L587,1,A
 Foersterella,Tetracampe,L657,L658,1,A
 Foersterella,Tetracampe,L745,L746,1,G
 Foersterella,Tetracampe,L960,L962,1,A
-Foersterella,Tetracampe,L232,L232,2,G B
-Foersterella,Tetracampe,L316,L316,2,H G
+Foersterella,Tetracampe,L232,L232,2,B G
+Foersterella,Tetracampe,L316,L316,2,G H
 Foersterella,Tetracampe,L576,L576,1,H
-Foersterella,Tetracampe,L726,L726,2,G B
+Foersterella,Tetracampe,L726,L726,2,B G
 Foersterella,Tetracampe,L746,L746,1,G
 Foersterella,Tetracampe,L896,L896,1,H
 Foersterella,Tetracampe,L932,L932,1,H
@@ -3320,14 +3320,14 @@ Gastrancistrus,Premiscogaster,L915,L917,1,G
 Gastrancistrus,Premiscogaster,L916,L917,1,G
 Gastrancistrus,Premiscogaster,L97,L98,1,A
 Gastrancistrus,Premiscogaster,L112,L112,1,G
-Gastrancistrus,Premiscogaster,L176,L176,2,G B
+Gastrancistrus,Premiscogaster,L176,L176,2,B G
 Gastrancistrus,Premiscogaster,L464,L464,2,B G
 Gastrancistrus,Premiscogaster,L541,L541,1,G
 Gastrancistrus,Premiscogaster,L776,L776,1,H
 Gastrancistrus,Premiscogaster,L804,L804,1,G
 Gastrancistrus,Premiscogaster,L899,L899,1,G
 Gastrancistrus,Premiscogaster,L920,L920,1,G
-Gastrancistrus,Premiscogaster,L952,L952,2,G B
+Gastrancistrus,Premiscogaster,L952,L952,2,B G
 Gastrancistrus,Premiscogaster,L960,L960,1,H
 Gastrancistrus,Premiscogaster,L680,L681,1,G
 Gastrancistrus,Premiscogaster,L829,L830,1,A
@@ -3409,7 +3409,7 @@ Grooca,Solenura,L25,L25,1,G
 Grooca,Solenura,L261,L261,1,C
 Grooca,Solenura,L262,L262,1,A
 Grooca,Solenura,L285,L285,1,G
-Grooca,Solenura,L303,L303,2,G A
+Grooca,Solenura,L303,L303,2,A G
 Grooca,Solenura,L337,L337,1,G
 Grooca,Solenura,L423,L423,1,G
 Grooca,Solenura,L436,L436,1,G
@@ -3430,12 +3430,12 @@ Grooca,Solenura,L985,L985,2,C G
 Grooca,Solenura,L987,L987,1,H
 Grooca,Walkerella,L46,L47,1,G
 Enoggera,Habritys,L756,L758,1,H
-Habritys,Homoporus,L1021,L1022,2,H G
+Habritys,Homoporus,L1021,L1022,2,G H
 Habritys,Homoporus,L338,L339,1,H
 Habritys,Homoporus,L363,L364,1,A
 Habritys,Homoporus,L537,L539,1,A
-Habritys,Homoporus,L925,L926,2,H G
-Habritys,Homoporus,L1022,L1022,2,H G
+Habritys,Homoporus,L925,L926,2,G H
+Habritys,Homoporus,L1022,L1022,2,G H
 Habritys,Homoporus,L346,L346,1,H
 Habritys,Homoporus,L363,L363,1,G
 Habritys,Homoporus,L369,L369,1,H
@@ -3466,7 +3466,7 @@ Haltichella,Hockeria,L268,L269,1,G
 Haltichella,Hockeria,L388,L389,1,G
 Haltichella,Hockeria,L702,L703,1,H
 Haltichella,Hockeria,L363,L363,1,G
-Haltichella,Hockeria,L535,L535,2,H G
+Haltichella,Hockeria,L535,L535,2,G H
 Haltichella,Hockeria,L546,L546,1,G
 Haltichella,Hockeria,L59,L59,1,H
 Haltichella,Hockeria,L702,L702,1,H
@@ -3527,20 +3527,20 @@ Heimbra,Krombeinius,L119,L119,2,C D
 Heimbra,Krombeinius,L553,L553,2,C D
 Heimbra,Krombeinius,L591,L591,2,A G
 Heimbra,Krombeinius,L724,L724,2,C D
-Heimbra,Krombeinius,L798,L798,2,B A
+Heimbra,Krombeinius,L798,L798,2,A B
 Heimbra,Krombeinius,L119,L120,1,A
 Heimbra,Lasiochalcidia,L239,L240,1,G
 Heimbra,Nepistenia,L552,L552,1,G
 Heimbra,Nepistenia,L710,L710,1,H
 Heimbra,Odontofroggatia,L304,L304,1,G
 Hemiptarsenus,Peckianus,L1047,L1048,2,A G
-Hemiptarsenus,Peckianus,L212,L213,2,G A
-Hemiptarsenus,Peckianus,L300,L301,2,G A
+Hemiptarsenus,Peckianus,L212,L213,2,A G
+Hemiptarsenus,Peckianus,L300,L301,2,A G
 Hemiptarsenus,Peckianus,L493,L494,2,A G
-Hemiptarsenus,Peckianus,L664,L665,2,G A
-Hemiptarsenus,Peckianus,L912,L913,2,G A
+Hemiptarsenus,Peckianus,L664,L665,2,A G
+Hemiptarsenus,Peckianus,L912,L913,2,A G
 Hemiptarsenus,Peckianus,L978,L980,2,A G
-Hemiptarsenus,Peckianus,L1042,L1042,3,G H B
+Hemiptarsenus,Peckianus,L1042,L1042,3,B G H
 Hemiptarsenus,Peckianus,L1048,L1048,2,C D
 Hemiptarsenus,Peckianus,L1049,L1049,2,C D
 Hemiptarsenus,Peckianus,L141,L141,2,C D
@@ -3549,10 +3549,10 @@ Hemiptarsenus,Peckianus,L248,L248,2,C D
 Hemiptarsenus,Peckianus,L257,L257,2,C D
 Hemiptarsenus,Peckianus,L283,L283,2,C D
 Hemiptarsenus,Peckianus,L301,L301,2,C D
-Hemiptarsenus,Peckianus,L435,L435,2,G A
+Hemiptarsenus,Peckianus,L435,L435,2,A G
 Hemiptarsenus,Peckianus,L460,L460,1,G
 Hemiptarsenus,Peckianus,L494,L494,2,C D
-Hemiptarsenus,Peckianus,L534,L534,2,D C
+Hemiptarsenus,Peckianus,L534,L534,2,C D
 Hemiptarsenus,Peckianus,L545,L545,2,B G
 Hemiptarsenus,Peckianus,L673,L673,2,C D
 Hemiptarsenus,Peckianus,L69,L69,2,A G
@@ -3624,7 +3624,7 @@ Hemiptarsenus,Pnigalio,L621,L621,1,G
 Hemiptarsenus,Pnigalio,L682,L682,1,H
 Hemiptarsenus,Pnigalio,L740,L740,1,H
 Hemiptarsenus,Pnigalio,L741,L741,1,G
-Hemiptarsenus,Pnigalio,L74,L74,2,G B
+Hemiptarsenus,Pnigalio,L74,L74,2,B G
 Hemiptarsenus,Pnigalio,L820,L820,1,H
 Hemiptarsenus,Pnigalio,L821,L821,2,B G
 Hemiptarsenus,Pnigalio,L502,L503,1,A
@@ -3687,8 +3687,8 @@ Hetreulophus,Omphalodipara,L244,L244,1,H
 Hetreulophus,Omphalodipara,L245,L245,1,G
 Hetreulophus,Omphalodipara,L339,L339,1,B
 Hetreulophus,Omphalodipara,L403,L403,1,G
-Hetreulophus,Omphalodipara,L479,L479,2,G A
-Hetreulophus,Omphalodipara,L482,L482,2,D C
+Hetreulophus,Omphalodipara,L479,L479,2,A G
+Hetreulophus,Omphalodipara,L482,L482,2,C D
 Hetreulophus,Omphalodipara,L557,L557,1,H
 Hetreulophus,Omphalodipara,L678,L678,1,G
 Hetreulophus,Omphalodipara,L760,L760,1,G
@@ -3754,7 +3754,7 @@ Heydenia,Solenura,L13,L13,1,H
 Heydenia,Solenura,L627,L627,1,G
 Heydenia,Walkerella,L46,L47,1,G
 Heydenia,Zeala,L502,L502,1,G
-Hockeria,Neochalcis,L547,L548,2,G A
+Hockeria,Neochalcis,L547,L548,2,A G
 Hockeria,Neochalcis,L63,L64,2,G H
 Hockeria,Neochalcis,L690,L691,1,G
 Hockeria,Neochalcis,L1022,L1022,2,G H
@@ -3772,19 +3772,19 @@ Hockeria,Neochalcis,L34,L35,1,H
 Hockeria,Neochalcis,L386,L387,1,G
 Hockeria,Neochalcis,L421,L422,2,B G
 Hockeria,Neochalcis,L511,L512,1,G
-Hockeria,Neochalcis,L518,L519,2,H G
+Hockeria,Neochalcis,L518,L519,2,G H
 Hockeria,Neochalcis,L565,L566,1,H
 Hockeria,Neochalcis,L566,L567,1,H
 Hockeria,Neochalcis,L578,L579,1,H
 Hockeria,Neochalcis,L608,L609,2,G H
 Hockeria,Neochalcis,L647,L648,1,H
 Hockeria,Neochalcis,L664,L665,1,H
-Hockeria,Neochalcis,L704,L705,2,H G
+Hockeria,Neochalcis,L704,L705,2,G H
 Hockeria,Neochalcis,L719,L720,1,G
-Hockeria,Neochalcis,L72,L73,2,G D
+Hockeria,Neochalcis,L72,L73,2,D G
 Hockeria,Neochalcis,L747,L748,1,H
 Hockeria,Neochalcis,L772,L774,1,G
-Hockeria,Neochalcis,L790,L791,2,H G
+Hockeria,Neochalcis,L790,L791,2,G H
 Hockeria,Neochalcis,L79,L81,1,G
 Hockeria,Neochalcis,L824,L825,1,G
 Hockeria,Neochalcis,L828,L830,1,G
@@ -3888,7 +3888,7 @@ Idarnotorymus,Plutothrix,L397,L397,1,G
 Idarnotorymus,Poropoea,L561,L561,1,D
 Idarnotorymus,Proarescon,L355,L356,1,G
 Idarnotorymus,Proarescon,L354,L356,1,G
-Idarnotorymus,Proarescon,L356,L356,2,G A
+Idarnotorymus,Proarescon,L356,L356,2,A G
 Idarnotorymus,Proarescon,L436,L437,1,G
 Idarnotorymus,Watshamia,L809,L809,1,G
 Enoggera,Idioporus,L346,L346,1,H
@@ -3915,7 +3915,7 @@ Josephiella,Odontofroggatia,L420,L420,1,G
 Josephiella,Odontofroggatia,L501,L501,2,G H
 Josephiella,Odontofroggatia,L629,L629,1,G
 Josephiella,Odontofroggatia,L753,L753,1,G
-Josephiella,Odontofroggatia,L855,L855,2,G B
+Josephiella,Odontofroggatia,L855,L855,2,B G
 Josephiella,Odontofroggatia,L920,L920,1,G
 Josephiella,Odontofroggatia,L938,L938,1,G
 Josephiella,Odontofroggatia,L955,L955,1,G
@@ -3928,7 +3928,7 @@ Kapala,Pseudometagea,L216,L217,1,H
 Kapala,Pseudometagea,L421,L422,1,G
 Kapala,Pseudometagea,L441,L442,1,H
 Kapala,Pseudometagea,L493,L494,2,G H
-Kapala,Pseudometagea,L551,L552,2,H A
+Kapala,Pseudometagea,L551,L552,2,A H
 Kapala,Pseudometagea,L67,L68,1,H
 Kapala,Pseudometagea,L805,L806,1,H
 Kapala,Pseudometagea,L421,L421,1,H
@@ -3942,10 +3942,10 @@ Kapala,Pseudometagea,L1022,L1022,1,G
 Kapala,Pseudometagea,L217,L217,1,H
 Kapala,Pseudometagea,L627,L627,1,G
 Kapala,Schizaspidia,L222,L223,1,H
-Kapala,Schizaspidia,L589,L589,2,G B
+Kapala,Schizaspidia,L589,L589,2,B G
 Kapala,Schizaspidia,L421,L422,1,G
 Kapala,Schizaspidia,L223,L223,1,H
-Kapala,Schizaspidia,L264,L264,3,G B H
+Kapala,Schizaspidia,L264,L264,3,B G H
 Kapala,Schizaspidia,L421,L421,1,G
 Kapala,Schizaspidia,L831,L831,1,H
 Kapala,Schizaspidia,L952,L952,1,H
@@ -3962,7 +3962,7 @@ Grooca,Keirana,L925,L926,1,G
 Habritys,Keirana,L46,L47,1,G
 Habritys,Keirana,L617,L618,1,G
 Hetreulophus,Keirana,L420,L422,1,H
-Hetreulophus,Keirana,L337,L337,1,-1
+Hetreulophus,Keirana,L337,L337,1,OOPS
 Keirana,Lanthanomyia,L47,L48,1,G
 Keirana,Lelaps,L759,L760,1,H
 Keirana,Metapelma,L392,L392,1,G
@@ -4091,28 +4091,28 @@ Lasiochalcidia,Psilochalcis,L47,L48,1,G
 Lasiochalcidia,Psilochalcis,L647,L648,1,G
 Lasiochalcidia,Psilochalcis,L662,L663,2,A G
 Lasiochalcidia,Psilochalcis,L685,L686,1,G
-Lasiochalcidia,Psilochalcis,L701,L702,2,H G
+Lasiochalcidia,Psilochalcis,L701,L702,2,G H
 Lasiochalcidia,Psilochalcis,L719,L720,1,G
 Lasiochalcidia,Psilochalcis,L73,L74,1,G
 Lasiochalcidia,Psilochalcis,L80,L81,1,A
 Lasiochalcidia,Psilochalcis,L849,L850,1,G
 Lasiochalcidia,Psilochalcis,L896,L897,2,A G
 Lasiochalcidia,Psilochalcis,L921,L922,1,A
-Lasiochalcidia,Psilochalcis,L927,L928,2,G A
+Lasiochalcidia,Psilochalcis,L927,L928,2,A G
 Lasiochalcidia,Psilochalcis,L227,L227,1,H
 Lasiochalcidia,Psilochalcis,L231,L231,1,G
 Lasiochalcidia,Psilochalcis,L236,L236,1,G
 Lasiochalcidia,Psilochalcis,L29,L29,1,G
-Lasiochalcidia,Psilochalcis,L304,L304,2,H G
+Lasiochalcidia,Psilochalcis,L304,L304,2,G H
 Lasiochalcidia,Psilochalcis,L370,L370,1,G
 Lasiochalcidia,Psilochalcis,L407,L407,1,G
 Lasiochalcidia,Psilochalcis,L419,L419,1,G
 Lasiochalcidia,Psilochalcis,L420,L420,1,G
 Lasiochalcidia,Psilochalcis,L44,L44,1,G
-Lasiochalcidia,Psilochalcis,L45,L45,2,G B
+Lasiochalcidia,Psilochalcis,L45,L45,2,B G
 Lasiochalcidia,Psilochalcis,L478,L478,1,G
 Lasiochalcidia,Psilochalcis,L47,L47,1,G
-Lasiochalcidia,Psilochalcis,L482,L482,2,G A
+Lasiochalcidia,Psilochalcis,L482,L482,2,A G
 Lasiochalcidia,Psilochalcis,L48,L48,1,G
 Lasiochalcidia,Psilochalcis,L516,L516,2,A G
 Lasiochalcidia,Psilochalcis,L517,L517,1,G
@@ -4122,13 +4122,13 @@ Lasiochalcidia,Psilochalcis,L572,L572,1,G
 Lasiochalcidia,Psilochalcis,L587,L587,1,G
 Lasiochalcidia,Psilochalcis,L595,L595,1,G
 Lasiochalcidia,Psilochalcis,L657,L657,1,G
-Lasiochalcidia,Psilochalcis,L662,L662,2,G A
+Lasiochalcidia,Psilochalcis,L662,L662,2,A G
 Lasiochalcidia,Psilochalcis,L663,L663,1,A
 Lasiochalcidia,Psilochalcis,L664,L664,1,G
 Lasiochalcidia,Psilochalcis,L701,L701,1,H
 Lasiochalcidia,Psilochalcis,L708,L708,1,G
 Lasiochalcidia,Psilochalcis,L768,L768,1,G
-Lasiochalcidia,Psilochalcis,L771,L771,2,G B
+Lasiochalcidia,Psilochalcis,L771,L771,2,B G
 Lasiochalcidia,Psilochalcis,L896,L896,1,G
 Lasiochalcidia,Psilochalcis,L920,L920,1,G
 Lasiochalcidia,Psilochalcis,L951,L951,1,G
@@ -4137,7 +4137,7 @@ Lasiochalcidia,Psilochalcis,L666,L667,1,A
 Lasiochalcidia,Psilochalcis,L763,L764,1,G
 Lasiochalcidia,Psilochalcis,L1042,L1042,1,G
 Leiosema,Orasema,L133,L134,1,H
-Leiosema,Orasema,L222,L223,2,G A
+Leiosema,Orasema,L222,L223,2,A G
 Leiosema,Orasema,L324,L325,1,G
 Leiosema,Orasema,L39,L40,1,H
 Leiosema,Orasema,L437,L438,1,G
@@ -4147,7 +4147,7 @@ Leiosema,Orasema,L75,L76,1,G
 Leiosema,Orasema,L996,L997,1,B
 Leiosema,Orasema,L223,L223,1,G
 Leiosema,Orasema,L324,L324,1,G
-Leiosema,Orasema,L40,L40,2,H G
+Leiosema,Orasema,L40,L40,2,G H
 Leiosema,Orasema,L437,L437,1,G
 Leiosema,Orasema,L611,L611,1,H
 Leiosema,Orasema,L691,L691,2,G H
@@ -4162,12 +4162,12 @@ Leiosema,Psilocharis,L18,L19,1,G
 Leiosema,Psilocharis,L627,L627,1,G
 Leiosema,Timioderus,L421,L422,1,G
 Leiosema,Timioderus,L441,L442,1,D
-Leiosema,Timioderus,L565,L566,2,G A
+Leiosema,Timioderus,L565,L566,2,A G
 Leiosema,Timioderus,L820,L821,1,G
 Leiosema,Timioderus,L971,L972,1,G
 Leiosema,Timioderus,L184,L184,1,G
 Leiosema,Timioderus,L441,L441,1,D
-Leiosema,Timioderus,L524,L524,2,G B
+Leiosema,Timioderus,L524,L524,2,B G
 Leiosema,Timioderus,L694,L694,1,G
 Leiosema,Timioderus,L755,L755,1,G
 Leiosema,Timioderus,L971,L971,1,G
@@ -4210,22 +4210,22 @@ Lelapsomorpha,Ormyromorpha,L709,L710,2,B G
 Lelapsomorpha,Ormyromorpha,L838,L839,1,H
 Lelapsomorpha,Ormyromorpha,L107,L107,1,H
 Lelapsomorpha,Ormyromorpha,L111,L111,2,G H
-Lelapsomorpha,Ormyromorpha,L131,L131,2,G B
+Lelapsomorpha,Ormyromorpha,L131,L131,2,B G
 Lelapsomorpha,Ormyromorpha,L200,L200,1,G
 Lelapsomorpha,Ormyromorpha,L244,L244,1,H
 Lelapsomorpha,Ormyromorpha,L269,L269,1,H
-Lelapsomorpha,Ormyromorpha,L332,L332,2,G B
+Lelapsomorpha,Ormyromorpha,L332,L332,2,B G
 Lelapsomorpha,Ormyromorpha,L347,L347,1,H
 Lelapsomorpha,Ormyromorpha,L348,L348,1,H
 Lelapsomorpha,Ormyromorpha,L419,L419,1,H
 Lelapsomorpha,Ormyromorpha,L421,L421,1,G
 Lelapsomorpha,Ormyromorpha,L422,L422,1,G
-Lelapsomorpha,Ormyromorpha,L440,L440,2,G B
+Lelapsomorpha,Ormyromorpha,L440,L440,2,B G
 Lelapsomorpha,Ormyromorpha,L595,L595,1,G
 Lelapsomorpha,Ormyromorpha,L617,L617,1,H
 Lelapsomorpha,Ormyromorpha,L650,L650,1,G
 Lelapsomorpha,Ormyromorpha,L651,L651,1,B
-Lelapsomorpha,Ormyromorpha,L710,L710,2,G B
+Lelapsomorpha,Ormyromorpha,L710,L710,2,B G
 Lelapsomorpha,Ormyromorpha,L730,L730,1,H
 Lelapsomorpha,Ormyromorpha,L208,L209,1,H
 Lelapsomorpha,Ormyromorpha,L419,L420,1,H
@@ -4253,7 +4253,7 @@ Habritys,Liepara,L46,L47,1,G
 Liepara,Neapterolelaps,L1045,L1046,1,A
 Liepara,Neapterolelaps,L191,L192,1,G
 Liepara,Neapterolelaps,L251,L252,2,A G
-Liepara,Neapterolelaps,L256,L257,2,G A
+Liepara,Neapterolelaps,L256,L257,2,A G
 Liepara,Neapterolelaps,L257,L258,2,A G
 Liepara,Neapterolelaps,L258,L259,1,A
 Liepara,Neapterolelaps,L282,L283,2,A G
@@ -4261,24 +4261,24 @@ Liepara,Neapterolelaps,L380,L381,1,A
 Liepara,Neapterolelaps,L443,L444,1,A
 Liepara,Neapterolelaps,L466,L468,1,G
 Liepara,Neapterolelaps,L862,L863,1,A
-Liepara,Neapterolelaps,L1005,L1005,2,G A
-Liepara,Neapterolelaps,L1042,L1042,2,D C
-Liepara,Neapterolelaps,L1045,L1045,2,D C
-Liepara,Neapterolelaps,L180,L180,2,D C
-Liepara,Neapterolelaps,L192,L192,2,D C
-Liepara,Neapterolelaps,L227,L227,2,D C
-Liepara,Neapterolelaps,L251,L251,2,D C
-Liepara,Neapterolelaps,L257,L257,2,D C
-Liepara,Neapterolelaps,L258,L258,2,D C
-Liepara,Neapterolelaps,L380,L380,2,D C
-Liepara,Neapterolelaps,L401,L401,2,D C
-Liepara,Neapterolelaps,L443,L443,2,D C
-Liepara,Neapterolelaps,L468,L468,2,D C
-Liepara,Neapterolelaps,L548,L548,2,D C
+Liepara,Neapterolelaps,L1005,L1005,2,A G
+Liepara,Neapterolelaps,L1042,L1042,2,C D
+Liepara,Neapterolelaps,L1045,L1045,2,C D
+Liepara,Neapterolelaps,L180,L180,2,C D
+Liepara,Neapterolelaps,L192,L192,2,C D
+Liepara,Neapterolelaps,L227,L227,2,C D
+Liepara,Neapterolelaps,L251,L251,2,C D
+Liepara,Neapterolelaps,L257,L257,2,C D
+Liepara,Neapterolelaps,L258,L258,2,C D
+Liepara,Neapterolelaps,L380,L380,2,C D
+Liepara,Neapterolelaps,L401,L401,2,C D
+Liepara,Neapterolelaps,L443,L443,2,C D
+Liepara,Neapterolelaps,L468,L468,2,C D
+Liepara,Neapterolelaps,L548,L548,2,C D
 Liepara,Neapterolelaps,L714,L714,1,G
-Liepara,Neapterolelaps,L772,L772,2,D C
-Liepara,Neapterolelaps,L862,L862,2,D C
-Liepara,Neapterolelaps,L970,L970,2,D C
+Liepara,Neapterolelaps,L772,L772,2,C D
+Liepara,Neapterolelaps,L862,L862,2,C D
+Liepara,Neapterolelaps,L970,L970,2,C D
 Liepara,Ormyromorpha,L388,L389,1,G
 Liepara,Plutothrix,L46,L46,1,G
 Grooca,Macroglenes,L243,L245,1,G
@@ -4299,7 +4299,7 @@ Macroglenes,Petipirene,L413,L413,1,H
 Macroglenes,Petipirene,L481,L481,1,H
 Macroglenes,Petipirene,L506,L506,1,G
 Macroglenes,Petipirene,L565,L565,1,H
-Macroglenes,Petipirene,L933,L933,2,G B
+Macroglenes,Petipirene,L933,L933,2,B G
 Macroglenes,Petipirene,L10,L11,1,G
 Macroglenes,Petipirene,L239,L240,1,G
 Macroglenes,Petipirene,L385,L387,1,G
@@ -4316,7 +4316,7 @@ Clytina,Macromesus,L112,L713,1,G
 Colotrechnus,Macromesus,L419,L420,1,G
 Cyrtogaster,Macromesus,L399,L400,1,G
 Diconocara,Macromesus,L951,L951,1,G
-Epistenia,Macromesus,L423,L424,2,H G
+Epistenia,Macromesus,L423,L424,2,G H
 Eusandalum,Macromesus,L420,L421,1,G
 Grooca,Macromesus,L137,L139,1,G
 Grooca,Macromesus,L420,L421,1,G
@@ -4380,7 +4380,7 @@ Coruna,Masneroma,L359,L362,1,G
 Cyrtogaster,Masneroma,L338,L339,1,H
 Endobia,Masneroma,L1014,L1015,1,A
 Endobia,Masneroma,L423,L424,1,H
-Endobia,Masneroma,L462,L463,2,H G
+Endobia,Masneroma,L462,L463,2,G H
 Endobia,Masneroma,L571,L572,1,G
 Endobia,Masneroma,L430,L430,1,G
 Endobia,Masneroma,L477,L477,2,G H
@@ -4425,7 +4425,7 @@ Megastigmus,Neomegastigmus,L1017,L1018,1,A
 Megastigmus,Neomegastigmus,L399,L400,2,B G
 Megastigmus,Neomegastigmus,L412,L413,1,G
 Megastigmus,Neomegastigmus,L421,L422,1,G
-Megastigmus,Neomegastigmus,L439,L440,2,G A
+Megastigmus,Neomegastigmus,L439,L440,2,A G
 Megastigmus,Neomegastigmus,L478,L479,1,G
 Megastigmus,Neomegastigmus,L47,L48,1,H
 Megastigmus,Neomegastigmus,L582,L583,2,G H
@@ -4433,13 +4433,13 @@ Megastigmus,Neomegastigmus,L613,L614,1,G
 Megastigmus,Neomegastigmus,L646,L647,1,G
 Megastigmus,Neomegastigmus,L82,L83,1,G
 Megastigmus,Neomegastigmus,L857,L858,1,G
-Megastigmus,Neomegastigmus,L983,L984,3,A H G
+Megastigmus,Neomegastigmus,L983,L984,3,A G H
 Megastigmus,Neomegastigmus,L176,L176,1,A
 Megastigmus,Neomegastigmus,L187,L187,1,G
 Megastigmus,Neomegastigmus,L25,L25,1,D
 Megastigmus,Neomegastigmus,L26,L26,1,G
 Megastigmus,Neomegastigmus,L303,L303,1,G
-Megastigmus,Neomegastigmus,L350,L350,2,G A
+Megastigmus,Neomegastigmus,L350,L350,2,A G
 Megastigmus,Neomegastigmus,L395,L395,1,G
 Megastigmus,Neomegastigmus,L39,L39,2,B G
 Megastigmus,Neomegastigmus,L400,L400,1,B
@@ -4453,8 +4453,8 @@ Megastigmus,Neomegastigmus,L502,L502,1,G
 Megastigmus,Neomegastigmus,L517,L517,1,G
 Megastigmus,Neomegastigmus,L544,L544,1,D
 Megastigmus,Neomegastigmus,L614,L614,1,G
-Megastigmus,Neomegastigmus,L616,L616,2,D C
-Megastigmus,Neomegastigmus,L673,L673,2,D C
+Megastigmus,Neomegastigmus,L616,L616,2,C D
+Megastigmus,Neomegastigmus,L673,L673,2,C D
 Megastigmus,Neomegastigmus,L688,L688,1,G
 Megastigmus,Neomegastigmus,L722,L722,1,H
 Megastigmus,Neomegastigmus,L823,L823,1,D
@@ -4466,7 +4466,7 @@ Megastigmus,Neomegastigmus,L870,L870,1,H
 Megastigmus,Neomegastigmus,L929,L929,1,G
 Megastigmus,Neomegastigmus,L983,L983,1,H
 Megastigmus,Neomegastigmus,L984,L984,2,B G
-Megastigmus,Neomegastigmus,L9,L9,2,D A
+Megastigmus,Neomegastigmus,L9,L9,2,A D
 Megastigmus,Neomegastigmus,L176,L177,1,G
 Megastigmus,Neomegastigmus,L268,L269,1,G
 Megastigmus,Neomegastigmus,L511,L512,1,G
@@ -4506,7 +4506,7 @@ Melanosmicra,Orasema,L205,L206,1,D
 Melanosmicra,Orasema,L206,L207,1,D
 Melanosmicra,Orasema,L638,L639,1,G
 Melanosmicra,Orasema,L639,L640,1,G
-Melanosmicra,Orasema,L206,L206,2,D C
+Melanosmicra,Orasema,L206,L206,2,C D
 Melanosmicra,Orasema,L535,L535,1,G
 Melanosmicra,Orasema,L639,L639,1,G
 Colotrechnus,Merostenus,L1009,L321,1,G
@@ -4552,7 +4552,7 @@ Eusandalum,Metaphycus,L483,L484,1,G
 Habritys,Metaphycus,L199,L200,1,H
 Mayridia,Metaphycus,L503,L504,1,G
 Metaphycus,Psilochalcis,L638,L638,1,D
-Metaphycus,Psilochalcis,L985,L985,2,D C
+Metaphycus,Psilochalcis,L985,L985,2,C D
 Metaphycus,Psilochalcis,L211,L212,1,A
 Afroneodipara,Micradelus,L462,L826,1,H
 Anidarnes,Micradelus,L395,L770,1,B
@@ -4561,7 +4561,7 @@ Conura,Micradelus,L1026,L728,1,G
 Conura,Micradelus,L728,L823,1,G
 Ditropinotella,Micradelus,L156,L70,1,H
 Lasiochalcidia,Micradelus,L823,L995,1,G
-Micradelus,Mymaromma,L144,L94,2,H G
+Micradelus,Mymaromma,L144,L94,2,G H
 Micradelus,Mymaromma,L252,L252,1,G
 Micradelus,Mymaromma,L144,L313,1,G
 Micradelus,Mymaromma,L175,L713,1,H
@@ -4592,7 +4592,7 @@ Macrorileya,Micrapion,L920,L920,1,G
 Melanosmicra,Micrapion,L430,L432,1,G
 Micrapion,Polistomorpha,L709,L710,1,G
 Micrapion,Polistomorpha,L234,L234,1,G
-Micrapion,Polistomorpha,L432,L432,2,G B
+Micrapion,Polistomorpha,L432,L432,2,B G
 Micrapion,Polistomorpha,L709,L709,1,G
 Micrapion,Polistomorpha,L172,L173,1,H
 Micrapion,Polistomorpha,L63,L64,1,G
@@ -4603,7 +4603,7 @@ Micrapion,Polistomorpha,L173,L173,1,H
 Micrapion,Polistomorpha,L64,L64,1,G
 Asparagobius,Microdontomerus,L753,L753,1,G
 Macromesus,Microdontomerus,L1006,L1006,1,G
-Microdontomerus,Neotriadomerus,L423,L424,2,H G
+Microdontomerus,Neotriadomerus,L423,L424,2,G H
 Microdontomerus,Palachia,L821,L822,1,G
 Krombeinius,Monacon,L756,L757,1,G
 Monacon,Perilampus,L526,L527,1,A
@@ -4617,15 +4617,15 @@ Monacon,Steffanolampus,L759,L760,1,G
 Monacon,Steffanolampus,L1008,L1008,1,H
 Monacon,Steffanolampus,L112,L112,1,B
 Monacon,Steffanolampus,L221,L221,1,B
-Monacon,Steffanolampus,L461,L461,2,H G
+Monacon,Steffanolampus,L461,L461,2,G H
 Monacon,Steffanolampus,L476,L476,1,G
 Monacon,Steffanolampus,L578,L578,1,G
 Monacon,Steffanolampus,L64,L64,1,G
 Monacon,Steffanolampus,L713,L713,1,G
 Monacon,Steffanolampus,L756,L756,1,G
 Monacon,Steffanolampus,L794,L794,1,H
-Monacon,Steffanolampus,L867,L867,2,H G
-Monacon,Steffanolampus,L892,L892,2,D C
+Monacon,Steffanolampus,L867,L867,2,G H
+Monacon,Steffanolampus,L892,L892,2,C D
 Monacon,Steffanolampus,L444,L446,1,G
 Ditropinotella,Mongolocampe,L504,L504,1,G
 Heimbra,Mongolocampe,L391,L898,1,G
@@ -4659,10 +4659,10 @@ Moranila,Ophelosia,L24,L25,1,G
 Moranila,Ophelosia,L25,L26,1,B
 Moranila,Ophelosia,L269,L270,2,G H
 Moranila,Ophelosia,L542,L543,1,H
-Moranila,Ophelosia,L1012,L1012,2,G B
+Moranila,Ophelosia,L1012,L1012,2,B G
 Moranila,Ophelosia,L112,L112,1,G
 Moranila,Ophelosia,L24,L24,1,G
-Moranila,Ophelosia,L25,L25,2,G B
+Moranila,Ophelosia,L25,L25,2,B G
 Moranila,Ophelosia,L264,L264,1,G
 Moranila,Ophelosia,L269,L269,1,G
 Moranila,Ophelosia,L285,L285,2,G H
@@ -4676,7 +4676,7 @@ Moranila,Plutothrix,L500,L501,1,G
 Adontomerus,Myiocnema,L623,L624,1,D
 Adontomerus,Myiocnema,L624,L624,1,D
 Dirphys,Myiocnema,L150,L150,1,G
-Enoggera,Myiocnema,L2,L3,2,H G
+Enoggera,Myiocnema,L2,L3,2,G H
 Herbertia,Myiocnema,L583,L583,1,G
 Idarnotorymus,Myiocnema,L816,L816,1,G
 Lanthanomyia,Myiocnema,L2,L3,1,G
@@ -4704,18 +4704,18 @@ Mymaromma,Omphalodipara,L857,L858,1,H
 Mymaromma,Ormyrulus,L564,L564,1,G
 Mymaromma,Palmon,L67,L68,1,D
 Mymaromma,Palmon,L68,L68,1,D
-Mymaromma,Proarescon,L1046,L1046,2,D C
+Mymaromma,Proarescon,L1046,L1046,2,C D
 Mymaromma,Prococcophagus,L605,L605,1,G
 Mymaromma,Prococcophagus,L986,L986,1,D
 Mymaromma,Torymus,L179,L266,1,H
 Chromeurytoma,Naumanniola,L419,L419,1,G
 Encyrtocephalus,Naumanniola,L795,L796,1,H
 Naumanniola,Netomocera,L857,L858,1,G
-Naumanniola,Zagrammosoma,L709,L710,2,H G
+Naumanniola,Zagrammosoma,L709,L710,2,G H
 Naumanniola,Zagrammosoma,L925,L926,1,G
 Naumanniola,Zagrammosoma,L312,L312,2,G H
 Naumanniola,Zagrammosoma,L357,L357,1,H
-Naumanniola,Zagrammosoma,L363,L363,2,G B
+Naumanniola,Zagrammosoma,L363,L363,2,B G
 Naumanniola,Zagrammosoma,L567,L567,1,H
 Naumanniola,Zagrammosoma,L926,L926,1,G
 Naumanniola,Zagrammosoma,L710,L710,1,G
@@ -4792,11 +4792,11 @@ Lelapsomorpha,Neochalcis,L617,L618,1,H
 Leptofoenus,Neochalcis,L421,L422,1,G
 Neochalcis,Omphalodipara,L243,L244,1,H
 Neochalcis,Omphalodipara,L243,L243,1,H
-Neochalcis,Ooencyrtus,L254,L255,2,G A
-Neochalcis,Ooencyrtus,L979,L980,2,G A
+Neochalcis,Ooencyrtus,L254,L255,2,A G
+Neochalcis,Ooencyrtus,L979,L980,2,A G
 Neochalcis,Ooencyrtus,L979,L979,2,A G
 Neochalcis,Ooencyrtus,L97,L97,2,G H
-Neochalcis,Ooencyrtus,L980,L980,2,H G
+Neochalcis,Ooencyrtus,L980,L980,2,G H
 Neochalcis,Ooencyrtus,L391,L391,1,G
 Neochalcis,Ooencyrtus,L777,L778,1,G
 Neochalcis,Ooencyrtus,L82,L83,1,H
@@ -4807,19 +4807,19 @@ Neochrysocharis,Odopoia,L1021,L1021,1,G
 Neochrysocharis,Ophelimus,L111,L111,1,G
 Neochrysocharis,Rotoita,L204,L205,1,D
 Neochrysocharis,Rotoita,L204,L206,1,A
-Neochrysocharis,Rotoita,L324,L325,2,D C
-Neochrysocharis,Rotoita,L582,L583,2,G A
+Neochrysocharis,Rotoita,L324,L325,2,C D
+Neochrysocharis,Rotoita,L582,L583,2,A G
 Neochrysocharis,Rotoita,L963,L964,1,D
 Neochrysocharis,Rotoita,L962,L964,1,G
-Neochrysocharis,Rotoita,L1045,L1045,2,D C
-Neochrysocharis,Rotoita,L144,L144,2,D C
-Neochrysocharis,Rotoita,L204,L204,2,D C
-Neochrysocharis,Rotoita,L325,L325,2,D C
-Neochrysocharis,Rotoita,L493,L493,2,D C
+Neochrysocharis,Rotoita,L1045,L1045,2,C D
+Neochrysocharis,Rotoita,L144,L144,2,C D
+Neochrysocharis,Rotoita,L204,L204,2,C D
+Neochrysocharis,Rotoita,L325,L325,2,C D
+Neochrysocharis,Rotoita,L493,L493,2,C D
 Neochrysocharis,Rotoita,L590,L590,1,D
-Neochrysocharis,Rotoita,L861,L861,2,D C
+Neochrysocharis,Rotoita,L861,L861,2,C D
 Neochrysocharis,Rotoita,L964,L964,2,A G
-Neochrysocharis,Rotoita,L583,L583,2,G A
+Neochrysocharis,Rotoita,L583,L583,2,A G
 Neochrysocharis,Rotoita,L463,L463,1,H
 Neodipara,Palachia,L137,L139,1,G
 Neodipara,Palachia,L139,L139,1,D
@@ -4829,7 +4829,7 @@ Kapala,Neolosbanus,L759,L760,1,H
 Kapala,Neolosbanus,L891,L892,1,G
 Neolosbanus,Orasema,L561,L562,1,H
 Neolosbanus,Propalachia,L500,L500,1,G
-Neolosbanus,Pseudometagea,L399,L400,2,H G
+Neolosbanus,Pseudometagea,L399,L400,2,G H
 Neolosbanus,Pseudometagea,L914,L916,1,G
 Neolosbanus,Pseudometagea,L162,L162,1,H
 Neolosbanus,Pseudometagea,L914,L914,1,G
@@ -4838,12 +4838,12 @@ Neolosbanus,Pseudometagea,L421,L421,1,G
 Neolosbanus,Psilocharis,L227,L228,1,H
 Neolosbanus,Psilocharis,L759,L760,1,G
 Neolosbanus,Psilocharis,L420,L420,1,G
-Neolosbanus,Psilocharis,L422,L422,2,G B
+Neolosbanus,Psilocharis,L422,L422,2,B G
 Neolosbanus,Psilocharis,L420,L421,1,G
 Neolosbanus,Psilocharis,L421,L422,1,G
-Neolosbanus,Psilocharis,L667,L668,2,H B
+Neolosbanus,Psilocharis,L667,L668,2,B H
 Neolosbanus,Psilocharis,L258,L258,1,G
-Neolosbanus,Psilocharis,L667,L667,2,H B
+Neolosbanus,Psilocharis,L667,L667,2,B H
 Neolosbanus,Schizaspidia,L194,L195,1,G
 Neolosbanus,Schizaspidia,L444,L445,1,G
 Neolosbanus,Schizaspidia,L67,L68,1,G
@@ -4881,7 +4881,7 @@ Neorileya,Proshizonotus,L421,L421,1,G
 Brachyscelidiphaga,Neotriadomerus,L430,L432,1,G
 Brachyscelidiphaga,Neotriadomerus,L431,L432,1,G
 Bootanomyia,Nepistenia,L359,L362,1,A
-Coruna,Nepistenia,L359,L362,2,H G
+Coruna,Nepistenia,L359,L362,2,G H
 Grooca,Nepistenia,L500,L501,1,G
 Grooca,Nepistenia,L925,L926,1,G
 Nepistenia,Ormocerus,L1006,L1006,1,G
@@ -4894,7 +4894,7 @@ Nepistenia,Plutothrix,L359,L359,1,G
 Nepistenia,Proshizonotus,L386,L387,1,G
 Nepistenia,Proshizonotus,L439,L440,2,G H
 Nepistenia,Proshizonotus,L478,L479,1,D
-Nepistenia,Proshizonotus,L480,L481,3,G H A
+Nepistenia,Proshizonotus,L480,L481,3,A G H
 Nepistenia,Proshizonotus,L653,L654,1,G
 Nepistenia,Proshizonotus,L927,L928,1,H
 Nepistenia,Proshizonotus,L928,L929,1,G
@@ -4907,7 +4907,7 @@ Nepistenia,Proshizonotus,L366,L366,2,B G
 Nepistenia,Proshizonotus,L424,L424,1,G
 Nepistenia,Proshizonotus,L439,L439,2,G H
 Nepistenia,Proshizonotus,L479,L479,1,D
-Nepistenia,Proshizonotus,L481,L481,2,G B
+Nepistenia,Proshizonotus,L481,L481,2,B G
 Nepistenia,Proshizonotus,L506,L506,1,G
 Nepistenia,Proshizonotus,L618,L618,1,G
 Nepistenia,Proshizonotus,L621,L621,1,H
@@ -4985,7 +4985,7 @@ Odopoia,Plutothrix,L500,L501,1,G
 Odopoia,Torymus,L241,L242,1,H
 Odopoia,Torymus,L284,L285,1,G
 Odopoia,Torymus,L763,L764,1,G
-Odopoia,Torymus,L795,L796,2,H G
+Odopoia,Torymus,L795,L796,2,G H
 Odopoia,Torymus,L337,L337,1,G
 Odopoia,Torymus,L394,L394,1,G
 Odopoia,Torymus,L399,L399,1,H
@@ -5011,14 +5011,14 @@ Ogloblinisca,Plutothrix,L19,L19,1,G
 Ogloblinisca,Plutothrix,L200,L200,1,G
 Ogloblinisca,Plutothrix,L337,L337,1,G
 Ogloblinisca,Plutothrix,L388,L388,1,G
-Ogloblinisca,Plutothrix,L517,L517,2,D C
+Ogloblinisca,Plutothrix,L517,L517,2,C D
 Ogloblinisca,Plutothrix,L561,L561,1,H
 Ogloblinisca,Plutothrix,L566,L566,1,G
 Ogloblinisca,Plutothrix,L618,L618,1,G
 Ogloblinisca,Plutothrix,L631,L631,1,G
 Ogloblinisca,Plutothrix,L768,L768,1,G
 Ogloblinisca,Plutothrix,L806,L806,1,G
-Ogloblinisca,Plutothrix,L939,L939,2,G B
+Ogloblinisca,Plutothrix,L939,L939,2,B G
 Ogloblinisca,Plutothrix,L995,L995,1,G
 Ogloblinisca,Tineobius,L313,L313,1,G
 Ogloblinisca,Walkerella,L388,L389,1,G
@@ -5051,26 +5051,26 @@ Ooencyrtus,Psilochalcis,L414,L415,1,A
 Ooencyrtus,Psilochalcis,L505,L506,2,A G
 Ooencyrtus,Psilochalcis,L518,L519,1,G
 Ooencyrtus,Psilochalcis,L653,L654,2,A G
-Ooencyrtus,Psilochalcis,L652,L653,2,G A
+Ooencyrtus,Psilochalcis,L652,L653,2,A G
 Ooencyrtus,Psilochalcis,L75,L76,1,A
 Ooencyrtus,Psilochalcis,L888,L889,1,G
 Ooencyrtus,Psilochalcis,L961,L962,1,A
 Ooencyrtus,Psilochalcis,L960,L961,1,G
 Ooencyrtus,Psilochalcis,L136,L136,1,G
 Ooencyrtus,Psilochalcis,L330,L330,1,G
-Ooencyrtus,Psilochalcis,L389,L389,2,D C
-Ooencyrtus,Psilochalcis,L505,L505,2,D C
-Ooencyrtus,Psilochalcis,L519,L519,2,D C
-Ooencyrtus,Psilochalcis,L653,L653,2,D C
+Ooencyrtus,Psilochalcis,L389,L389,2,C D
+Ooencyrtus,Psilochalcis,L505,L505,2,C D
+Ooencyrtus,Psilochalcis,L519,L519,2,C D
+Ooencyrtus,Psilochalcis,L653,L653,2,C D
 Ooencyrtus,Psilochalcis,L75,L75,1,D
-Ooencyrtus,Psilochalcis,L889,L889,2,D C
+Ooencyrtus,Psilochalcis,L889,L889,2,C D
 Ooencyrtus,Psilochalcis,L507,L508,1,G
 Ooencyrtus,Psilochalcis,L783,L783,1,G
 Ooencyrtus,Psilochalcis,L135,L136,1,A
 Colotrechnus,Ophelimus,L419,L420,1,G
 Cratocentrus,Ophelimus,L938,L938,1,G
 Megastigmus,Ophelimus,L562,L564,1,G
-Ophelimus,Perthiola,L368,L368,2,G B
+Ophelimus,Perthiola,L368,L368,2,B G
 Ophelimus,Perthiola,L564,L564,1,G
 Ophelimus,Perthiola,L860,L860,1,H
 Ophelimus,Perthiola,L721,L722,1,G
@@ -5095,7 +5095,7 @@ Orasema,Psilocharis,L18,L18,1,G
 Orasema,Psilocharis,L571,L572,1,G
 Orasema,Timioderus,L500,L501,1,G
 Orasema,Timioderus,L545,L546,1,G
-Orasema,Timioderus,L501,L501,2,G B
+Orasema,Timioderus,L501,L501,2,B G
 Orasema,Timioderus,L565,L565,1,G
 Orasema,Timioderus,L243,L244,1,G
 Orasema,Timioderus,L571,L572,1,G
@@ -5160,7 +5160,7 @@ Ormyrulus,Ormyrus,L448,L449,1,G
 Ormyrulus,Ormyrus,L565,L566,1,H
 Ormyrulus,Ormyrus,L566,L567,1,G
 Ormyrulus,Ormyrus,L567,L568,1,G
-Ormyrulus,Ormyrus,L580,L581,2,H G
+Ormyrulus,Ormyrus,L580,L581,2,G H
 Ormyrulus,Ormyrus,L658,L659,1,H
 Ormyrulus,Ormyrus,L779,L780,1,G
 Ormyrulus,Ormyrus,L122,L122,1,G
@@ -5173,10 +5173,10 @@ Ormyrulus,Ormyrus,L659,L659,2,G H
 Ormyrulus,Ormyrus,L731,L731,1,G
 Ormyrulus,Ormyrus,L781,L781,2,G H
 Ormyrulus,Ormyrus,L810,L810,1,A
-Ormyrulus,Ormyrus,L892,L892,2,H G
+Ormyrulus,Ormyrus,L892,L892,2,G H
 Ormyrulus,Ormyrus,L152,L153,1,G
-Ormyrulus,Ormyrus,L450,L451,2,H G
-Ormyrulus,Ormyrus,L451,L452,3,H A B
+Ormyrulus,Ormyrus,L450,L451,2,G H
+Ormyrulus,Ormyrus,L451,L452,3,A B H
 Ormyrulus,Ormyrus,L503,L504,1,G
 Ormyrulus,Ormyrus,L619,L620,2,G H
 Ormyrulus,Ormyrus,L709,L710,2,G H
@@ -5191,13 +5191,13 @@ Ormyrulus,Ormyrus,L304,L304,1,G
 Ormyrulus,Ormyrus,L367,L367,1,G
 Ormyrulus,Ormyrus,L3,L3,1,G
 Ormyrulus,Ormyrus,L424,L424,1,G
-Ormyrulus,Ormyrus,L450,L450,2,H G
-Ormyrulus,Ormyrus,L454,L454,2,H G
+Ormyrulus,Ormyrus,L450,L450,2,G H
+Ormyrulus,Ormyrus,L454,L454,2,G H
 Ormyrulus,Ormyrus,L456,L456,1,G
 Ormyrulus,Ormyrus,L523,L523,1,G
 Ormyrulus,Ormyrus,L558,L558,1,G
 Ormyrulus,Ormyrus,L566,L566,1,G
-Ormyrulus,Ormyrus,L567,L567,2,H G
+Ormyrulus,Ormyrus,L567,L567,2,G H
 Ormyrulus,Ormyrus,L600,L600,1,H
 Ormyrulus,Ormyrus,L622,L622,1,G
 Ormyrulus,Ormyrus,L656,L656,1,G
@@ -5229,17 +5229,17 @@ Clytina,Ormyrus,L2,L2,1,G
 Coelocyba,Ormyrus,L47,L48,1,G
 Colotrechnus,Ormyrus,L47,L48,1,G
 Coruna,Ormyrus,L359,L362,1,H
-Cynipencyrtus,Ormyrus,L244,L245,2,H G
+Cynipencyrtus,Ormyrus,L244,L245,2,G H
 Diconocara,Ormyrus,L623,L624,1,G
 Exolabrum,Ormyrus,L16,L17,2,G H
-Habritys,Ormyrus,L199,L200,2,H G
-Habritys,Ormyrus,L359,L362,2,H G
+Habritys,Ormyrus,L199,L200,2,G H
+Habritys,Ormyrus,L359,L362,2,G H
 Herbertia,Ormyrus,L1047,L1049,1,H
 Herbertia,Ormyrus,L688,L689,1,G
 Herbertia,Ormyrus,L831,L833,1,G
 Hockeria,Ormyrus,L381,L381,1,D
 Lelaps,Ormyrus,L927,L929,1,H
-Macromesus,Ormyrus,L161,L162,2,H G
+Macromesus,Ormyrus,L161,L162,2,G H
 Macromesus,Ormyrus,L801,L802,1,H
 Melanosmicra,Ormyrus,L535,L535,1,B
 Neanastatus,Ormyrus,L2,L3,1,B
@@ -5264,7 +5264,7 @@ Ormyrus,Plastobelyta,L356,L357,1,G
 Ormyrus,Propalachia,L784,L785,1,G
 Ormyrus,Pteromalus,L623,L624,1,G
 Ormyrus,Pteromalus,L624,L624,1,G
-Ormyrus,Signiphora,L112,L713,2,H G
+Ormyrus,Signiphora,L112,L713,2,G H
 Ormyrus,Spalangiopelta,L239,L240,2,G H
 Ormyrus,Spalangiopelta,L239,L239,2,G H
 Ormyrus,Storeya,L233,L233,1,H
@@ -5275,7 +5275,7 @@ Ormyrus,Trichilogaster,L419,L419,1,G
 Ormyrus,Zdenekius,L232,L233,1,G
 Ormyrus,Zolotarewskya,L448,L448,1,G
 Palachia,Palmon,L650,L651,2,B G
-Palachia,Palmon,L422,L422,2,G B
+Palachia,Palmon,L422,L422,2,B G
 Palachia,Palmon,L511,L511,2,B G
 Palachia,Palmon,L651,L651,2,B G
 Palachia,Palmon,L339,L339,1,G
@@ -5307,7 +5307,7 @@ Papuopsia,Plutothrix,L404,L404,1,G
 Papuopsia,Rileya,L46,L47,1,G
 Papuopsia,Yrka,L502,L503,1,G
 Euryischia,Paracentrobia,L500,L502,1,H
-Paracentrobia,Pteroptrix,L140,L140,2,D C
+Paracentrobia,Pteroptrix,L140,L140,2,C D
 Acanthochalcis,Paraeusandalum,L231,L231,1,G
 Coccobius,Paraeusandalum,L420,L421,1,G
 Epistenia,Paraeusandalum,L161,L162,1,G
@@ -5323,10 +5323,10 @@ Paraeusandalum,Pentacladia,L864,L864,1,G
 Paraeusandalum,Proshizonotus,L112,L112,1,G
 Paraeusandalum,Tineobius,L1044,L1045,2,A G
 Paraeusandalum,Tineobius,L172,L173,2,A G
-Paraeusandalum,Tineobius,L209,L210,2,G A
-Paraeusandalum,Tineobius,L248,L249,2,G A
+Paraeusandalum,Tineobius,L209,L210,2,A G
+Paraeusandalum,Tineobius,L248,L249,2,A G
 Paraeusandalum,Tineobius,L589,L590,2,A G
-Paraeusandalum,Tineobius,L590,L591,2,G A
+Paraeusandalum,Tineobius,L590,L591,2,A G
 Paraeusandalum,Tineobius,L1031,L1031,2,C D
 Paraeusandalum,Tineobius,L1045,L1045,2,C D
 Paraeusandalum,Tineobius,L139,L139,2,C D
@@ -5400,7 +5400,7 @@ Parepistenia,Proshizonotus,L617,L617,1,G
 Parepistenia,Proshizonotus,L618,L618,1,G
 Parepistenia,Proshizonotus,L746,L746,1,G
 Parepistenia,Proshizonotus,L755,L755,1,G
-Parepistenia,Proshizonotus,L254,L254,4,A H B G
+Parepistenia,Proshizonotus,L254,L254,4,A B G H
 Peckianus,Pnigalio,L251,L252,1,G
 Adontomerus,Pentacladia,L111,L111,1,G
 Brachymeria,Pentacladia,L421,L421,1,B
@@ -5461,7 +5461,7 @@ Physothorax,Torymus,L738,L739,1,G
 Physothorax,Torymus,L739,L740,1,G
 Physothorax,Torymus,L846,L847,1,G
 Physothorax,Torymus,L874,L875,1,G
-Physothorax,Torymus,L131,L131,2,G A
+Physothorax,Torymus,L131,L131,2,A G
 Physothorax,Torymus,L472,L472,1,G
 Physothorax,Torymus,L508,L508,1,G
 Physothorax,Torymus,L517,L517,1,G
@@ -5518,22 +5518,22 @@ Pleistodontes,Stypiura,L28,L575,1,H
 Pleistodontes,Sycophaga,L241,L242,1,D
 Pleistodontes,Sycophaga,L241,L243,1,A
 Pleistodontes,Sycophaga,L244,L245,1,G
-Pleistodontes,Sycophaga,L352,L353,2,G A
+Pleistodontes,Sycophaga,L352,L353,2,A G
 Pleistodontes,Sycophaga,L353,L354,1,A
 Pleistodontes,Sycophaga,L363,L364,2,A G
-Pleistodontes,Sycophaga,L241,L241,2,D C
-Pleistodontes,Sycophaga,L245,L245,2,D C
+Pleistodontes,Sycophaga,L241,L241,2,C D
+Pleistodontes,Sycophaga,L245,L245,2,C D
 Pleistodontes,Sycophaga,L353,L353,1,D
-Pleistodontes,Sycophaga,L363,L363,2,D C
+Pleistodontes,Sycophaga,L363,L363,2,C D
 Pleistodontes,Sycophaga,L364,L364,1,G
 Pleistodontes,Sycophaga,L376,L376,2,G H
-Pleistodontes,Sycophaga,L415,L415,2,D C
+Pleistodontes,Sycophaga,L415,L415,2,C D
 Pleistodontes,Sycophaga,L482,L482,1,D
-Pleistodontes,Sycophaga,L525,L525,2,D C
-Pleistodontes,Sycophaga,L528,L528,2,D C
-Pleistodontes,Sycophaga,L555,L555,2,D C
+Pleistodontes,Sycophaga,L525,L525,2,C D
+Pleistodontes,Sycophaga,L528,L528,2,C D
+Pleistodontes,Sycophaga,L555,L555,2,C D
 Pleistodontes,Sycophaga,L948,L949,1,A
-Pleistodontes,Sycophaga,L948,L948,2,H G
+Pleistodontes,Sycophaga,L948,L948,2,G H
 Chrysomalla,Plutothrix,L503,L504,1,H
 Coelocyba,Plutothrix,L363,L363,1,G
 Coruna,Plutothrix,L359,L362,1,G
@@ -5552,13 +5552,13 @@ Plutothrix,Tetracampe,L47,L48,1,G
 Plutothrix,Walkerella,L46,L47,1,G
 Plutothrix,Zolotarewskya,L503,L503,1,H
 Pnigalio,Sympiesis,L284,L285,1,G
-Pnigalio,Sympiesis,L505,L506,2,H G
+Pnigalio,Sympiesis,L505,L506,2,G H
 Pnigalio,Sympiesis,L551,L552,2,G H
 Pnigalio,Sympiesis,L565,L566,1,G
 Pnigalio,Sympiesis,L73,L74,2,G H
 Pnigalio,Sympiesis,L770,L771,1,G
-Pnigalio,Sympiesis,L341,L341,2,G B
-Pnigalio,Sympiesis,L364,L364,2,H G
+Pnigalio,Sympiesis,L341,L341,2,B G
+Pnigalio,Sympiesis,L364,L364,2,G H
 Pnigalio,Sympiesis,L565,L565,1,G
 Pnigalio,Sympiesis,L819,L820,1,H
 Pnigalio,Sympiesis,L308,L308,1,G
@@ -5600,35 +5600,35 @@ Bootanelleus,Polynema,L782,L782,1,G
 Neocalosoter,Polynema,L241,L243,1,A
 Palachia,Polynema,L170,L171,1,D
 Palachia,Polynema,L171,L171,1,D
-Polynema,Protanaostigma,L277,L277,2,D C
+Polynema,Protanaostigma,L277,L277,2,C D
 Polynema,Rileya,L888,L889,1,D
 Polynema,Rileya,L889,L889,1,D
 Adontomerus,Poropoea,L888,L889,1,G
 Glyphomerus,Poropoea,L451,L452,1,G
 Physothorax,Poropoea,L293,L293,1,G
 Polistomorpha,Poropoea,L293,L774,1,G
-Poropoea,Pseudidarnes,L1000,L999,2,G A
+Poropoea,Pseudidarnes,L1000,L999,2,A G
 Poropoea,Pseudidarnes,L149,L150,1,A
-Poropoea,Pseudidarnes,L175,L176,2,G A
+Poropoea,Pseudidarnes,L175,L176,2,A G
 Poropoea,Pseudidarnes,L176,L177,2,A G
 Poropoea,Pseudidarnes,L377,L378,2,A G
 Poropoea,Pseudidarnes,L505,L506,2,A G
-Poropoea,Pseudidarnes,L576,L577,2,D C
+Poropoea,Pseudidarnes,L576,L577,2,C D
 Poropoea,Pseudidarnes,L617,L618,1,D
 Poropoea,Pseudidarnes,L616,L617,1,D
 Poropoea,Pseudidarnes,L958,L959,1,D
 Poropoea,Pseudidarnes,L957,L959,1,G
-Poropoea,Pseudidarnes,L1000,L1000,2,D C
+Poropoea,Pseudidarnes,L1000,L1000,2,C D
 Poropoea,Pseudidarnes,L1003,L1003,1,G
-Poropoea,Pseudidarnes,L149,L149,2,D C
-Poropoea,Pseudidarnes,L176,L176,2,D C
+Poropoea,Pseudidarnes,L149,L149,2,C D
+Poropoea,Pseudidarnes,L176,L176,2,C D
 Poropoea,Pseudidarnes,L332,L332,1,H
-Poropoea,Pseudidarnes,L358,L358,2,H G
-Poropoea,Pseudidarnes,L398,L398,2,D C
+Poropoea,Pseudidarnes,L358,L358,2,G H
+Poropoea,Pseudidarnes,L398,L398,2,C D
 Poropoea,Pseudidarnes,L437,L437,1,D
-Poropoea,Pseudidarnes,L438,L438,2,D C
-Poropoea,Pseudidarnes,L505,L505,2,D C
-Poropoea,Pseudidarnes,L576,L576,2,D C
+Poropoea,Pseudidarnes,L438,L438,2,C D
+Poropoea,Pseudidarnes,L505,L505,2,C D
+Poropoea,Pseudidarnes,L576,L576,2,C D
 Poropoea,Pseudidarnes,L617,L617,1,D
 Poropoea,Pseudidarnes,L894,L894,1,D
 Poropoea,Pseudidarnes,L959,L959,1,D
@@ -5645,7 +5645,7 @@ Adontomerus,Proarescon,L436,L436,1,G
 Adontomerus,Proarescon,L524,L524,1,G
 Proarescon,Umairia,L512,L512,1,D
 Proarescon,Umairia,L63,L63,1,D
-Proarescon,Umairia,L331,L331,3,G H B
+Proarescon,Umairia,L331,L331,3,B G H
 Brachyelatus,Prococcophagus,L562,L564,1,G
 Heydenia,Prococcophagus,L399,L400,1,G
 Liepara,Prococcophagus,L500,L501,1,G
@@ -5713,7 +5713,7 @@ Pseudidarnes,Sycophaga,L304,L304,1,G
 Pseudidarnes,Yrka,L419,L420,1,G
 Pseudidarnes,Yrka,L501,L501,1,G
 Pseudometagea,Psilocharis,L388,L388,1,G
-Pseudometagea,Psilocharis,L420,L420,2,H G
+Pseudometagea,Psilocharis,L420,L420,2,G H
 Pseudometagea,Psilocharis,L1018,L1019,1,G
 Pseudometagea,Psilocharis,L259,L260,1,G
 Pseudometagea,Psilocharis,L359,L362,1,H
@@ -5729,7 +5729,7 @@ Pseudometagea,Psilocharis,L671,L671,1,H
 Pseudometagea,Schizaspidia,L243,L244,1,H
 Pseudometagea,Schizaspidia,L444,L445,2,G H
 Pseudometagea,Schizaspidia,L511,L512,1,G
-Pseudometagea,Schizaspidia,L900,L901,2,H G
+Pseudometagea,Schizaspidia,L900,L901,2,G H
 Pseudometagea,Schizaspidia,L320,L320,2,G H
 Pseudometagea,Schizaspidia,L444,L444,1,H
 Pseudometagea,Schizaspidia,L511,L511,1,H
@@ -5748,12 +5748,12 @@ Pseudometagea,Schizaspidia,L153,L153,1,H
 Pseudometagea,Schizaspidia,L227,L227,1,G
 Pseudometagea,Schizaspidia,L270,L270,1,H
 Pseudometagea,Schizaspidia,L297,L297,1,G
-Pseudometagea,Schizaspidia,L362,L362,2,H G
+Pseudometagea,Schizaspidia,L362,L362,2,G H
 Pseudometagea,Schizaspidia,L39,L39,1,H
 Pseudometagea,Schizaspidia,L422,L422,1,H
 Pseudometagea,Schizaspidia,L436,L436,1,H
 Pseudometagea,Schizaspidia,L460,L460,1,H
-Pseudometagea,Schizaspidia,L512,L512,2,H G
+Pseudometagea,Schizaspidia,L512,L512,2,G H
 Pseudometagea,Schizaspidia,L517,L517,1,G
 Pseudometagea,Schizaspidia,L545,L545,1,G
 Pseudometagea,Schizaspidia,L558,L558,1,H
@@ -6008,16 +6008,16 @@ Systole,Tetramesa,L237,L238,1,C
 Systole,Tetramesa,L275,L276,2,C G
 Systole,Tetramesa,L309,L310,1,A
 Systole,Tetramesa,L2,L3,1,G
-Systole,Tetramesa,L445,L446,2,G A
-Systole,Tetramesa,L462,L463,2,G A
+Systole,Tetramesa,L445,L446,2,A G
+Systole,Tetramesa,L462,L463,2,A G
 Systole,Tetramesa,L680,L681,2,A G
 Systole,Tetramesa,L716,L717,2,A G
 Systole,Tetramesa,L1005,L1005,1,G
 Systole,Tetramesa,L3,L3,1,G
 Systole,Tetramesa,L445,L445,2,A G
 Systole,Tetramesa,L523,L523,1,G
-Systole,Tetramesa,L586,L586,2,G A
-Systole,Tetramesa,L653,L653,2,G A
+Systole,Tetramesa,L586,L586,2,A G
+Systole,Tetramesa,L653,L653,2,A G
 Systole,Tetramesa,L682,L682,1,A
 Systole,Tetramesa,L695,L695,2,A G
 Systole,Tetramesa,L783,L783,1,G
@@ -6048,7 +6048,7 @@ Systole,Tetramesa,L444,L445,1,A
 Systole,Tetramesa,L480,L481,1,G
 Systole,Tetramesa,L507,L508,1,G
 Systole,Tetramesa,L515,L516,1,G
-Systole,Tetramesa,L545,L546,2,H G
+Systole,Tetramesa,L545,L546,2,G H
 Systole,Tetramesa,L614,L615,1,G
 Systole,Tetramesa,L621,L622,1,G
 Systole,Tetramesa,L622,L623,1,G
@@ -6074,7 +6074,7 @@ Systole,Tetramesa,L922,L923,1,G
 Systole,Tetramesa,L964,L965,1,G
 Systole,Tetramesa,L152,L152,1,D
 Systole,Tetramesa,L446,L446,1,G
-Systole,Tetramesa,L463,L463,4,A H B G
+Systole,Tetramesa,L463,L463,4,A B G H
 Systole,Tetramesa,L508,L508,1,G
 Systole,Tetramesa,L545,L545,1,H
 Systole,Tetramesa,L604,L604,1,G
@@ -6090,15 +6090,15 @@ Tanaostigma,Tanaostigmodes,L195,L196,1,A
 Tanaostigma,Tanaostigmodes,L388,L389,2,A G
 Tanaostigma,Tanaostigmodes,L44,L45,1,A
 Tanaostigma,Tanaostigmodes,L493,L494,1,G
-Tanaostigma,Tanaostigmodes,L971,L972,2,G A
+Tanaostigma,Tanaostigmodes,L971,L972,2,A G
 Tanaostigma,Tanaostigmodes,L1006,L1006,2,A G
 Tanaostigma,Tanaostigmodes,L111,L111,2,A G
-Tanaostigma,Tanaostigmodes,L144,L144,2,D C
+Tanaostigma,Tanaostigmodes,L144,L144,2,C D
 Tanaostigma,Tanaostigmodes,L20,L20,2,C D
-Tanaostigma,Tanaostigmodes,L2,L2,2,D C
-Tanaostigma,Tanaostigmodes,L388,L388,2,G A
-Tanaostigma,Tanaostigmodes,L627,L627,2,G A
-Tanaostigma,Tanaostigmodes,L939,L939,2,D C
+Tanaostigma,Tanaostigmodes,L2,L2,2,C D
+Tanaostigma,Tanaostigmodes,L388,L388,2,A G
+Tanaostigma,Tanaostigmodes,L627,L627,2,A G
+Tanaostigma,Tanaostigmodes,L939,L939,2,C D
 Colocharis,Teasienna,L824,L825,1,G
 Balcha,Tetracampe,L709,L710,1,G
 Balcha,Tetracampe,L709,L709,1,G

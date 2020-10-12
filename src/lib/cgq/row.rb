@@ -120,7 +120,7 @@ module Cgq
           elsif qs > m2
             return 'H'
           else
-            return -1
+            return 'OOPS'
           end
         end
       else # full overlapp ( D E F )

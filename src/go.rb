@@ -96,14 +96,13 @@ puts 'max: ' + scores.compact.max.to_s
 
 # puts data.foo
 
-# Cgq::Report.write_overlap_loci_by_genera(data)
+Cgq::Report.write_overlap_loci_by_genera(data)
 
 # puts ap data.locus_overlap_by_i_num 
 Cgq::Report.locus_overlap_by_i_num(data)
 
-
- puts ap data.overlap_type_per_locus_pair 
- Cgq::Report.overlap_type_per_locus_pair(data)
+#puts ap data.overlap_type_per_locus_pair 
+Cgq::Report.overlap_type_per_locus_pair(data)
 
 
 
