@@ -186,7 +186,7 @@ module Cgq
 
     def target_qubit(row)
       p2 = row.d['I# target']
-     plate_rows[p2]['DNA concentration: qubit']
+      plate_rows[p2]['DNA concentration: qubit']
     end
 
     #
@@ -468,6 +468,20 @@ module Cgq
       d
     end 
 
+    def overlap_type_per_locus_pair
+      d = {}
+      rows.each do |r|
+        a = r.locus_pair.sort
+        b = r.overlap_type
+
+        if d[a]
+          d[a][b] = nil
+        else
+          d[a] = {b => nil}
+        end
+      end
+      d
+    end 
 
   end
 end

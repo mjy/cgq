@@ -141,9 +141,25 @@ module Cgq
         end
       end
 
+      def overlap_type_per_locus_pair(data)
+        FileUtils.mkdir_p(CSV_EXPORT_PATH)
 
+        d = data.overlap_type_per_locus_pair
 
+        CSV.open(CSV_EXPORT_PATH + "/overlap_type_per_locus_pair.csv", "w") do |csv|
 
+          csv << %w{
+            query_locus
+            target_locus 
+            overlap_types 
+            overlap_type_count 
+          }
+
+          d.keys.sort.each do |k|
+            csv << k + [ d[k].keys.join(',') ] + [ d[k].keys.count ] 
+          end
+        end
+      end
 
       def count_heatmaps(data)
         p = HTML_EXPORT_PATH  + '/heatmaps/'  

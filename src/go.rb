@@ -102,6 +102,8 @@ puts 'max: ' + scores.compact.max.to_s
 Cgq::Report.locus_overlap_by_i_num(data)
 
 
+ puts ap data.overlap_type_per_locus_pair 
+ Cgq::Report.overlap_type_per_locus_pair(data)
 
 
 
