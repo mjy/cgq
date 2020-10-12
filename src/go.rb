@@ -89,20 +89,20 @@ puts 'max: ' + scores.compact.max.to_s
 # Re-write the genus_ids file
 # Cgq::Report.write_genus_ids(data)
 
-# Cgq::Report.write_scores(data)
+Cgq::Report.write_scores(data)
 
 # Write count heatmaps
 # Cgq::Report.count_heatmaps(data)
 
 # puts data.foo
 
-Cgq::Report.write_overlap_loci_by_genera(data)
+# Cgq::Report.write_overlap_loci_by_genera(data)
 
 # puts ap data.locus_overlap_by_i_num 
-Cgq::Report.locus_overlap_by_i_num(data)
+# Cgq::Report.locus_overlap_by_i_num(data)
 
 #puts ap data.overlap_type_per_locus_pair 
-Cgq::Report.overlap_type_per_locus_pair(data)
+# Cgq::Report.overlap_type_per_locus_pair(data)
 
 
 

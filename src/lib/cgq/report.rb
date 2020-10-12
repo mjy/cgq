@@ -40,6 +40,19 @@ module Cgq
           cs_sum_difference
           cs_exact_match_different_locus
           cs_predicted_contaminant
+          query_locus
+          target_locus
+          percent_similarity
+          length_of_match
+          query_length
+          target_length
+          unmatched_basepairs
+          gap_open
+          qstart
+          qend
+          tstart
+          tend
+          evalue
           }
           data.rows.each do |r|
             gq = r.d['query_genus']
@@ -74,6 +87,19 @@ module Cgq
               data.composite_score_difference(r),
               r.composite_score_exact_match_different_locus,
               'todo_predicted_contaminant', # TODO: query or target
+              r.query_locus,
+              r.target_locus,
+              r.d['%similar,length of match (bp)'],
+              r.d['length of match (bp)'],
+              r.d['q_length'],
+              r.d['t_length'],
+              r.d['mismatch'],
+              r.d['gapopen'],
+              r.d['qstart'],
+              r.d['qend'],
+              r.d['tstart'],
+              r.d['tend'],
+              r.d['evalue']
             ] 
           end
         end
