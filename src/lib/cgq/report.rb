@@ -87,7 +87,7 @@ module Cgq
               'todo_predicted_contaminant', # TODO: query or target
               r.query_locus,
               r.target_locus,
-              r.d['%similar,length of match (bp)'],
+              r.d['%similar'],
               r.d['length of match (bp)'],
               r.d['q_length'],
               r.d['t_length'],

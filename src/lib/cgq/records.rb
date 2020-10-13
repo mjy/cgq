@@ -199,7 +199,7 @@ module Cgq
     end
 
     def score_taxon_difference(row)
-      families[ row.genus_pair.first ]['id'] == families[ row.genus_pair.last ]['id'] ? 0 : 1
+      families[ row.genus_pair.first ][:id] == families[ row.genus_pair.last ][:id] ? 0 : 1
     end
 
     # i.e. same plate or different
@@ -249,7 +249,7 @@ module Cgq
         score_proportional_difference(row)
     end
 
-    def composite_score_identical_and_different_family(row)
+    def composite_score_identical_and_different_family(row)a
       score_taxon_difference(row) == 1 && row.identical_seqs?
     end
 

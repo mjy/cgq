@@ -1,4 +1,3 @@
-
 # C(halcid) G(genome) Q(uality)
 
 Utilities to compute some metrics from a custom set of metadata.
@@ -62,7 +61,7 @@ H     -----
    ==|== 
 ``` 
 * `s_locus-difference` (1) same, (0) different
-* `s_proportional_length` (1) length match bp / tlength > curoff, (0) < 
+* `s_proportional_length` (1) length match bp / tlength > cutoff, (0) < 
 * `s_taxon_difference` (1) different families, (0) same families
 * `s_plate_difference` (1) same plate, (0) different plate
 * `s_concentration_difference` (1) absolute (query qbit - target qbit) > 3, (0) different plates OR < 3 OR no qbit values
@@ -71,10 +70,18 @@ H     -----
 #### overlap_by_loci_by_genus
 * `overlap_by_loci_by_genus.csv` - unique overlap types per unique loci pair per unique genus pair
 
-#### locus_overlap_by_i_num
+d### locus_overlap_by_i_num
 _Idea was 3 or more indicates an issue._
 * `locus_overlap_by_i_num.csv` - unique target loci per query locus/i# pair 
 
 ### HTML
 To visualize a report clone this repo to your desktop, then click on an HTML file.
 
+
+- Notes -
+
+* - taxon score difference
+
+* New 1/0 score: LOCI beside one another!
+
+* Overlapp, consequitve or not
