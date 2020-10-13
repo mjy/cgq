@@ -89,10 +89,10 @@ puts 'max: ' + scores.compact.max.to_s
 # Re-write the genus_ids file
 # Cgq::Report.write_genus_ids(data)
 
-Cgq::Report.write_scores(data)
+# Cgq::Report.write_scores(data)
 
 # Write count heatmaps
-# Cgq::Report.count_heatmaps(data)
+Cgq::Report.count_heatmaps(data)
 
 # puts data.foo
 

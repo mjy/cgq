@@ -77,11 +77,3 @@ _Idea was 3 or more indicates an issue._
 ### HTML
 To visualize a report clone this repo to your desktop, then click on an HTML file.
 
-
-- Notes -
-
-* - taxon score difference
-
-* New 1/0 score: LOCI beside one another!
-
-* Overlapp, consequitve or not

@@ -1,6 +1,4 @@
-require 'byebug'
 require 'csv'
-require 'amazing_print'
 require 'URI'
 require 'net/http'
 require 'JSON'

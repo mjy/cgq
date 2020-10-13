@@ -338,8 +338,8 @@ module Cgq
       t = 'I# query'
 
       v = {}
-      # all_rows ?!
-      rows.each do |r|
+      # rows? 
+      all_rows.each do |r|
         next unless plate_name(r, t) == plate
         if a = plate_xy(r,t)
           if v[a]
@@ -363,6 +363,7 @@ module Cgq
             i_num: v[k][:i_num],
             score: v[k][:score] })
       end
+
       viz
     end
 

@@ -7,7 +7,7 @@ module Cgq
     CSV_EXPORT_PATH = File.expand_path('../../../out/csv/', __dir__).freeze
     HTML_EXPORT_PATH = File.expand_path('../../../out/html/', __dir__).freeze
 
-    TEMPLATE_PATH = File.expand_path('viz_templates/', __FILE__)
+    TEMPLATE_PATH = File.expand_path('viz_templates/', __dir__)
 
     class << self
 
