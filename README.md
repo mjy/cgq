@@ -33,8 +33,34 @@ All derived data are on `out/`.
 #### scores.csv
 `scores.csv` - summary table of individual metrics, and column that combines some of them
 
-* `overap_type` - A-G 
+##### Columns
+* `overap_type`: (`-` query, `=` target, `|` center of target)
+```
 
+A -----
+     ==|==
+
+B ----- 
+   ==|==
+
+C ------- 
+   ==|==
+
+D   --- 
+   ====|====
+
+E   ----- 
+   ===|===
+
+F       --- 
+   ====|====
+
+G   ------
+   ==|== 
+
+H     -----
+   ==|== 
+``` 
 * `s_locus-difference` (1) same, (0) different
 * `s_proportional_length` (1) length match bp / tlength > curoff, (0) < 
 * `s_taxon_difference` (1) different families, (0) same families
