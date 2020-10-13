@@ -17,8 +17,6 @@ module Cgq
           csv << %w{
           query_genus
           target_genus
-          ucd_genus_query_id
-          ucd_genus_target_id
           query_family
           target_family
           i_query
@@ -53,7 +51,9 @@ module Cgq
           tstart
           tend
           evalue
-          }
+          ucd_genus_query_id
+          ucd_genus_target_id
+        }
           data.rows.each do |r|
             gq = r.d['query_genus']
             gt = r.d['target_genus']
@@ -64,10 +64,8 @@ module Cgq
             csv << [
               gq,
               gt,
-              gq_id, 
-              gt_id, 
-              data.families[gq]['name'],
-              data.families[gt]['name'],
+              data.families[gq][:name],
+              data.families[gt][:name],
               r.d['I# query'],
               r.d['I# target'],
               data.plate_name(r),
@@ -99,7 +97,9 @@ module Cgq
               r.d['qend'],
               r.d['tstart'],
               r.d['tend'],
-              r.d['evalue']
+              r.d['evalue'],
+              gq_id, 
+              gt_id 
             ] 
           end
         end
