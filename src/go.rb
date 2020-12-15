@@ -30,9 +30,12 @@ NOTES
 # predict contaminator ---  target genus is contaminator (flips either way) 
 =end 
 
-
 # Open the data
-file = CSV.open( File.expand_path('../data/working/possible_contamination_data.csv', __dir__), col_sep: ',', headers: true)
+# file = CSV.open( File.expand_path('../data/working/possible_contamination_data.csv', __dir__), col_sep: ',', headers: true)
+# file = CSV.open( File.expand_path('../data/working/possible_contaminations_exons_99p.csv', __dir__), col_sep: ',', headers: true)
+
+file = CSV.open( File.expand_path('../data/working/possible_contaminations_supercontig_95p.csv', __dir__), col_sep: ',', headers: true)
+
 plates = CSV.open( File.expand_path('../data/working/plates.csv', __dir__), col_sep: ',', headers: true)
 
 # Create a new data object
@@ -89,20 +92,20 @@ puts 'max: ' + scores.compact.max.to_s
 # Re-write the genus_ids file
 # Cgq::Report.write_genus_ids(data)
 
-# Cgq::Report.write_scores(data)
+Cgq::Report.write_scores(data)
 
 # Write count heatmaps
-Cgq::Report.count_heatmaps(data)
+# Cgq::Report.count_heatmaps(data)
 
 # puts data.foo
 
 # Cgq::Report.write_overlap_loci_by_genera(data)
 
 # puts ap data.locus_overlap_by_i_num 
-# Cgq::Report.locus_overlap_by_i_num(data)
+Cgq::Report.locus_overlap_by_i_num(data)
 
 #puts ap data.overlap_type_per_locus_pair 
-# Cgq::Report.overlap_type_per_locus_pair(data)
+Cgq::Report.overlap_type_per_locus_pair(data)
 
 
 
