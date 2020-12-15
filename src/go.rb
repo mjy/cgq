@@ -85,7 +85,6 @@ puts 'min: ' + scores.compact.min.to_s
 puts 'max: ' + scores.compact.max.to_s
 =end
 
-
 # Echo a count dataset to the console, pipe (`|`) it to a file
 # puts Cgq::Report.count_records_heatmap(data, '1')
 
@@ -95,11 +94,11 @@ puts 'max: ' + scores.compact.max.to_s
 Cgq::Report.write_scores(data)
 
 # Write count heatmaps
-# Cgq::Report.count_heatmaps(data)
+Cgq::Report.count_heatmaps(data)
 
 # puts data.foo
 
-# Cgq::Report.write_overlap_loci_by_genera(data)
+ Cgq::Report.write_overlap_loci_by_genera(data)
 
 # puts ap data.locus_overlap_by_i_num 
 Cgq::Report.locus_overlap_by_i_num(data)
