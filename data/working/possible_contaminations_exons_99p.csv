@@ -1,5 +1,4 @@
-contamination,query_genus,target_genus,query_seq,I# query,target_seq,I# target,%similarity,length of match (bp),mismatch,gapopen, qstart ,qend ,qlength,tstart ,tend ,tlength,evalue,note
-contamination,query_genus,target_genus,query_seq,I#query,target_seq,I#target,%similarity,length_of_match,mismatch,gapopen,qstart,qend,qlength,tstart,tend,tlength,evalue,expected%similarity_if_sequencingerror
+contamination,query_genus,target_genus,query_seq,I# query,target_seq,I# target,%similarity,length of match (bp),mismatch,gapopen,qstart,qend,qlength,tstart,tend,tlength,evalue,note
 ,Melittobia,Dasyomphale,L1000_MERG00136_0101,I5108,L1000_MERG00110_0101_SUPERCONTIG,I24001,99.36,312,2,0,1,312,321,1,312,321,1.00E-163,99.688
 ,Nasonia,Trichomalopsis,L1000_MERG00337_0101,I5103,L1000_MERG00343_0101,I5110,99.36,312,2,0,1,312,321,1,312,321,1.00E-163,99.688
 ,Trichomalopsis,Nasonia,L1000_MERG00343_0101,I5110,L1000_MERG00337_0101,I5103,99.36,312,2,0,1,312,321,1,312,321,1.00E-163,99.688
