@@ -3,11 +3,11 @@ require 'net/http'
 require 'JSON'
 
 
-
 module Cgq
   class Records
 
-    DERIVED_PATH = File.expand_path('../../data/working/derived/', __dir__)
+    # Assumes you run `ruby src/go.rb` (TODO: better resolve absolute path)
+    DERIVED_PATH = File.expand_path('../../../data/working/derived/', __dir__)
 
     # All rows in possible_contaminants
     attr_accessor :all_rows
@@ -137,7 +137,8 @@ module Cgq
     # @param kind ['I# query', 'I# target']
     def plate_name(row, kind = 'I# query')
       i = plate_rows[ row.d[kind] ]
-      i['AE plate #']
+      return i['AE plate #'] if i
+      nil
     end
 
     def plate_names
@@ -150,6 +151,7 @@ module Cgq
       position = plate_rows[
         row.d[kind]
       ]
+   
       if p = position['position']
         p.divmod(PLATE_HEIGHT)
       else
@@ -198,8 +200,21 @@ module Cgq
       # query_loci = more than 2 target loci
     end
 
+    # !! Returns 0 if it can not be determined
     def score_taxon_difference(row)
-      families[ row.genus_pair.first ][:id] == families[ row.genus_pair.last ][:id] ? 0 : 1
+
+      a = row.genus_pair.first 
+      b = row.genus_pair.last
+
+      c = families[a]
+      d = families[b]
+
+      puts "#{a} is not found" if c.nil?
+      puts "#{b} is not found" if d.nil?
+
+      return 0 if c.nil? or d.nil?
+
+      c[:id] == d[:id] ? 0 : 1
     end
 
     # i.e. same plate or different
