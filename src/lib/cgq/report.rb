@@ -61,11 +61,14 @@ module Cgq
             gt_id = data.genus_ids[gt]
             x,y = data.plate_xy(r) 
 
+            fam_q = data.families[gq] ? data.families[gq][:name] : 'UNKNOWN'
+            fam_t = data.families[gt] ? data.families[gt][:name] : 'UNKNOWN'
+
             csv << [
               gq,
               gt,
-              data.families[gq][:name],
-              data.families[gt][:name],
+              fam_q, 
+              fam_t, 
               r.d['I# query'],
               r.d['I# target'],
               data.plate_name(r),
