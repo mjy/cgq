@@ -214,7 +214,7 @@ module Cgq
 
       return 0 if c.nil? or d.nil?
 
-      c[:id] == d[:id] ? 0 : 1
+      c['id'] == d['id'] ? 0 : 1
     end
 
     # i.e. same plate or different
@@ -240,9 +240,9 @@ module Cgq
     #   2x the volume as a cutoff 
     # end
 
+    # 100% -> significant (then possible below) -> match to same species, or match to contaminants -> one of the biggest flags !!
     def score_proportional_difference(row)
-      row.d['%similar']  == '100.00' ? 1 :0
-      # 100% -> significant (then possible below) -> match to same species, or match to contaminants -> one of the biggest flags !!
+      row.d['%similarity']  == '100.00' ? 1 :0
     end
 
     def composite_score_proportional_overlap(cutoff_length = 100) # basepairs

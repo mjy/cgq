@@ -54,6 +54,7 @@ module Cgq
           ucd_genus_query_id
           ucd_genus_target_id
         }
+
           data.rows.each do |r|
             gq = r.d['query_genus']
             gt = r.d['target_genus']
@@ -61,8 +62,8 @@ module Cgq
             gt_id = data.genus_ids[gt]
             x,y = data.plate_xy(r) 
 
-            fam_q = data.families[gq] ? data.families[gq][:name] : 'UNKNOWN'
-            fam_t = data.families[gt] ? data.families[gt][:name] : 'UNKNOWN'
+            fam_q = data.families[gq] ? data.families[gq]['name'] : 'UNKNOWN'
+            fam_t = data.families[gt] ? data.families[gt]['name'] : 'UNKNOWN'
 
             csv << [
               gq,
