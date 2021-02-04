@@ -410,7 +410,7 @@ I27392,5,0.172,Ufens,
 I27393,5,0.177,Rotoita,
 I27394,5,0.12,Encarsia,
 I27395,5,0.198,cirrospilus,nr cinctithorax
-I27396,5,,,
+I27396,5,0.228,Australeunotus,
 I27397,5,0.230,Solenura,
 I27398,5,0.266,Closterocerus,
 I27399,5,0.268,Elachertus,cacoeciae
@@ -418,9 +418,9 @@ I27400,5,0.307,Allanagrus,
 I27401,5,0.275,,
 I27402,5,0.183,Omyomymar,grisselli
 I27403,5,0.276,Macromesus,
-I27404,5,0.289,,
+I27404,5,0.289,Zealoromma,
 I27405,5,0.296,Promuscidea,
-I27406,5,,,
+I27406,5,0.304,Spalangiopelta,
 I27407,5,0.304,Cephaleta,
 I27408,5,0.308,Neochrysocharis,clinias
 I27409,5,0.358,Naumanniola,
@@ -473,7 +473,7 @@ I27454,5,8.82,,
 I27455,5,5.81,,
 I27456,5,5.94,Eusandalum,flavipenne
 I27457,5,3.92,Zeala,walkerae
-I27458,5,,,
+I27458,5,,4.04,Exolabrum,vannoorti,
 I27459,5,10.8,Trichilogaster,
 I27460,5,6.06,Callimomoides,
 I27461,5,6.02,Calosota,metallica
@@ -537,11 +537,11 @@ I29018,6,1.64,Arescon,dimidiatus
 I29019,6,1.47,Eridontomerus,arrabonicus
 I29020,6,1.41,Anagroidea,
 I29021,6,1.30,,
-I29022,6,,,
+I29022,6,,1.4,
 I29023,6,1.22,Idiomacromerus,arcus
 I29024,6,1.18,,
 I29025,6,1.14,Akapala,rudis
-I29026,6,,Diaspiniphagus,moeris
+I29026,6,1.93,Diaspiniphagus,moeris
 I29027,6,2.50,Diomorus,
 I29028,6,2.69,Acmopolynema,
 I29029,6,1.79,Myiocnema,
@@ -659,9 +659,9 @@ I16360,,,Perilampus,hyalinus
 I16361,,,Perilampus,
 I16362,,,Burksilampus,
 I16363,,,Timioderus,refringens
-I21679,,,Eulophus,
+I21679,,1.274,Eulophus,
 I21925,,14.3,Plutothrix,
-I21935,,,Endobia,donacis
+I21935,,0.79,Endobia,donacis
 I29002,,0.0216,Eriaphytis,
 I6293,,,Orasema,freychei
 I6294,,,Chrysolampus,thenae
