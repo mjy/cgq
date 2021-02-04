@@ -96,8 +96,6 @@ Cgq::Report.write_scores(data)
 # Write count heatmaps
 Cgq::Report.count_heatmaps(data)
 
-# puts data.foo
-
 Cgq::Report.write_overlap_loci_by_genera(data)
 
 # puts ap data.locus_overlap_by_i_num 
@@ -105,6 +103,11 @@ Cgq::Report.locus_overlap_by_i_num(data)
 
 #puts ap data.overlap_type_per_locus_pair 
 Cgq::Report.overlap_type_per_locus_pair(data)
+
+#puts ap data.overlap_type_per_locus_pair 
+Cgq::Report.count_exclusion(data, [2,3,4,5], [0.005, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 5.0])
+
+
 
 
 

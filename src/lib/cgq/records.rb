@@ -16,7 +16,7 @@ module Cgq
     attr_accessor :rows
 
     # @return [Hash]
-    # { 
+    # {
     # "I9733" => {
     #                      "AE I#" => "I9733",
     #                 "AE plate #" => nil,
@@ -25,7 +25,7 @@ module Cgq
     #                    "species" => "peridentatus",
     #                   "position" => 138
     # }, ...}
-    # 
+    #
     attr_accessor :plate_rows
 
     attr_accessor :families
@@ -151,7 +151,7 @@ module Cgq
       position = plate_rows[
         row.d[kind]
       ]
-   
+
       if p = position['position']
         p.divmod(PLATE_HEIGHT)
       else
@@ -175,7 +175,7 @@ module Cgq
     #    query - target
     def concentration_difference(row)
       c1 = query_qubit(row)
-      c2 = target_qubit(row) 
+      c2 = target_qubit(row)
 
       return nil if (c1 =~ /fail/) || (c2 =~ /fail/)
       c1.to_f - c2.to_f
@@ -192,6 +192,33 @@ module Cgq
     end
 
     #
+    # Exclude
+    #
+
+    def exclude_score(row, focus = :target, concentration_value = nil, concentration_cutoff = 0.5, composite_score = nil, composite_cutoff = [3,4,5])
+      concentration_value ||= concentration_difference(row)
+
+      return nil if concentration_value == nil
+
+      composite_score ||= composite_score_difference(row, concentration_cutoff)
+
+      v = nil
+
+      if composite_cutoff.include?(composite_score)
+        if focus == :query
+          v = (concentration_value < 0)
+        elsif focus == :target
+          v = (concentration_value > 0)
+        end
+
+        if v && (concentration_value.abs > concentration_cutoff)
+          return 1
+        end
+      end
+      return nil
+    end
+
+    #
     # Scores
     #
 
@@ -203,7 +230,7 @@ module Cgq
     # !! Returns 0 if it can not be determined
     def score_taxon_difference(row)
 
-      a = row.genus_pair.first 
+      a = row.genus_pair.first
       b = row.genus_pair.last
 
       c = families[a]
@@ -237,7 +264,7 @@ module Cgq
     end
 
     # def absolute difference vs. min/max
-    #   2x the volume as a cutoff 
+    #   2x the volume as a cutoff
     # end
 
     # 100% -> significant (then possible below) -> match to same species, or match to contaminants -> one of the biggest flags !!
@@ -255,12 +282,12 @@ module Cgq
       end
     end
 
-    def composite_score_difference(row)
-      row.score_locus_difference + 
-        row.score_proportional_length +  
-        score_taxon_difference(row) + 
-        score_plate_difference(row) + 
-        score_concentration_difference(row) + 
+    def composite_score_difference(row, concentration_cutoff = 3)
+      row.score_locus_difference +
+        row.score_proportional_length +
+        score_taxon_difference(row) +
+        score_plate_difference(row) +
+        score_concentration_difference(row, concentration_cutoff) +
         score_proportional_difference(row)
     end
 
@@ -285,7 +312,7 @@ module Cgq
     end
 
     # @return [Array]
-    #   A list of all unique locus_pairs 
+    #   A list of all unique locus_pairs
     def unique_locus_pairs
       locus_pairs = {}
       all_rows.each do |r|
@@ -353,7 +380,7 @@ module Cgq
       t = 'I# query'
 
       v = {}
-      # rows? 
+      # rows?
       all_rows.each do |r|
         next unless plate_name(r, t) == plate
         if a = plate_xy(r,t)
@@ -462,7 +489,7 @@ module Cgq
         end
       end
       d
-    end 
+    end
 
     def locus_overlap_by_i_num
       d = {}
@@ -482,7 +509,7 @@ module Cgq
         end
       end
       d
-    end 
+    end
 
     def overlap_type_per_locus_pair
       d = {}
@@ -497,7 +524,7 @@ module Cgq
         end
       end
       d
-    end 
+    end
 
   end
 end

@@ -21,9 +21,14 @@ module Cgq
           target_family
           i_query
           i_target
+          exclude_query
+          exclude_target
+          exclude
           plate
-          plate_x
-          plate_y
+          query_plate_x
+          query_plate_y
+          target_plate_x
+          target_plate_y
           qt_plate_distance
           query_qubit
           target_qubit
@@ -60,10 +65,15 @@ module Cgq
             gt = r.d['target_genus']
             gq_id = data.genus_ids[gq] 
             gt_id = data.genus_ids[gt]
-            x,y = data.plate_xy(r) 
+            qx,qy = data.plate_xy(r) 
+            tx,ty = data.plate_xy(r,'I# target') 
 
             fam_q = data.families[gq] ? data.families[gq]['name'] : 'UNKNOWN'
             fam_t = data.families[gt] ? data.families[gt]['name'] : 'UNKNOWN'
+                     
+            exclude_query = data.exclude_score(r, :query)
+            exclude_target = data.exclude_score(r, :target)
+            exclude = (exclude_query || 0) + (exclude_target || 0)
 
             csv << [
               gq,
@@ -72,9 +82,14 @@ module Cgq
               fam_t, 
               r.d['I# query'],
               r.d['I# target'],
+              exclude_query, 
+              exclude_target,
+              exclude, 
               data.plate_name(r),
-              x, 
-              y,
+              qx, 
+              qy,
+              tx, 
+              ty,
               data.plate_cell_distance(r),
               data.query_qubit(r),
               data.target_qubit(r),
@@ -190,6 +205,37 @@ module Cgq
           end
         end
       end
+
+      # @param concentration_cutoff_range [Int]
+      #   min 0, max 5
+      def count_exclusion(data, composite_score_cutoff_range = [3,4,5], concentration_cutoff_range = [5] )
+        
+        CSV.open(CSV_EXPORT_PATH + "/count_contamination_per.csv", "w", col_sep: ',') do |csv|
+
+          csv << %w{
+            concentration_cutoff 
+          } + composite_score_cutoff_range.collect{|c| "score_#{c}"}
+
+
+          concentration_cutoff_range.each do |j| # the row
+            values = []
+            composite_score_cutoff_range.each do |i|
+
+              t = 0
+
+              data.rows.each do |r|
+                a = data.exclude_score(r, :query, nil, j, nil, [i])
+                b =  data.exclude_score(r, :target, nil, j, nil, [i])
+                t = t + a if !a.nil?
+                t = t + b if !b.nil?
+              end 
+              values.push t
+
+            end
+            csv << [j] + values
+          end
+        end
+      end 
 
       def count_heatmaps(data)
         p = HTML_EXPORT_PATH  + '/heatmaps/'  
