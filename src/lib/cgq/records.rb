@@ -206,11 +206,11 @@ module Cgq
     #
     #
 
-    def exclude_score(row, focus = :target, type = :difference, concentration_value = nil, concentration_cutoff = 0.5, composite_score = nil, composite_cutoff = [3,4,5])
+    def exclude_score(row, focus = :target, type = :difference, concentration_value = nil, concentration_cutoff = 1.0, composite_score = nil, composite_cutoff = [3,4,5])
       send("exclude_score_#{type}", row, focus, concentration_value, concentration_cutoff, composite_score, composite_cutoff)
     end
 
-    def exclude_score_difference(row, focus = :target, concentration_value = nil, concentration_cutoff = 0.5, composite_score = nil, composite_cutoff = [3,4,5])
+    def exclude_score_difference(row, focus = :target, concentration_value = nil, concentration_cutoff = 1.0, composite_score = nil, composite_cutoff = [3,4,5])
       concentration_value ||= concentration_difference(row)
 
       return nil if concentration_value == nil
@@ -301,7 +301,7 @@ module Cgq
       end
     end
 
-    def score_concentration_ratio(row, cutoff = 3) # consider using ratio rather than absolute
+    def score_concentration_ratio(row, cutoff = 1.0)
       # they are on different plates, shouldn't be a contamination
       return 0 if score_plate_difference(row) == 1
       if s = concentration_ratio(row)
