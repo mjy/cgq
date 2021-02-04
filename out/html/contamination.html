@@ -12,7 +12,6 @@
 <!-- Color Scale -->
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 
-
 <script>
 
 // set the dimensions and margins of the graph
@@ -29,7 +28,7 @@ var svg = d3.select("#my_dataviz")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("../csv/count_contamination_per.csv", function(data) {
+d3.csv("../csv/count_contamination_ratio_per.csv", function(data) {
   
 // d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_connectedscatter.csv", function(data) {
 
@@ -55,7 +54,7 @@ d3.csv("../csv/count_contamination_per.csv", function(data) {
 
     // Add X axis --> it is a date format
     var x = d3.scaleLinear()
-      .domain([0,2])
+      .domain([0,5])
       .range([ 0, width ]);
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")

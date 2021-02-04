@@ -209,7 +209,6 @@ module Cgq
       # @param concentration_cutoff_range [Int]
       #   min 0, max 5
       def count_exclusion(data, composite_score_cutoff_range = [3,4,5], concentration_cutoff_range = [5] )
-        
         CSV.open(CSV_EXPORT_PATH + "/count_contamination_per.csv", "w", col_sep: ',') do |csv|
 
           csv << %w{
@@ -235,7 +234,37 @@ module Cgq
             csv << [j] + values
           end
         end
+      end
+
+      # @param concentration_cutoff_range [Int]
+      #   min 0, max 5
+      def count_exclusion_ratio(data, composite_score_cutoff_range = [3,4,5], concentration_cutoff_range = [1.0] )
+        CSV.open(CSV_EXPORT_PATH + "/count_contamination_ratio_per.csv", "w", col_sep: ',') do |csv|
+
+          csv << %w{
+            concentration_cutoff 
+          } + composite_score_cutoff_range.collect{|c| "score_#{c}"}
+
+          concentration_cutoff_range.each do |j| # the row
+            values = []
+            composite_score_cutoff_range.each do |i|
+              t = 0
+
+              data.rows.each do |r|
+                a = data.exclude_score_ratio(r, :query, nil, j, nil, [i])
+                b =  data.exclude_score_ratio(r, :target, nil, j, nil, [i])
+                t = t + a if !a.nil?
+                t = t + b if !b.nil?
+              end 
+              values.push t
+
+            end
+            csv << [j] + values
+          end
+        end
       end 
+
+
 
       def count_heatmaps(data)
         p = HTML_EXPORT_PATH  + '/heatmaps/'  

@@ -177,8 +177,18 @@ module Cgq
       c1 = query_qubit(row)
       c2 = target_qubit(row)
 
-      return nil if (c1 =~ /fail/) || (c2 =~ /fail/)
+      return nil if (c1 =~ /fail/i) || (c2 =~ /fail/i)
       c1.to_f - c2.to_f
+    end
+
+    # @return [Float, -1]
+    #    query - target
+    def concentration_ratio(row)
+      c1 = query_qubit(row)
+      c2 = target_qubit(row)
+
+      return nil if (c1 =~ /fail/) || (c2 =~ /fail/)
+      c1.to_f / c2.to_f
     end
 
     def query_qubit(row)
@@ -217,6 +227,30 @@ module Cgq
       end
       return nil
     end
+
+    def exclude_score_ratio(row, focus = :target, concentration_value = nil, concentration_cutoff = 1.0, composite_score = nil, composite_cutoff = [3,4,5])
+      concentration_value ||= concentration_ratio(row)
+
+      return nil if concentration_value == nil
+
+      composite_score ||= composite_score_difference(row, concentration_cutoff)
+
+      v = nil
+
+      if composite_cutoff.include?(composite_score)
+        if focus == :query
+          v = (concentration_value < 0)
+        elsif focus == :target
+          v = (concentration_value > 0)
+        end
+
+        if v && (concentration_value.abs > concentration_cutoff)
+          return 1
+        end
+      end
+      return nil
+    end
+
 
     #
     # Scores
