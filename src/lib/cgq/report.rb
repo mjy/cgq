@@ -12,6 +12,10 @@ module Cgq
     class << self
 
       def write_scores(data, options = {})
+
+        concentration_method = options[:concentration_method]
+        concentration_method ||= :difference 
+
         FileUtils.mkdir_p(CSV_EXPORT_PATH)
         CSV.open(CSV_EXPORT_PATH + "/scores.csv", "w") do |csv|
           csv << %w{
@@ -70,9 +74,9 @@ module Cgq
 
             fam_q = data.families[gq] ? data.families[gq]['name'] : 'UNKNOWN'
             fam_t = data.families[gt] ? data.families[gt]['name'] : 'UNKNOWN'
-                     
-            exclude_query = data.exclude_score(r, :query)
-            exclude_target = data.exclude_score(r, :target)
+
+            exclude_query = data.exclude_score(r, :query, concentration_method)
+            exclude_target = data.exclude_score(r, :target,concentration_method)
             exclude = (exclude_query || 0) + (exclude_target || 0)
 
             csv << [
@@ -101,7 +105,7 @@ module Cgq
               data.score_plate_difference(r),
               data.score_concentration_difference(r),
               data.score_proportional_difference(r),
-              data.composite_score_difference(r),
+              data.composite_score_concentration(r, 3, concentration_method),
               r.composite_score_exact_match_different_locus,
               'todo_predicted_contaminant', # TODO: query or target
               r.query_locus,
@@ -223,8 +227,8 @@ module Cgq
               t = 0
 
               data.rows.each do |r|
-                a = data.exclude_score(r, :query, nil, j, nil, [i])
-                b =  data.exclude_score(r, :target, nil, j, nil, [i])
+                a = data.exclude_score(r, :query, :difference, nil, j, nil, [i])
+                b =  data.exclude_score(r, :target, :difference,  nil, j, nil, [i]) # TODO: make option
                 t = t + a if !a.nil?
                 t = t + b if !b.nil?
               end 

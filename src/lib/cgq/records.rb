@@ -204,13 +204,18 @@ module Cgq
     #
     # Exclude
     #
+    #
 
-    def exclude_score(row, focus = :target, concentration_value = nil, concentration_cutoff = 0.5, composite_score = nil, composite_cutoff = [3,4,5])
+    def exclude_score(row, focus = :target, type = :difference, concentration_value = nil, concentration_cutoff = 0.5, composite_score = nil, composite_cutoff = [3,4,5])
+      send("exclude_score_#{type}", row, focus, concentration_value, concentration_cutoff, composite_score, composite_cutoff)
+    end
+
+    def exclude_score_difference(row, focus = :target, concentration_value = nil, concentration_cutoff = 0.5, composite_score = nil, composite_cutoff = [3,4,5])
       concentration_value ||= concentration_difference(row)
 
       return nil if concentration_value == nil
 
-      composite_score ||= composite_score_difference(row, concentration_cutoff)
+      composite_score ||= composite_score_concentration(row, concentration_cutoff, :difference)
 
       v = nil
 
@@ -233,7 +238,7 @@ module Cgq
 
       return nil if concentration_value == nil
 
-      composite_score ||= composite_score_difference(row, concentration_cutoff)
+      composite_score ||= composite_score_concentration(row, concentration_cutoff, :ratio)
 
       v = nil
 
@@ -286,11 +291,20 @@ module Cgq
     end
 
     # Scores range from -14.3 to 14.3
-    # TODO: what is a reasonable cuttoff
     def score_concentration_difference(row, cutoff = 3) # consider using ratio rather than absolute
       # they are on different plates, shouldn't be a contamination
       return 0 if score_plate_difference(row) == 1
       if s = concentration_difference(row)
+        return s.abs > cutoff ? 1 : 0
+      else
+        0 # Hmm, likely not here
+      end
+    end
+
+    def score_concentration_ratio(row, cutoff = 3) # consider using ratio rather than absolute
+      # they are on different plates, shouldn't be a contamination
+      return 0 if score_plate_difference(row) == 1
+      if s = concentration_ratio(row)
         return s.abs > cutoff ? 1 : 0
       else
         0 # Hmm, likely not here
@@ -316,12 +330,23 @@ module Cgq
       end
     end
 
-    def composite_score_difference(row, concentration_cutoff = 3)
+    # @param concentration_method [Symbol]
+    #   one of :difference or :ratio
+    def composite_score_concentration(row, concentration_cutoff = 3, concentration_method = :difference)
+      q = 0
+      if concentration_method == :difference
+        q = score_concentration_difference(row, concentration_cutoff)
+      elsif concentration_method == :ratio
+        q = score_concentration_ratio(row, concentration_cutoff)
+      else
+        raise 'bad value to concentration method'
+      end
+
       row.score_locus_difference +
         row.score_proportional_length +
         score_taxon_difference(row) +
         score_plate_difference(row) +
-        score_concentration_difference(row, concentration_cutoff) +
+        q +
         score_proportional_difference(row)
     end
 
@@ -421,7 +446,7 @@ module Cgq
           if v[a]
             v[a][:total] += 1
           else
-            v[a] = { total: 1, query_genus: r.d['query_genus'], i_num: r.d['I# query'], score: composite_score_difference(r) }
+            v[a] = { total: 1, query_genus: r.d['query_genus'], i_num: r.d['I# query'], score: composite_score_concentration(r) }
           end
         end
       end
