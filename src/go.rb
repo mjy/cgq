@@ -91,7 +91,6 @@ puts 'max: ' + scores.compact.max.to_s
 # Re-write the genus_ids file
 # Cgq::Report.write_genus_ids(data)
 
-=begin
 Cgq::Report.write_scores(data)
 
 # Write count heatmaps
@@ -106,7 +105,6 @@ Cgq::Report.locus_overlap_by_i_num(data)
 Cgq::Report.overlap_type_per_locus_pair(data)
 
 Cgq::Report.count_exclusion(data, [2,3,4,5], [0.005, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 5.0])
-=end
 
 Cgq::Report.count_exclusion_ratio(data, [2,3,4,5], [0.005, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 5.0])
 
