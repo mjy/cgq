@@ -4,7 +4,7 @@ Utilities to compute some metrics from a custom set of metadata.
 
 ## Download
 
-* Click the green 'Code' option
+* Click the green 'Code' option on this very page (above to right)
 * Click the "Download as zipfile" option
 
 ## Results
