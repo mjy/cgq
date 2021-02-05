@@ -171,24 +171,31 @@ module Cgq
       plate_rows(i_number)
     end
 
-    # @return [Float, -1]
+    # !! Can not be move to Row because they reference plate data
+
+    # @return [Float, nil]
     #    query - target
     def concentration_difference(row)
       c1 = query_qubit(row)
       c2 = target_qubit(row)
 
-      return nil if (c1 =~ /fail/i) || (c2 =~ /fail/i)
-      c1.to_f - c2.to_f
+      return nil if (c1 =~ /fail/i) || (c2 =~ /fail/i) || c1.nil? || c2.nil?
+
+      (c1.to_f - c2.to_f).round(3)
     end
 
-    # @return [Float, -1]
+    # @return [Float, nil]
     #    query - target
     def concentration_ratio(row)
       c1 = query_qubit(row)
       c2 = target_qubit(row)
 
-      return nil if (c1 =~ /fail/) || (c2 =~ /fail/)
-      c1.to_f / c2.to_f
+      return nil if (c1 =~ /fail/i) || (c2 =~ /fail/i)  || c1.nil? || c2.nil?
+
+      a, b = [c1.to_f, c2.to_f].sort # numerator is always on top
+      
+      # print " #{a} - #{b} "
+      (a / b).round(3)
     end
 
     def query_qubit(row)
@@ -206,20 +213,20 @@ module Cgq
     #
     #
 
-    def exclude_score(row, focus = :target, type = :difference, concentration_value = nil, concentration_cutoff = 1.0, composite_score = nil, composite_cutoff = [3,4,5])
-      send("exclude_score_#{type}", row, focus, concentration_value, concentration_cutoff, composite_score, composite_cutoff)
+    def exclude_score(row, focus: :target, type: :ratio, concentration_cutoff: nil, composite_cutoff: [3,4,5] )
+      send("exclude_score_#{type}", row, focus: focus, type: type, concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
     end
 
-    def exclude_score_difference(row, focus = :target, concentration_value = nil, concentration_cutoff = 1.0, composite_score = nil, composite_cutoff = [3,4,5])
-      concentration_value ||= concentration_difference(row)
+    def exclude_score_difference(row, focus: :target, type: :ratio, concentration_cutoff: 3.0, composite_cutoff: [3,4,5] )
+      concentration_value = concentration_difference(row)
 
-      return nil if concentration_value == nil
+      return nil if concentration_value.nil?
 
-      composite_score ||= composite_score_concentration(row, concentration_cutoff, :difference)
+      cs = composite_score(row, concentration_cutoff, :difference)
 
       v = nil
 
-      if composite_cutoff.include?(composite_score)
+      if composite_cutoff.include?(cs)
         if focus == :query
           v = (concentration_value < 0)
         elsif focus == :target
@@ -233,29 +240,31 @@ module Cgq
       return nil
     end
 
-    def exclude_score_ratio(row, focus = :target, concentration_value = nil, concentration_cutoff = 1.0, composite_score = nil, composite_cutoff = [3,4,5])
-      concentration_value ||= concentration_ratio(row)
+    # @return [1, nil]
+    #   whether to exclude this row based on the ratio of query/target qbit
+    def exclude_score_ratio(row, focus: :target, type: :ratio, concentration_cutoff: 0.3, composite_cutoff: [3,4,5])
+      cr = concentration_ratio(row)
+      return nil if cr.nil?
 
-      return nil if concentration_value == nil
-
-      composite_score ||= composite_score_concentration(row, concentration_cutoff, :ratio)
+      cs = composite_score(row, concentration_cutoff, :ratio)
 
       v = nil
+      
+      if composite_cutoff.include?(cs)
+         d = concentration_difference(row) 
 
-      if composite_cutoff.include?(composite_score)
         if focus == :query
-          v = (concentration_value < 0)
+          v = (d < 0)
         elsif focus == :target
-          v = (concentration_value > 0)
+          v = (d > 0)
         end
 
-        if v && (concentration_value.abs > concentration_cutoff)
+        if v && (cr < concentration_cutoff)
           return 1
         end
       end
       return nil
     end
-
 
     #
     # Scores
@@ -290,24 +299,29 @@ module Cgq
       p1 == p2 ? 1 : 0
     end
 
-    # Scores range from -14.3 to 14.3
-    def score_concentration_difference(row, cutoff = 3) # consider using ratio rather than absolute
+    def score_concentration_difference(row, cutoff = 3)
       # they are on different plates, shouldn't be a contamination
       return 0 if score_plate_difference(row) == 1
+
       if s = concentration_difference(row)
+        cutoff = 3 if cutoff.nil?
+
         return s.abs > cutoff ? 1 : 0
       else
         0 # Hmm, likely not here
       end
     end
 
-    def score_concentration_ratio(row, cutoff = 1.0)
+    def score_concentration_ratio(row, cutoff = 0.3)
       # they are on different plates, shouldn't be a contamination
       return 0 if score_plate_difference(row) == 1
+
       if s = concentration_ratio(row)
-        return s.abs > cutoff ? 1 : 0
+        cutoff = 0.3 if cutoff.nil? # handle nil coming in
+
+        return s.abs < cutoff ? 1 : 0
       else
-        0 # Hmm, likely not here
+        0
       end
     end
 
@@ -332,14 +346,14 @@ module Cgq
 
     # @param concentration_method [Symbol]
     #   one of :difference or :ratio
-    def composite_score_concentration(row, concentration_cutoff = 3, concentration_method = :difference)
+    def composite_score(row, concentration_cutoff = nil, concentration_method = :ratio)
       q = 0
       if concentration_method == :difference
         q = score_concentration_difference(row, concentration_cutoff)
       elsif concentration_method == :ratio
         q = score_concentration_ratio(row, concentration_cutoff)
       else
-        raise 'bad value to concentration method'
+        raise 'bad concentration_method'
       end
 
       row.score_locus_difference +
@@ -380,7 +394,6 @@ module Cgq
       end
       locus_pairs.keys.sort
     end
-
 
     def offenders
       offenders = {}
@@ -427,7 +440,7 @@ module Cgq
       rows.each do |r|
         next unless plate_name(r, t) == plate
         x, y = plate_xy(r, t).collect{|v| v.to_s.rjust(2, '0')}
-        viz.push( { group: x, variable: y,  value: score_difference(r) } )
+        viz.push( { group: x, variable: y,  value: score_difference(r) } ) # defaults to ratio
       end
       viz.uniq!
       viz
@@ -446,7 +459,7 @@ module Cgq
           if v[a]
             v[a][:total] += 1
           else
-            v[a] = { total: 1, query_genus: r.d['query_genus'], i_num: r.d['I# query'], score: composite_score_concentration(r) }
+            v[a] = { total: 1, query_genus: r.d['query_genus'], i_num: r.d['I# query'], score: composite_score(r) }
           end
         end
       end

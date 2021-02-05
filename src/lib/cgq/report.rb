@@ -14,7 +14,12 @@ module Cgq
       def write_scores(data, options = {})
 
         concentration_method = options[:concentration_method]
-        concentration_method ||= :difference 
+        concentration_method ||= :ratio
+
+        concentration_cutoff = options[:concentration_cutoff]
+
+        composite_cutoff ||= options[:composite_cutoff]
+        composite_cutoff ||= [3,4,5]
 
         FileUtils.mkdir_p(CSV_EXPORT_PATH)
         CSV.open(CSV_EXPORT_PATH + "/scores.csv", "w") do |csv|
@@ -37,16 +42,17 @@ module Cgq
           query_qubit
           target_qubit
           concentration_difference
+          concentration_ratio
           overlap_type
           s_locus_difference
           s_proportional_length
           s_taxon_difference
           s_plate_difference
-          s_concentration_difference 
+          x_concentration_difference 
+          s_concentration_ratio
           s_proportional_difference
           cs_sum_difference
           cs_exact_match_different_locus
-          cs_predicted_contaminant
           query_locus
           target_locus
           percent_similarity
@@ -75,9 +81,10 @@ module Cgq
             fam_q = data.families[gq] ? data.families[gq]['name'] : 'UNKNOWN'
             fam_t = data.families[gt] ? data.families[gt]['name'] : 'UNKNOWN'
 
-            exclude_query = data.exclude_score(r, :query, concentration_method)
-            exclude_target = data.exclude_score(r, :target,concentration_method)
-            exclude = (exclude_query || 0) + (exclude_target || 0)
+            exclude_query = data.exclude_score(r, focus: :query, type: concentration_method,  concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
+            exclude_target = data.exclude_score(r, focus: :target, type: concentration_method, concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
+
+            exclude = (exclude_query || 0) + (exclude_target || 0) # presently never 2
 
             csv << [
               gq,
@@ -98,16 +105,17 @@ module Cgq
               data.query_qubit(r),
               data.target_qubit(r),
               data.concentration_difference(r),
+              data.concentration_ratio(r),
               r.overlap_type,
               r.score_locus_difference,
               r.score_proportional_length, 
               data.score_taxon_difference(r),
               data.score_plate_difference(r),
               data.score_concentration_difference(r),
+              data.score_concentration_ratio(r),
               data.score_proportional_difference(r),
-              data.composite_score_concentration(r, 3, concentration_method),
+              data.composite_score(r, concentration_cutoff, concentration_method),
               r.composite_score_exact_match_different_locus,
-              'todo_predicted_contaminant', # TODO: query or target
               r.query_locus,
               r.target_locus,
               r.d['%similar'],
@@ -212,23 +220,22 @@ module Cgq
 
       # @param concentration_cutoff_range [Int]
       #   min 0, max 5
-      def count_exclusion(data, composite_score_cutoff_range = [3,4,5], concentration_cutoff_range = [5] )
+      def count_exclusion(data, composite_score_cutoff_range = [3,4,5], concentration_cutoff_range = [3] )
         CSV.open(CSV_EXPORT_PATH + "/count_contamination_per.csv", "w", col_sep: ',') do |csv|
 
           csv << %w{
             concentration_cutoff 
           } + composite_score_cutoff_range.collect{|c| "score_#{c}"}
 
-
-          concentration_cutoff_range.each do |j| # the row
+          concentration_cutoff_range.each do |j|
             values = []
             composite_score_cutoff_range.each do |i|
 
               t = 0
 
               data.rows.each do |r|
-                a = data.exclude_score(r, :query, :difference, nil, j, nil, [i])
-                b =  data.exclude_score(r, :target, :difference,  nil, j, nil, [i]) # TODO: make option
+                a = data.exclude_score(r, focus: :query, type: :difference, composite_cutoff: [i], concentration_cutoff: j)
+                b = data.exclude_score(r, focus: :target, type: :difference, composite_cutoff: [i], concentration_cutoff: j) # TODO: make option
                 t = t + a if !a.nil?
                 t = t + b if !b.nil?
               end 
@@ -242,21 +249,20 @@ module Cgq
 
       # @param concentration_cutoff_range [Int]
       #   min 0, max 5
-      def count_exclusion_ratio(data, composite_score_cutoff_range = [3,4,5], concentration_cutoff_range = [1.0] )
+      def count_exclusion_ratio(data, composite_score_cutoff_range = [3,4,5], concentration_cutoff_range = [0.3] )
         CSV.open(CSV_EXPORT_PATH + "/count_contamination_ratio_per.csv", "w", col_sep: ',') do |csv|
-
           csv << %w{
             concentration_cutoff 
           } + composite_score_cutoff_range.collect{|c| "score_#{c}"}
 
-          concentration_cutoff_range.each do |j| # the row
+          concentration_cutoff_range.each do |j|
             values = []
             composite_score_cutoff_range.each do |i|
               t = 0
 
               data.rows.each do |r|
-                a = data.exclude_score_ratio(r, :query, nil, j, nil, [i])
-                b =  data.exclude_score_ratio(r, :target, nil, j, nil, [i])
+                a = data.exclude_score_ratio(r, type: :ratio, focus: :query, composite_cutoff: [i], concentration_cutoff: j)
+                b = data.exclude_score_ratio(r, type: :ratio, focus: :target, composite_cutoff: [i], concentration_cutoff: j)
                 t = t + a if !a.nil?
                 t = t + b if !b.nil?
               end 
@@ -267,8 +273,6 @@ module Cgq
           end
         end
       end 
-
-
 
       def count_heatmaps(data)
         p = HTML_EXPORT_PATH  + '/heatmaps/'  

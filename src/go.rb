@@ -1,6 +1,7 @@
 require 'byebug'
 require 'csv'
 require 'amazing_print'
+require 'rainbow'
 
 require_relative 'lib/cgq'
 
@@ -91,27 +92,52 @@ puts 'max: ' + scores.compact.max.to_s
 # Re-write the genus_ids file
 # Cgq::Report.write_genus_ids(data)
 
-Cgq::Report.write_scores(data, concentration_method: :ratio)
+Cgq::Report.write_scores(data, concentration_method: :ratio, concentration_cutoff: 0.3, composite_cutoff: [3,4,5])
 
-# Write count heatmaps
+# # Write count heatmaps
 Cgq::Report.count_heatmaps(data)
 
 Cgq::Report.write_overlap_loci_by_genera(data)
 
-# puts ap data.locus_overlap_by_i_num 
+# # puts ap data.locus_overlap_by_i_num 
 Cgq::Report.locus_overlap_by_i_num(data)
 
-#puts ap data.overlap_type_per_locus_pair 
+# #puts ap data.overlap_type_per_locus_pair 
 Cgq::Report.overlap_type_per_locus_pair(data)
 
 Cgq::Report.count_exclusion(data, [2,3,4,5], [0.005, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 5.0])
 
-Cgq::Report.count_exclusion_ratio(data, [2,3,4,5], [0.005, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 5.0])
+Cgq::Report.count_exclusion_ratio(data, [2,3,4,5], [0.005, 0.01, 0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5, 0.75, 1.0])
 
+=begin
+scores = []
+data.all_rows.each do |r|
+# s = data.concentration_ratio(r)
+# print '[' + s&.round(3).to_s + ']' 
+# print ':'
+  
+  a = data.score_concentration_ratio(r)
+  b = data.score_concentration_difference(r)
 
+  print a.to_s + ' | ' + b.to_s
 
+  # s = data.concentration_difference(r)
+  # print '(' + s&.round(3).to_s + ')' 
 
+  if a == b
+    print Rainbow('Y').yellow.bold
+  else
+    print Rainbow('N').red.bold
+  end
 
+  print "\n"
+
+ #  scores.push s.to_f
+end 
+
+puts 'min: ' + scores.compact.min.to_s
+puts 'max: ' + scores.compact.max.to_s
+=end 
 
 
 

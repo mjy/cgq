@@ -30,7 +30,6 @@ var svg = d3.select("#my_dataviz")
 
 d3.csv("../csv/count_contamination_ratio_per.csv", function(data) {
   
-// d3.csv("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_connectedscatter.csv", function(data) {
 
     // List of groups (here I have one group per column)
     var allGroup = ["score_2", "score_3", "score_4", "score_5"]
@@ -54,7 +53,8 @@ d3.csv("../csv/count_contamination_ratio_per.csv", function(data) {
 
     // Add X axis --> it is a date format
     var x = d3.scaleLinear()
-      .domain([0,5])
+      .domain([0,1]) // Ratio
+      // .domain([0,5])
       .range([ 0, width ]);
     svg.append("g")
       .attr("transform", "translate(0," + height + ")")
@@ -62,7 +62,7 @@ d3.csv("../csv/count_contamination_ratio_per.csv", function(data) {
 
     // Add Y axis
     var y = d3.scaleLinear()
-      .domain( [0,4500])
+      .domain( [0,4500]) 
       .range([ height, 0 ]);
     svg.append("g")
       .call(d3.axisLeft(y));
@@ -111,6 +111,12 @@ d3.csv("../csv/count_contamination_ratio_per.csv", function(data) {
           .text(function(d) { return d.name; })
           .style("fill", function(d){ return myColor(d.name) })
           .style("font-size", 15)
+
+    svg.append("g")
+      .attr("class","legend")
+      .attr("transform","translate(50,30)")
+      .style("font-size","12px")
+      .call(d3.legend)
 
 })
 
