@@ -29,7 +29,6 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 d3.csv("../csv/count_contamination_ratio_per.csv", function(data) {
-  
 
     // List of groups (here I have one group per column)
     var allGroup = ["score_2", "score_3", "score_4", "score_5"]

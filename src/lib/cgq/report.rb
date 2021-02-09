@@ -24,25 +24,26 @@ module Cgq
         FileUtils.mkdir_p(CSV_EXPORT_PATH)
         CSV.open(CSV_EXPORT_PATH + "/scores.csv", "w") do |csv|
           csv << %w{
+          exclude
+          exclude_query
           query_genus
-          target_genus
           query_family
+          exclude_target
+          target_genus
           target_family
           i_query
           i_target
-          exclude_query
-          exclude_target
-          exclude
+          cs_sum_difference
+          query_qubit
+          target_qubit
+          concentration_difference
+          concentration_ratio
           plate
           query_plate_x
           query_plate_y
           target_plate_x
           target_plate_y
           qt_plate_distance
-          query_qubit
-          target_qubit
-          concentration_difference
-          concentration_ratio
           overlap_type
           s_locus_difference
           s_proportional_length
@@ -51,7 +52,6 @@ module Cgq
           x_concentration_difference 
           s_concentration_ratio
           s_proportional_difference
-          cs_sum_difference
           cs_exact_match_different_locus
           query_locus
           target_locus
@@ -87,25 +87,26 @@ module Cgq
             exclude = (exclude_query || 0) + (exclude_target || 0) # presently never 2
 
             csv << [
+              exclude,
+              exclude_query,
               gq,
-              gt,
               fam_q, 
+              exclude_target,
+              gt,
               fam_t, 
               r.d['I# query'],
               r.d['I# target'],
-              exclude_query, 
-              exclude_target,
-              exclude, 
+              data.composite_score(r, concentration_cutoff, concentration_method),
+              data.query_qubit(r),
+              data.target_qubit(r),
+              data.concentration_difference(r),
+              data.concentration_ratio(r),
               data.plate_name(r),
               qx, 
               qy,
               tx, 
               ty,
               data.plate_cell_distance(r),
-              data.query_qubit(r),
-              data.target_qubit(r),
-              data.concentration_difference(r),
-              data.concentration_ratio(r),
               r.overlap_type,
               r.score_locus_difference,
               r.score_proportional_length, 
@@ -114,7 +115,6 @@ module Cgq
               data.score_concentration_difference(r),
               data.score_concentration_ratio(r),
               data.score_proportional_difference(r),
-              data.composite_score(r, concentration_cutoff, concentration_method),
               r.composite_score_exact_match_different_locus,
               r.query_locus,
               r.target_locus,
