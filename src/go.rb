@@ -92,20 +92,20 @@ puts 'max: ' + scores.compact.max.to_s
 # Re-write the genus_ids file
 # Cgq::Report.write_genus_ids(data)
 
-# Cgq::Report.write_scores(data, concentration_method: :ratio, concentration_cutoff: 0.3, composite_cutoff: [3,4,5])
+Cgq::Report.write_scores(data, concentration_method: :ratio, concentration_cutoff: 0.3, composite_cutoff: [3,4,5])
 
 # # # Write count heatmaps
-# Cgq::Report.count_heatmaps(data)
+Cgq::Report.count_heatmaps(data)
 
-# Cgq::Report.write_overlap_loci_by_genera(data)
+Cgq::Report.write_overlap_loci_by_genera(data)
 
 # # # puts ap data.locus_overlap_by_i_num
-# Cgq::Report.locus_overlap_by_i_num(data)
+Cgq::Report.locus_overlap_by_i_num(data)
 
 # # #puts ap data.overlap_type_per_locus_pair
-# Cgq::Report.overlap_type_per_locus_pair(data)
+Cgq::Report.overlap_type_per_locus_pair(data)
 
-# Cgq::Report.count_exclusion(data, [2,3,4,5], [0.005, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 5.0])
+Cgq::Report.count_exclusion(data, [2,3,4,5], [0.005, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.7, 1.0, 1.5, 2.0, 3.0, 5.0])
 
 v = (0..20).inject([]){|ary, i| ary.push (i * 0.01).round(2)}
 Cgq::Report.count_exclusion_ratio(data, [5,4,3,2], v)

@@ -33,7 +33,7 @@ module Cgq
           target_family
           i_query
           i_target
-          cs_sum_difference
+          composite_score
           query_qubit
           target_qubit
           concentration_difference
@@ -45,7 +45,7 @@ module Cgq
           target_plate_y
           qt_plate_distance
           overlap_type
-          s_locus_difference
+          s_locus_overlap
           s_proportional_length
           s_taxon_difference
           s_plate_difference
