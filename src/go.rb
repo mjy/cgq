@@ -91,8 +91,11 @@ puts 'max: ' + scores.compact.max.to_s
 
 # Re-write the genus_ids file
 # Cgq::Report.write_genus_ids(data)
+# Cgq::Report.write_family_metadata(data)
 
 Cgq::Report.write_scores(data, concentration_method: :ratio, concentration_cutoff: 0.3, composite_cutoff: [3,4,5])
+
+
 
 # # # Write count heatmaps
 Cgq::Report.count_heatmaps(data)
@@ -111,34 +114,39 @@ v = (0..20).inject([]){|ary, i| ary.push (i * 0.01).round(2)}
 Cgq::Report.count_exclusion_ratio(data, [5,4,3,2], v)
 
 =begin
-scores = []
-data.all_rows.each do |r|
-# s = data.concentration_ratio(r)
-# print '[' + s&.round(3).to_s + ']' 
-# print ':'
-  
-  a = data.score_concentration_ratio(r)
-  b = data.score_concentration_difference(r)
+=end
 
-  print a.to_s + ' | ' + b.to_s
+# scores = []
+# data.all_rows.each do |r|
+# # s = data.concentration_ratio(r)
+# # print '[' + s&.round(3).to_s + ']' 
+# # print ':'
 
-  # s = data.concentration_difference(r)
-  # print '(' + s&.round(3).to_s + ')' 
+#   puts s
 
-  if a == b
-    print Rainbow('Y').yellow.bold
-  else
-    print Rainbow('N').red.bold
-  end
+#   scores.push s
+# # a = data.score_concentration_ratio(r)
+# # b = data.score_concentration_difference(r)
 
-  print "\n"
+# # print a.to_s + ' | ' + b.to_s
 
- #  scores.push s.to_f
-end 
+# # # s = data.concentration_difference(r)
+# # # print '(' + s&.round(3).to_s + ')' 
 
-puts 'min: ' + scores.compact.min.to_s
-puts 'max: ' + scores.compact.max.to_s
-=end 
+# # if a == b
+# #   print Rainbow('Y').yellow.bold
+# # else
+# #   print Rainbow('N').red.bold
+# # end
+
+# # print "\n"
+
+#  #  scores.push s.to_f
+# end 
+
+# puts 'min: ' + scores.compact.min.to_s
+# puts 'max: ' + scores.compact.max.to_s
+# =end 
 
 
 

@@ -165,9 +165,12 @@ module Cgq
       query_locus == target_locus ? 1 : 0
     end
 
-    # TODO: small proportion -> less chance of contaminant (true?)
     def score_proportional_length(cutoff = 0.95)
-      (d['length of match (bp)'].to_f / d['tlength'].to_f > cutoff) ? 0 : 1
+      proportional_length > cutoff ? 1 : 0
+    end
+
+    def proportional_length
+      d['length of match (bp)'].to_f / d['tlength'].to_f
     end
 
     def composite_score_exact_match_different_locus(bad = BAD_OVERLAPS)
