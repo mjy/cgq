@@ -28,9 +28,11 @@ module Cgq
           exclude_query
           query_genus
           query_family
+          query_subfamily
           exclude_target
           target_genus
           target_family
+          target_subfamily
           i_query
           i_target
           composite_score
@@ -80,9 +82,11 @@ module Cgq
             qx,qy = data.plate_xy(r) 
             tx,ty = data.plate_xy(r,'I# target') 
 
-            fam_q = data.families[gq] ? data.families[gq]['name'] : 'UNKNOWN'
-            fam_t = data.families[gt] ? data.families[gt]['name'] : 'UNKNOWN'
+            fam_q = data.families[gq] ? data.families[gq]['family']['name'] : 'UNKNOWN'
+            fam_t = data.families[gt] ? data.families[gt]['family']['name'] : 'UNKNOWN'
 
+            subfam_q = data.families[gq] ? data.families[gq]['subfamily']['name'] : 'UNKNOWN'
+            subfam_t = data.families[gt] ? data.families[gt]['subfamily']['name'] : 'UNKNOWN'
 
             exclude_query = data.exclude_score(r, focus: :query, type: concentration_method,  concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
             exclude_target = data.exclude_score(r, focus: :target, type: concentration_method, concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
@@ -93,10 +97,12 @@ module Cgq
               exclude,
               exclude_query,
               gq,
-              fam_q, 
+              fam_q,
+              subfam_q,
               exclude_target,
               gt,
-              fam_t, 
+              fam_t,
+              subfam_t,
               r.d['I# query'],
               r.d['I# target'],
               data.composite_score(r, concentration_cutoff, concentration_method),

@@ -74,10 +74,26 @@ module Cgq
       else
         @families = {}
         genus_ids.each do |k, v|
-          if n = get_family(v)
-            @families[k] = { name: n['name'], id: n['id'] }
+
+          if n = get_family(v)  
+            @families[k] = { 
+              family: {name: n['name'], id: n['id']}
+            }
           else
-            @families[k] = { name: nil, id: nil}
+            @families[k] = { 
+              family: { name: nil, id: nil}
+            }
+          end
+
+          if n1 = get_subfamily(v)  
+            @families[k][:subfamily] = { 
+              name: n1['name'],
+              id: n1['id']
+            }
+          else
+            @families[k][:subfamily] = { 
+              name: nil, id: nil
+            }
           end
         end
       end
@@ -275,7 +291,8 @@ module Cgq
       # query_loci = more than 2 target loci
     end
 
-    # !! Returns 0 if it can not be determined
+    # @return [0, 1]
+    #   If both subfamily and family match return 0, else 1.
     def score_taxon_difference(row)
 
       a = row.genus_pair.first
@@ -289,7 +306,11 @@ module Cgq
 
       return 0 if c.nil? or d.nil?
 
-      c['id'] == d['id'] ? 0 : 1
+      if (c['family']['id'] == d['family']['id']) && ( c['subfamily']['id'] == d['subfamily']['id'])
+        0
+      else
+        1
+      end
     end
 
     # i.e. same plate or different
@@ -331,7 +352,11 @@ module Cgq
 
     # 100% -> significant (then possible below) -> match to same species, or match to contaminants -> one of the biggest flags !!
     def score_proportional_difference(row)
-      row.d['%similarity']  == '100.00' ? 1 :0
+      if row.d['%similarity']  == '100.00' 
+        1
+      else
+        0
+      end
     end
 
     def composite_score_proportional_overlap(cutoff_length = 100) # basepairs
@@ -356,7 +381,8 @@ module Cgq
         raise 'bad concentration_method'
       end
 
-      row.score_locus_difference +
+      row.score_locus_overlap +
+        row.score_locus_difference +
         row.score_proportional_length +
         score_taxon_difference(row) +
         score_plate_difference(row) +
@@ -410,9 +436,15 @@ module Cgq
       offenders.sort{|a,b| b[1] <=> a[1]}.collect{|r| puts r[0].to_s + ': ' + r[1].to_s}
     end
 
-    # If pteromalidae get subfamily
     def get_family(taxon_name_id)
       b = UCD_API + 'project_token=' + PROJECT_TOKEN + "&ancestors=true&nomenclature_group=FamilyGroup::Family&taxon_name_id[]=#{taxon_name_id}"
+      u = URI(b)
+      n = JSON.parse(::Net::HTTP.get(u))
+      n[0]
+    end
+
+    def get_subfamily(taxon_name_id)
+      b = UCD_API + 'project_token=' + PROJECT_TOKEN + "&ancestors=true&nomenclature_group=FamilyGroup::Subfamily&taxon_name_id[]=#{taxon_name_id}"
       u = URI(b)
       n = JSON.parse(::Net::HTTP.get(u))
       n[0]
