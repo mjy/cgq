@@ -95,7 +95,6 @@ Cgq::Report.write_family_metadata(data)
 
 Cgq::Report.write_scores(data, concentration_method: :ratio, concentration_cutoff: 0.3, composite_cutoff: [3,4,5])
 
-=begin
 # # # Write count heatmaps
 Cgq::Report.count_heatmaps(data)
 
@@ -113,7 +112,6 @@ v = (0..20).inject([]){|ary, i| ary.push (i * 0.01).round(2)}
 Cgq::Report.count_exclusion_ratio(data, [5,4,3,2], v)
 
 
-=end
 
 # scores = []
 # data.all_rows.each do |r|
