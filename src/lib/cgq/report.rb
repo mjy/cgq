@@ -47,6 +47,7 @@ module Cgq
           qt_plate_distance
           overlap_type
           s_locus_overlap
+          s_same_locus
           s_proportional_length
           s_taxon_difference
           s_plate_difference
@@ -110,6 +111,7 @@ module Cgq
               ty,
               data.plate_cell_distance(r),
               r.overlap_type,
+              r.score_locus_overlap
               r.score_locus_difference,
               r.score_proportional_length, 
               data.score_taxon_difference(r),

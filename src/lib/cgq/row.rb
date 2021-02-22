@@ -149,7 +149,7 @@ module Cgq
     # match_score - 'evalue'?
 
     # TODO: bad classification is completely arbitrary, see constant
-    def score_overlap(bad = BAD_OVERLAPS)
+    def score_locus_overlap(bad = BAD_OVERLAPS)
       s = overlap_type
       case s 
       when bad.include?(s)
@@ -175,7 +175,7 @@ module Cgq
 
     def composite_score_exact_match_different_locus(bad = BAD_OVERLAPS)
       if score_locus_difference == 1 # different loci 
-        return  score_overlap(bad) == 1 ? 1 : 0 # with full overlap
+        return  score_locus_overlap(bad) == 1 ? 1 : 0 # with full overlap
       else
         1
       end
