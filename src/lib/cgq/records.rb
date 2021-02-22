@@ -317,7 +317,11 @@ module Cgq
     def score_plate_difference(row)
       p1 = plate_rows[ row.d['I# query'] ]['AE plate #']
       p2 = plate_rows[ row.d['I# target'] ]['AE plate #']
-      p1 == p2 ? 1 : 0
+      if p1 && p2
+        p1 == p2 ? 1 : 0
+      else
+        0 
+      end
     end
 
     def score_concentration_difference(row, cutoff = 3)
