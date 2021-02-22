@@ -85,12 +85,12 @@ target/query query/target - realistically - look at half -> anything flipped sho
 
 module Cgq
   # Local
-  UCD_API = 'http://127.0.0.1:3000/api/v1/taxon_names?'
-  PROJECT_TOKEN = 'Q2eJtYrqIfa9hXTrAvkVnQ'
+  # UCD_API = 'http://127.0.0.1:3000/api/v1/taxon_names?'
+  # PROJECT_TOKEN = 'Q2eJtYrqIfa9hXTrAvkVnQ'
 
   # Remote
-  # UCD_API = 'https://sfg.taxonworks.org/api/v1/taxon_names?'
-  # PROJECT_TOKEN = 'adhBi59dc13U7RxbgNE5HQ' 
+  UCD_API = 'https://sfg.taxonworks.org/api/v1/taxon_names?'
+  PROJECT_TOKEN = 'adhBi59dc13U7RxbgNE5HQ' 
 
   # 96 - top left to bottom right
   PLATE_WIDTH = 8  # (columns)

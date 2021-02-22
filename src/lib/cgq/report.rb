@@ -83,6 +83,7 @@ module Cgq
             fam_q = data.families[gq] ? data.families[gq]['name'] : 'UNKNOWN'
             fam_t = data.families[gt] ? data.families[gt]['name'] : 'UNKNOWN'
 
+
             exclude_query = data.exclude_score(r, focus: :query, type: concentration_method,  concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
             exclude_target = data.exclude_score(r, focus: :target, type: concentration_method, concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
 
@@ -111,7 +112,7 @@ module Cgq
               ty,
               data.plate_cell_distance(r),
               r.overlap_type,
-              r.score_locus_overlap
+              r.score_locus_overlap,
               r.score_locus_difference,
               r.score_proportional_length, 
               data.score_taxon_difference(r),

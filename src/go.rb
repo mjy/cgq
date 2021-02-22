@@ -91,12 +91,11 @@ puts 'max: ' + scores.compact.max.to_s
 
 # Re-write the genus_ids file
 # Cgq::Report.write_genus_ids(data)
-# Cgq::Report.write_family_metadata(data)
+Cgq::Report.write_family_metadata(data)
 
 Cgq::Report.write_scores(data, concentration_method: :ratio, concentration_cutoff: 0.3, composite_cutoff: [3,4,5])
 
-
-
+=begin
 # # # Write count heatmaps
 Cgq::Report.count_heatmaps(data)
 
@@ -113,7 +112,7 @@ Cgq::Report.count_exclusion(data, [2,3,4,5], [0.005, 0.01, 0.05, 0.1, 0.2, 0.3, 
 v = (0..20).inject([]){|ary, i| ary.push (i * 0.01).round(2)}
 Cgq::Report.count_exclusion_ratio(data, [5,4,3,2], v)
 
-=begin
+
 =end
 
 # scores = []
