@@ -38,7 +38,8 @@ module Cgq
           target_qubit
           concentration_difference
           concentration_ratio
-          plate
+          plate_query
+          plate_target
           query_plate_x
           query_plate_y
           target_plate_x
@@ -102,6 +103,7 @@ module Cgq
               data.concentration_difference(r),
               data.concentration_ratio(r),
               data.plate_name(r),
+              data.plate_name(r, 'I# target'),
               qx, 
               qy,
               tx, 
