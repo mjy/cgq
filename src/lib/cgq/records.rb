@@ -161,8 +161,12 @@ module Cgq
       plate_rows.collect{|k,v| v['AE plate #']}.uniq.compact
     end
 
+    # @return Array
+    #   [nil, nil] if not determined
+    #   [column, row] if determined
+    #
     # @param kind
-    #   one of 'I# query' or 'I# target'
+    #   one of 'I# query' or 'I# trget'
     def plate_xy(row, kind = 'I# query')
       position = plate_rows[
         row.d[kind]
@@ -176,7 +180,7 @@ module Cgq
     end
 
     def plate_cell_distance(row)
-      return nil if score_plate_difference(row) == 0  # They are not on the same plate
+      return nil if score_plate_similarity(row) == 0  # They are not on the same plate
       q = plate_xy(row, 'I# query')
       t = plate_xy(row, 'I# target')
 
@@ -313,8 +317,9 @@ module Cgq
       end
     end
 
-    # i.e. same plate or different
-    def score_plate_difference(row)
+    # @return [1,0]
+    #   returns 1 if the plate is *the same*
+    def score_plate_similarity(row)
       p1 = plate_rows[ row.d['I# query'] ]['AE plate #']
       p2 = plate_rows[ row.d['I# target'] ]['AE plate #']
       if p1 && p2
@@ -324,9 +329,23 @@ module Cgq
       end
     end
 
+    def score_column_identity(row)
+      if score_plate_similarity(row) == 1
+        a = plate_xy(row, 'I# query')
+        b = plate_xy(row, 'I# target')
+        if (a[0] && b[0]) && (a[0] == b[0]) # Comparison is column to column
+          1 
+        else
+          0
+        end
+      else
+        0
+      end
+    end
+
     def score_concentration_difference(row, cutoff = 3)
       # they are on different plates, shouldn't be a contamination
-      return 0 if score_plate_difference(row) == 1
+      return 0 if score_plate_similarity(row) == 1
 
       if s = concentration_difference(row)
         cutoff = 3 if cutoff.nil?
@@ -339,7 +358,7 @@ module Cgq
 
     def score_concentration_ratio(row, cutoff = 0.3)
       # they are on different plates, shouldn't be a contamination
-      return 0 if score_plate_difference(row) == 1
+      return 0 if score_plate_similarity(row) == 1
 
       if s = concentration_ratio(row)
         cutoff = 0.3 if cutoff.nil? # handle nil coming in
@@ -389,7 +408,8 @@ module Cgq
         row.score_locus_difference +
         row.score_proportional_length +
         score_taxon_difference(row) +
-        score_plate_difference(row) +
+        score_plate_similarity(row) +
+        score_column_identity(row) +
         q +
         score_proportional_difference(row)
     end

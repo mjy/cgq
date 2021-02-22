@@ -16,13 +16,14 @@ _Resolving nomenclature_. Prior to the parameterized analysis two additional fil
 
 _Contamination metric_. A metric (`composite_score` in [scores.csv](out/csv/scores.csv) is calculated by summing individual scores (columns prefixed with `s_`), each score compares two (or more) properties of the target and query sequences. The scores are:
 
-1. `Locus difference ("s_locus_overlap")` - The nature of the overlap of query and target sequences is calculated (see Addendum, `Locus overlap types`).  If the type is D, E, or F, then the score is 1, otherwise it is 0.
+1. `Locus difference ("s_locus_overlap")` - The nature of the overlap of query and target sequences is calculated (see Addendum, `Locus overlap types`).  If the type is D, E, or F, then the score is 1, otherwise it is 0.  _Likely uninformative as all loci are currently the same!!_
 2. `Same locus` ("s_same_locus") - If the locus is identical in query and target, then the score is 1, otherwise the score is 0.
 3. `Proportional length difference ("s_proportional_length")` - The length of the query/match in base-pairs is divided by the length in base-pairs of the target.  If the result is > 0.95 then the score is 1, otherwise it is 0.  
 4. `Taxon difference ("s_taxon_difference")` - The family and subfamily names of the query and target are compared.  If they are the same then the score is 0.  If they are different the score is 1. If either genus name can not be matched to a family then score is 0.
-5. `Plate difference ("s_plate_difference")` - The plates of the query and target are compared. If the plate number is the same then the score is 1.  If the plate number is different then the score is 0.  If the plate can not be determined the score is 0.
+5. `Plate similarity ("s_plate_similarity")` - The plates of the query and target are compared. If the plate number is the same then the score is 1.  If the plate number is different then the score is 0.  If the plate can not be determined the score is 0.
 6. `Concentration ratio difference ("s_concentration_ratio")` - If the `Plate difference` is 0, then the score is zero.  If the ratio of the smallest qbit concetration to the largest is less than 0.3 then the score is 1.  If it is greater than 0.3 then the score is 0.  If the score can not be calculated then the score is 0.
 7. `Proportional difference ("s_proportional_difference")` - If the '%similarity' field in the original data is == '100.00' then the score is 1.  If it is some other value (including not being provided) then the score is 0.
+8. `Plate column identity ("s_column_identity")` - If the query and target are on the same plate, and they share the same column (compare `query_plate_x` with `target_plate_x`), then the score is 1, otherwise it is 0. 
 
 _Flagging sequences as contaminated_. To determined whether sequence should be eliminated due to contamination the contamination metric is compared to the `Concentration ratio difference` in the following way:
 1. A range of Contamination metric scores is defined (`composite_cutoff` in code), by default this is [3,4,5].

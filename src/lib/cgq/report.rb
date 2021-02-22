@@ -52,10 +52,11 @@ module Cgq
           s_same_locus
           s_proportional_length
           s_taxon_difference
-          s_plate_difference
+          s_plate_similarity
           x_concentration_difference 
           s_concentration_ratio
           s_proportional_difference
+          s_column_identity
           cs_exact_match_different_locus
           query_locus
           target_locus
@@ -122,10 +123,11 @@ module Cgq
               r.score_locus_difference,
               r.score_proportional_length, 
               data.score_taxon_difference(r),
-              data.score_plate_difference(r),
+              data.score_plate_similarity(r),
               data.score_concentration_difference(r),
               data.score_concentration_ratio(r),
               data.score_proportional_difference(r),
+              data.score_column_identity(r),
               r.composite_score_exact_match_different_locus,
               r.query_locus,
               r.target_locus,
