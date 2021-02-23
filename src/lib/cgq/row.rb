@@ -170,7 +170,8 @@ module Cgq
     end
 
     def proportional_length
-      d['length of match (bp)'].to_f / d['tlength'].to_f
+      a = [d['tlength'].to_f, d['qlength'].to_f].sort.first
+      d['length of match (bp)'].to_f / a 
     end
 
     def composite_score_exact_match_different_locus(bad = BAD_OVERLAPS)
