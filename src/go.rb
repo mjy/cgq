@@ -93,7 +93,7 @@ puts 'max: ' + scores.compact.max.to_s
 # Cgq::Report.write_genus_ids(data)
 Cgq::Report.write_family_metadata(data)
 
-Cgq::Report.write_scores(data, concentration_method: :ratio, concentration_cutoff: 0.3, composite_cutoff: [5,6,7])
+Cgq::Report.write_scores(data, concentration_method: :ratio, concentration_cutoff: 0.7, composite_cutoff: [5,6,7])
 
 # # # Write count heatmaps
 Cgq::Report.count_heatmaps(data)
