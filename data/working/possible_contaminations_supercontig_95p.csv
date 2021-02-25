@@ -1,4 +1,4 @@
-contamination,query_genus,target_genus,query_seq,I# query,target_seq,I# target,%similarity,length of match (bp),mismatch,gapopen, qstart ,qend ,qlength,tstart ,tend ,tlength,evalue,note
+contamination,query_genus,target_genus,query_seq,I# query,target_seq,I# target,%similarity,length of match (bp),mismatch,gapopen,qstart,qend,qlength,tstart,tend,tlength,evalue,note
 ,Pseudidarnes,Poropoea,L1000_MERG00010_0101_SUPERCONTIG,I29052,L1000_MERG00393_0101_SUPERCONTIG,I29006,99.56,454,2,0,323,776,816,1,454,454,0.0,99.546
 ,New Genus,Lambdobregma,L1000_MERG00046_0101_SUPERCONTIG,I29022,L1000_MERG00154_0101_SUPERCONTIG,I29038,99.63,547,1,1,15,561,568,1,546,546,0.0,99.453
 ,Lambdobregma,New Genus,L1000_MERG00154_0101_SUPERCONTIG,I29038,L1000_MERG00046_0101_SUPERCONTIG,I29022,99.63,547,1,1,1,546,546,15,561,568,0.0,99.453
