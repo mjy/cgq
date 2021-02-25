@@ -76,6 +76,7 @@ module Cgq
         }
 
           data.rows.each do |r|
+  byebug
             gq = r.d['query_genus']
             gt = r.d['target_genus']
             gq_id = data.genus_ids[gq] 
@@ -131,7 +132,7 @@ module Cgq
               r.composite_score_exact_match_different_locus,
               r.query_locus,
               r.target_locus,
-              r.d['%similar'],
+              r.d['%similarity'],
               r.d['length of match (bp)'],
               r.d['qlength'],
               r.d['tlength'],
