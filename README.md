@@ -22,14 +22,15 @@ _Contamination metric_. A metric (`composite_score` in [scores.csv](out/csv/scor
 4. `Taxon difference ("s_taxon_difference")` - The family and subfamily names of the query and target are compared.  If both family and subfamily are same values then the score is 0.  If either subfamily or family is different the score is 1. Records like "Pteromalidae-Pteromilinae" and "Pteromalidae-blank" are considered _different_.  If either genus name can not be matched to a family then the score is 0.
 5. `Plate similarity ("s_plate_similarity")` - The plates of the query and target are compared. If the plate number is the same then the score is 1.  If the plate number is different then the score is 0.  If the plate can not be determined the score is 0.
 6. `Concentration ratio difference ("s_concentration_ratio")` - If the `Plate difference` is 0, then the score is zero.  If the ratio of the smallest qbit concetration to the largest is less than 0.3 then the score is 1.  If it is greater than 0.3 then the score is 0.  If the score can not be calculated then the score is 0.
-7. `Proportional difference ("s_proportional_difference")` - If the '%similarity' field in the original data is == '100.00' then the score is 1.  If it is some other value (including not being provided) then the score is 0.
+7. `Proportional difference ("s_proportional_difference")` - If the '%similarity' field in the original data is > 99.95 the score is 1.  If it is some other value (including not being provided) then the score is 0.
 8. `Plate column identity ("s_column_identity")` - If the query and target are on the same plate, and they share the same column (compare `query_plate_x` with `target_plate_x`), then the score is 1, otherwise it is 0. 
 
 _Flagging sequences as contaminated_. To determined whether sequence should be eliminated due to contamination the contamination metric is compared to the `Concentration ratio difference` in the following way:
-1. A composite score, `c_contaminated_score` is calculated as the sum of `s_taxon_difference` + `s_plate_difference` + `s_proportional_length`.
-2. If `c_contaminated_score` equals 3, then both query and target are conditionally considered _potentially_ contaminated.  If the score is not equal to 3 they are not considered contaminated.
-3. If the qubit score (`query_qbit`, `target_qbit`) of a potentially contaminated sequences is <= 3.0 then the sequence is considered contaminated.
-4. If the qubit score is > 3.0 then if the `s_concentration_ratio` is <= 0.3 then only the sequence with the smaller qbit score is contaminated, the other sequence is not contaiminated.
+1. A composite score, `c_contaminated_score` is calculated as the sum of `s_taxon_difference` + `s_plate_difference` + `s_proportional_length` + `s_proportional_difference`
+2. If `c_contaminated_score` equals 4, then both query and target are conditionally considered _potentially_ contaminated.  If the score is not equal to 4 they are not considered contaminated.
+3. If the qubit score (`query_qbit`, `target_qbit`) of _both_ potentially contaminated sequences is <= 3.0 then both sequences are considered contaminated.
+4. If one qubit score is <= 3 then if the `s_concentration_ratio` is <= 0.3 then the sequence with the smaller qubit is excluded, and the sequence with the larger qubit is retained.
+5. If both qubits > 3 then ... what ?! 
 
 ## Results
 

@@ -76,7 +76,6 @@ module Cgq
         }
 
           data.rows.each do |r|
-  byebug
             gq = r.d['query_genus']
             gt = r.d['target_genus']
             gq_id = data.genus_ids[gq] 
