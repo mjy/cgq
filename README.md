@@ -26,13 +26,10 @@ _Contamination metric_. A metric (`composite_score` in [scores.csv](out/csv/scor
 8. `Plate column identity ("s_column_identity")` - If the query and target are on the same plate, and they share the same column (compare `query_plate_x` with `target_plate_x`), then the score is 1, otherwise it is 0. 
 
 _Flagging sequences as contaminated_. To determined whether sequence should be eliminated due to contamination the contamination metric is compared to the `Concentration ratio difference` in the following way:
-1. A range of Contamination metric scores is defined (`composite_cutoff` in code), by default this is [3,4,5].
-2. A concentration ratio cutoff is defined (`concentration_cutoff` in code), by default this is 0.3.
-3. If a row has as contamination metric in the range of the composite cutoff the test continues, otherwise that rows has no contaminants.
-4. If the concentration ratio (`s_concentration_ratio`) of the row is less than the `concentration_cutoff` then the test continues, otherwise the row has no contiminants.
-5. The contaminated sequence is the sequences with the smaller qbit, concentration.  The other sequence is not contaminated.
-
-_TODO: We need to resolve the non-indepdence of this comparison as the `Concentration ratio difference` cutoff is used in 2 places._
+1. A composite score, `c_contaminated_score` is calculated as the sum of `s_taxon_difference` + `s_plate_difference` + `s_proportional_length`.
+2. If `c_contaminated_score` equals 3, then both query and target are conditionally considered _potentially_ contaminated.  If the score is not equal to 3 they are not considered contaminated.
+3. If the qubit score (`query_qbit`, `target_qbit`) of a potentially contaminated sequences is <= 3.0 then the sequence is considered contaminated.
+4. If the qubit score is > 3.0 then if the `s_concentration_ratio` is <= 0.3 then only the sequence with the smaller qbit score is contaminated, the other sequence is not contaiminated.
 
 ## Results
 
