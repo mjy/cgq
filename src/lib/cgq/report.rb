@@ -19,7 +19,7 @@ module Cgq
         concentration_cutoff = options[:concentration_cutoff]
 
         composite_cutoff ||= options[:composite_cutoff]
-        composite_cutoff ||= [3,4,5]
+        composite_cutoff ||= [5,6,7]
 
         FileUtils.mkdir_p(CSV_EXPORT_PATH)
         CSV.open(CSV_EXPORT_PATH + "/scores.csv", "w") do |csv|
@@ -35,6 +35,7 @@ module Cgq
           target_subfamily
           i_query
           i_target
+          c_contaminated_score
           composite_score
           query_qubit
           target_qubit
@@ -89,8 +90,8 @@ module Cgq
             subfam_q = data.families[gq] ? data.families[gq]['subfamily']['name'] : 'UNKNOWN'
             subfam_t = data.families[gt] ? data.families[gt]['subfamily']['name'] : 'UNKNOWN'
 
-            exclude_query = data.exclude_score(r, focus: :query, type: concentration_method,  concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
-            exclude_target = data.exclude_score(r, focus: :target, type: concentration_method, concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
+            exclude_query = data.exclude_score_new(r, focus: :query)
+            exclude_target = data.exclude_score_new(r, focus: :target)
 
             exclude = (exclude_query || 0) + (exclude_target || 0) # presently never 2
 
@@ -106,6 +107,7 @@ module Cgq
               subfam_t,
               r.d['I# query'],
               r.d['I# target'],
+              data.contaminated_score(r),
               data.composite_score(r, concentration_cutoff, concentration_method),
               data.query_qubit(r),
               data.target_qubit(r),

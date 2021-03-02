@@ -232,6 +232,35 @@ module Cgq
     # Exclude
     #
     #
+    def exclude_score_new(row, focus: :target, qubit_ratio_cutoff: 0.33, qubit_consideration_cutoff: 3.0)
+
+      return 0 if contaminated_score(row) != 3 # yes this should be cached
+
+      qq = query_qubit(row)
+      tq = target_qubit(row)
+
+      return 1 if (qq =~ /fail/i) || (tq =~ /fail/i)  || qq.nil? || tq.nil?
+
+      qq = qq.to_f
+      tq = tq.to_f
+
+      return 1 if qq <= qubit_consideration_cutoff && (tq <= qubit_consideration_cutoff)
+
+      qr = concentration_ratio(row)
+
+      if qr <= qubit_ratio_cutoff
+        if focus == :query
+            qq < tq  ? 1 : 0
+        elsif focus == :target
+          tq < qq  ? 1 : 0
+        end
+      else
+        return 1 # TODO: uncertain
+      end 
+    end
+
+
+    # Old methods
 
     def exclude_score(row, focus: :target, type: :ratio, concentration_cutoff: nil, composite_cutoff: [3,4,5] )
       send("exclude_score_#{type}", row, focus: focus, type: type, concentration_cutoff: concentration_cutoff, composite_cutoff: composite_cutoff)
@@ -412,6 +441,13 @@ module Cgq
         score_column_identity(row) +
         q +
         score_proportional_difference(row)
+    end
+
+    def contaminated_score(row)
+      row.score_proportional_length +
+        score_taxon_difference(row) +
+        score_plate_similarity(row)
+        # score_proportional_difference(row) (all records)
     end
 
     def composite_score_identical_and_different_family(row)a
