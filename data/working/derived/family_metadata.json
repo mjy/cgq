@@ -1680,13 +1680,13 @@
     }
   },
   "Maudia": {
-    "family": {
-      "name": null,
-      "id": null
+       "family": {
+      "name": "Aphelinidae",
+      "id": 455472
     },
     "subfamily": {
-      "name": null,
-      "id": null
+      "name": "Coccophaginae",
+      "id": 455475
     }
   },
   "Mayridia": {
