@@ -255,7 +255,7 @@ module Cgq
           tq < qq  ? 1 : 0
         end
       else
-        return 1 # TODO: uncertain
+        return 1 # All other scenarios
       end 
     end
 
