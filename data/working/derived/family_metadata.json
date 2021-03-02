@@ -2945,8 +2945,8 @@
       "id": 455521
     },
     "subfamily": {
-      "name": "Coelocybinae",
-      "id": 455529
+      "name": "Colotrechninae",
+      "id": 455530
     }
   },
   "Zagrammosoma": {
@@ -3021,12 +3021,12 @@
   },
   "nr Bofuria": {
     "family": {
-      "name": null,
-      "id": null
+      "name": "Pteromalidae",
+      "id": 455521
     },
     "subfamily": {
-      "name": null,
-      "id": null
+      "name": "Colotrechninae",
+      "id": 455530
     }
   }
 }
