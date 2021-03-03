@@ -29,7 +29,7 @@ _Flagging sequences as contaminated_. To determined whether sequence should be e
 2. If `c_contaminated_score` equals 3, then both query and target are conditionally considered _potentially_ contaminated.  If the score is not equal to 4 they are not considered contaminated.
 3. If the qubit score (`query_qbit`, `target_qbit`) of _both_ potentially contaminated sequences is <= 3.0 then both sequences are considered to be contaminated.
 4. If one qubit score is <= 3 then if the `s_concentration_ratio` is <= 0.3 then the sequence with the smaller qubit is excluded, and the sequence with the larger qubit is retained.
-5. In all remaining scenarious at least one qubit score is > 3, and `s_concentration_ratio` > 0.3 both sequences are considered to be contaminated.
+5. In all remaining scenarios at least one qubit score is > 3, and `s_concentration_ratio` > 0.3 both sequences are considered to be contaminated.
 
 ## Results
 
