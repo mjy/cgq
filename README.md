@@ -25,7 +25,7 @@ _Exploring potential contamination_.  _This metric is not used in final check, i
 8. `Plate column identity ("s_column_identity")` - If the query and target are on the same plate, and they share the same column (compare `query_plate_x` with `target_plate_x`), then the score is 1, otherwise it is 0. 
 
 _Flagging sequences as contaminated_. To determined whether sequence should be eliminated due to contamination the contamination metric is compared to the `Concentration ratio difference` in the following way:
-1. A composite score, `c_contaminated_score` is calculated as the sum of `s_taxon_difference` + `s_plate_difference` + `s_proportional_difference`
+1. A composite score, `c_contaminated_score` is calculated as the sum of `s_taxon_difference` + `s_plate_difference` + `s_proportional_length`
 2. If `c_contaminated_score` equals 3, then both query and target are conditionally considered _potentially_ contaminated.  If the score is not equal to 4 they are not considered contaminated.
 3. If the qubit score (`query_qbit`, `target_qbit`) of _both_ potentially contaminated sequences is <= 3.0 then both sequences are considered to be contaminated.
 4. If one qubit score is <= 3 then if the `s_concentration_ratio` is <= 0.3 then the sequence with the smaller qubit is excluded, and the sequence with the larger qubit is retained.
