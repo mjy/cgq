@@ -337,7 +337,7 @@ module Cgq
       puts "#{a} is not found" if c.nil?
       puts "#{b} is not found" if d.nil?
 
-      return 0 if c.nil? or d.nil?
+      return 1 if c.nil? or d.nil?
 
       if (c['family']['id'] == d['family']['id']) && ( c['subfamily']['id'] == d['subfamily']['id'])
         0
@@ -444,10 +444,10 @@ module Cgq
     end
 
     def contaminated_score(row)
-      row.score_proportional_length +
-        score_taxon_difference(row) +
-        score_plate_similarity(row)
-        # score_proportional_difference(row) (all records)
+      score_taxon_difference(row) +
+        score_plate_similarity(row) +
+        row.score_proportional_length 
+      # score_proportional_difference(row) (all records)
     end
 
     def composite_score_identical_and_different_family(row)a
