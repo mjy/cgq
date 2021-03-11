@@ -74,6 +74,8 @@ module Cgq
           evalue
           ucd_genus_query_id
           ucd_genus_target_id
+          target_seq
+          query_seq
         }
 
           data.rows.each do |r|
@@ -145,7 +147,9 @@ module Cgq
               r.d['tend'],
               r.d['evalue'],
               gq_id, 
-              gt_id 
+              gt_id,
+              r.d['query_seq'],
+              r.d['target_seq']
             ] 
           end
         end
